@@ -1,6 +1,10 @@
 var dataMin = -10;
 var dataMax = 100;
-var dataCount = 50;
+var dataCount = 20;
+
+var i = 1;
+var j = 2;
+
 
 function setup() {
   createCanvas(501,250);
@@ -14,11 +18,26 @@ function setup() {
   data.setDataMax(dataMax);
   data.calcDataWidth();
   data.getNewData();
-  gnomeSort(data.data)
   data.draw();
 }
 
 function draw(){
+  if(i < data.data.length){
+    if(data.data[i-1] <= data.data[i]){
+      i = j;
+      j++;
+    } else {
+      swap(data.data, i-1, i);
+      i--;
+      if(i == 0){
+        i = j;
+        j++;
+      }
+    }
+    data.draw(i);
+  } else {
+    data.draw(-1)
+  }
 
 }
 
