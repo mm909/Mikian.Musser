@@ -48,10 +48,3 @@ function bubbleSort(array) {
       j++;
     }
 }
-
-function swap(array, i, j) {
-  swapped = true;
-  var temp = array[i];
-  array[i] = array[j];
-  array[j] = temp;
-}

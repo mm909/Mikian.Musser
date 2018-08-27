@@ -40,6 +40,10 @@ function draw(){
     count[i-dataMin] = count[i-dataMin] - 1;
   }
   i++;
+  console.log(z)
+  if(z == data.data.length){
+    data.draw(-1)
+  }
 }
 
 /* -- Count sort function below  -- */
