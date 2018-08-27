@@ -1,11 +1,22 @@
 html {
-  width : auto;
-  height: auto;
   background-color: #C5C6Ca;
 }
 
-.navbar {
-  background-color: #1F2833;
+
+
+.container {
+  max-width: 1600px;
+}
+
+.side-content {
+  border-left: 1px solid rgba(86,61,124,.2);
+  text-align: center;
+}
+
+.middle-content {
+  text-align: center;
+  border-right: 1px solid rgba(86,61,124,.2);
+  border-left: 1px solid rgba(86,61,124,.2);
 }
 
 .navbar-brand {
@@ -15,7 +26,6 @@ html {
   color: #FFFFFF !important;
 }
 
-.middleContent {
-  text-align: center;
-  border: 1px solid rgba(86,61,124,.2);
+.navbar {
+  background-color: #1F2833;
 }
