@@ -24,13 +24,11 @@ function setup() {
   for(var i = 0; i < count.length; i++){
     count[i] = 0;
   }
-  console.log(count)
 
   for(var i = 0; i < data.data.length; i++){
     var number = data.data[i];
     count[number - dataMin] = count[number - dataMin] + 1;
   }
-  console.log(count)
 
 }
 
