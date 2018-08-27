@@ -1,3 +1,9 @@
+var i = 0;
+var z = 0;
+var count;
+var dataMin = 0;
+var dataMax = 20;
+
 function setup() {
   createCanvas(501,250);
 
@@ -5,17 +11,37 @@ function setup() {
   data.setHeight(250);
   data.setWidth(500);
   data.setBackgroundColor(150);
-  data.setDataCount(10);
-  data.setDataMin(0);
-  data.setDataMax(10);
+  data.setDataCount(20);
+  data.setDataMin(dataMin);
+  data.setDataMax(dataMax);
   data.calcDataWidth();
   data.getNewData();
-  countSort(data.data,0,10);
+  //countSort(data.data,0,10);
+
+  count = new Array(dataMax - dataMin + 1);
+  for(var i = 0; i < count.length; i++){
+    count[i] = 0;
+  }
+  console.log(count)
+
+  for(var i = 0; i < data.data.length; i++){
+    var number = data.data[i];
+    count[number - dataMin] = count[number - dataMin] + 1;
+  }
+  console.log(count)
 
 }
 
 function draw(){
   data.draw();
+  while(count[i-dataMin] > 0){
+    data.data[z] = i;
+    z++;
+    count[i-dataMin] = count[i-dataMin] - 1;
+  }
+  i++;
+  console.log(data.data)
+  //console.log(data.data)
 }
 
 /*
@@ -53,6 +79,7 @@ function countSort(array, min, max){
   var z = 0;
   for(var i = min; i <= max; i++){
     while(count[i-min] > 0){
+      data.draw();
       array[z] = i;
       z++;
       count[i-min] = count[i-min] - 1;
