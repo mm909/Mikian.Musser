@@ -1,6 +1,13 @@
 var dataMin = -10;
 var dataMax = 100;
-var dataCount = 20;
+var dataCount = 100;
+var height = 250;
+var width = 500;
+
+var lo = 0;
+var hi = 0;
+
+var testCount = 0;
 
 function setup() {
   createCanvas(501,250);
@@ -14,14 +21,13 @@ function setup() {
   data.setDataMax(dataMax);
   data.calcDataWidth();
   data.getNewData();
+  //data.draw();
+  hi = data.data.length - 1;
+  quickSort(data.data,0,hi);
   data.draw();
-  quickSort(data.data, 0, data.data.length-1)
-  console.log(data.data)
-
 }
 
 function draw(){
-
 }
 
 function quickSort(a,lo,hi){
@@ -43,4 +49,13 @@ function partition(a,lo,hi){
   }
   swap(a,i,hi);
   return i;
+}
+
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
 }
