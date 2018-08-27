@@ -1,8 +1,9 @@
 var dataMin = -10;
 var dataMax = 100;
-var dataCount = 20;
+var dataCount = 100;
 
-
+var i = 1;
+var j = 0;
 
 function setup() {
   createCanvas(501,250);
@@ -16,14 +17,23 @@ function setup() {
   data.setDataMax(dataMax);
   data.calcDataWidth();
   data.getNewData();
-  insertionSort(data.data);
   data.draw();
-
 }
 
 function draw(){
-
-
+  if(i < data.data.length){
+    var value = data.data[i];
+    j = i - 1;
+    while(j >= 0 && data.data[j] > value){
+      data.draw(j);
+      data.data[j+1] = data.data[j];
+      j--;
+    }
+    data.data[j+1] = value;
+    i++;
+  } else {
+    data.draw(-1);
+  }
 }
 
 /* -- Insertion sort function below  -- */
