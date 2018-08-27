@@ -21,7 +21,6 @@ function setup() {
   data.setDataMax(dataMax);
   data.calcDataWidth();
   data.getNewData();
-  //data.draw();
   hi = data.data.length - 1;
   quickSort(data.data,0,hi);
   data.draw();
@@ -49,13 +48,4 @@ function partition(a,lo,hi){
   }
   swap(a,i,hi);
   return i;
-}
-
-function sleep(milliseconds) {
-  var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milliseconds){
-      break;
-    }
-  }
 }
