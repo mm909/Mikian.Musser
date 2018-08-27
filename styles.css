@@ -14,3 +14,8 @@ html {
 .navigation-clean-button.navbar-default .navbar-nav > li > a {
   color: #FFFFFF !important;
 }
+
+.middleContent {
+  text-align: center;
+  border: 1px solid rgba(86,61,124,.2);
+}

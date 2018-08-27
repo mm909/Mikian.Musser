@@ -5,46 +5,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikian Musser Interview</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="header.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-default navigation-clean-button">
-            <div class="container">
-                <div class="navbar-header"><a class="navbar-brand" href="#">Mikian Musser</a>
-                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                </div>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav">
-                        <li role="presentation"><a href="#">Resume</a></li>
-                        <li role="presentation"><a href="#">References</a></li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Cover Letters <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation"><a href="#">IT</a></li>
-                                <li role="presentation"><a href="#">Programming</a></li>
-                                <li role="presentation"><a href="#">Teaching</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Mikian Musser</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cover Letters
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">IT</a>
+            <a class="dropdown-item" href="#">Programming</a>
+            <a class="dropdown-item" href="#">Teaching</a>
+          </div>
+        </li>
+      </ul>
     </div>
-    <div class="container">
+  </nav>
+
+    <div class="container ">
       <div class="row">
-        <div class="col-sm">
+        <div class="col-3 d-none d-lg-block">
           One of three columns
         </div>
-        <div class="col-sm">
-          One of three columns
+        <div class="col middleContent">
+          Two of three columns
         </div>
-        <div class="col-sm">
-          One of three columns
+        <div class="col-3 d-none d-lg-block">
+          Three of three columns
         </div>
       </div>
     </div>
