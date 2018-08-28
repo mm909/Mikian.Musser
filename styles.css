@@ -70,8 +70,15 @@ html {
   background-color: #C5C6Ca;
 }
 /* Nav */
+.slogan a {
+  color: #65FBF0 !important;
+  font-size: 20px;
+  display:inline;
+}
 .navbar-brand {
   color: #65FBF0 !important;
+  font-size: 20px;
+
 }
 .navigation-clean-button.navbar-default .navbar-nav > li > a {
   color: #FFFFFF !important;
