@@ -2,7 +2,9 @@ html {
   background-color: #C5C6Ca;
 }
 
-
+.row {
+  margin-bottom: 5px;
+}
 
 .container {
   max-width: 1600px;
