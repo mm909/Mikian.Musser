@@ -7,8 +7,8 @@ html {
   display: inline-block;
 }
 
-.Tag {
-  padding-left: 5px;
+.tag {
+  display: inline;
 }
 
 .tag-Sorting {
@@ -34,15 +34,23 @@ html {
   vertical-align:middle;
 }
 
+.code-Description p{
+  margin: 0px;
+  margin-left: 5px;
+}
+
 .short-Description p{
   display: inline-block;
   margin: 0px;
 }
 
-.title p{
+.title p {
   display: inline-block;
-  margin: 0px;
   width: auto;
+}
+
+.title a {
+  margin-left: 5px;
 }
 
 .example-image {
@@ -58,36 +66,16 @@ html {
 }
 
 .code-container {
-  height: 500px;
+  height: auto;
   background-color: #C5C6Ca;
 }
-
-.row {
-  margin-bottom: 5px;
-}
-
-.container {
-  max-width: 1600px;
-}
-
-.side-content {
-  border-left: 1px solid rgba(86,61,124,.2);
-  text-align: center;
-}
-
-.middle-content {
-  text-align: center;
-  border-right: 1px solid rgba(86,61,124,.2);
-  border-left: 1px solid rgba(86,61,124,.2);
-}
-
+/* Nav */
 .navbar-brand {
   color: #65FBF0 !important;
 }
 .navigation-clean-button.navbar-default .navbar-nav > li > a {
   color: #FFFFFF !important;
 }
-
 .navbar {
   background-color: #1F2833;
 }
