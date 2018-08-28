@@ -2,6 +2,66 @@ html {
   background-color: #C5C6Ca;
 }
 
+.Tags {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.Tag {
+  padding-left: 5px;
+}
+
+.tag-Sorting {
+  border-radius: 20px;
+  background: #FCFA80;
+  padding: 3px;
+}
+
+.tag-JavaScript {
+  border-radius: 20px;
+  background: #AFFC80;
+  padding: 3px;
+}
+
+.tag-Visualization {
+  border-radius: 20px;
+  background: #80B3FC;
+  padding: 3px;
+}
+
+.code-Description {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.short-Description p{
+  display: inline-block;
+  margin: 0px;
+}
+
+.title p{
+  display: inline-block;
+  margin: 0px;
+  width: auto;
+}
+
+.example-image {
+  height: 50px;
+  width: 50px;
+}
+
+.code-line {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.code-container {
+  height: 500px;
+  background-color: #C5C6Ca;
+}
+
 .row {
   margin-bottom: 5px;
 }
