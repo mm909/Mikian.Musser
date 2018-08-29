@@ -7,8 +7,21 @@ html {
   display: inline-block;
 }
 
+.programDescription {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.download {
+  padding-left: 10px;
+}
+
 .tag {
   display: inline;
+}
+
+.tagEle {
+  display: inline-block;
 }
 
 .tag-Sorting {
@@ -21,6 +34,12 @@ html {
   border-radius: 20px;
   background: #AFFC80;
   padding: 3px;
+}
+
+.tag-download {
+  border-radius: 20px;
+  background: #80FCF1;
+  padding: 4px;
 }
 
 .tag-Visualization {
