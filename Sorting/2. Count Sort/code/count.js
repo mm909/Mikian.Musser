@@ -7,7 +7,6 @@ var dataCount = 200;
 
 function setup() {
   var canvas = createCanvas(windowWidth-9,500)
-  canvas.parent("canvasContainer");
 
   data = new dataVisualization();
   data.setHeight(500);

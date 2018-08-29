@@ -19,7 +19,7 @@ var programs = [
     rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Counting_sort',
     description: 'This is a visual representation of the ',
     algLink:     'Count sort algorithm',
-    downloadLink: 'Bubble%20Sort%20Visualization.zip'
+    downloadLink: 'Count%20Sort%20Visualization.zip'
   },
   {
     number: 3,
