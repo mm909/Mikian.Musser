@@ -1,6 +1,6 @@
 var dataMin = -10;
 var dataMax = 100;
-var dataCount = 100;
+var dataCount = 150;
 
 var i = 1;
 var j = 0;

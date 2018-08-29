@@ -16,7 +16,10 @@ var programs = [
     title: 'Count Sort Visualization',
     shortDescription: 'Visual representation of the Count sort algorithm.',
     filepath: 'Sorting/2.%20Count%20Sort/index.html',
-    rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Counting_sort'
+    rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Counting_sort',
+    description: 'This is a visual representation of the ',
+    algLink:     'Count sort algorithm',
+    downloadLink: 'Bubble%20Sort%20Visualization.zip'
   },
   {
     number: 3,

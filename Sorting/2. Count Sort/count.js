@@ -2,15 +2,16 @@ var i = 0;
 var z = 0;
 var count;
 var dataMin = 0;
-var dataMax = 100;
-var dataCount = 50;
+var dataMax = 150;
+var dataCount = 200;
 
 function setup() {
-  createCanvas(501,250);
+  var canvas = createCanvas(windowWidth-9,500)
+  canvas.parent("canvasContainer");
 
   data = new dataVisualization();
-  data.setHeight(250);
-  data.setWidth(500);
+  data.setHeight(500);
+  data.setWidth(windowWidth-10);
   data.setBackgroundColor(150);
   data.setDataCount(dataCount);
   data.setDataMin(dataMin);
