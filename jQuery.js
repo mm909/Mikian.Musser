@@ -10,7 +10,7 @@ $( document ).ready(function() {
             $exampleImage =
             $( "<img class='example-image' id='example-image" +
             i
-            + "' src='Sorting/1. Bubble Sort/image.png'></img>" )
+            + "' src=" + programs[i].imgpath + "></img>" )
             $( "#code-line" + i).append($exampleImage);
 
             /* Create the code-Description container */
