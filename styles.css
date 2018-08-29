@@ -69,11 +69,45 @@ html {
   height: auto;
   background-color: #C5C6Ca;
 }
+
+.CCContainer {
+  background-color: #C5C6Ca;
+  width: auto;
+}
+
+.canvas {
+  width: auto;
+  padding-top: 5px;
+  padding-left: 4px;
+  padding-right: 5px;
+  margin: auto;
+  float:left;
+
+}
+
+.exampleDesc {
+  width: auto;
+}
+
+.exampleDesc p {
+  margin-left: 5px;
+}
+
+.programTitleC {
+  width:100%;
+}
+
+.programTitleC h1{
+  margin-bottom: 0px;
+  text-align: center;
+}
+
 /* Nav */
 .slogan a {
   color: #65FBF0 !important;
   font-size: 20px;
   display:inline;
+
 }
 .navbar-brand {
   color: #65FBF0 !important;
