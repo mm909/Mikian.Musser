@@ -6,9 +6,9 @@ var programs = [
     shortDescription: 'Visual representation of the Bubble sort algorithm.',
     filepath: 'Sorting/1.%20Bubble%20Sort/index.html',
     rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Bubble_sort',
-    description: 'This is a visual representation of the Bubble sort algorithm. \n ' +
-                 'Created with P5.js.',
-    downloadLink: 'bubbleSort.zip'
+    description: 'This is a visual representation of the ',
+    algLink:     'Bubble sort algorithm',
+    downloadLink: 'Bubble%20Sort%20Visualization.zip'
   },
   {
     number: 2,
