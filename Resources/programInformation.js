@@ -58,6 +58,18 @@ var programs = [
     description: 'This program solves the ',
     algLink:     'Babbage Problem',
     downloadLink: 'Babbage-Problem.zip'
+  },
+  {
+    number: 6,
+    tags: ['Math', 'JavaScript', 'Visualization'],
+    title: 'Binary Numbers',
+    shortDescription: 'Converting Base 10 to 2',
+    imgpath: 'Projects/7.BinaryNumbers/image.png',
+    filepath: 'Projects/7.BinaryNumbers/index.html',
+    rosettaLink: 'http://www.rosettacode.org/wiki/Binary_digits',
+    description: 'Converts base 10 numbers to ',
+    algLink:     'binary digits.',
+    downloadLink: 'BinaryNumbers.zip'
   }
 
 ]
