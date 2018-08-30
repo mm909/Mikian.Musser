@@ -1,4 +1,5 @@
 var box;
+var lineLenght = 20;
 
 function setup() {
   createCanvas(windowWidth-15,501);
@@ -18,8 +19,21 @@ function setup() {
 
 function draw() {
   background(160);
-  console.log(box.value())
-  text("123456789123456789123456789", windowWidth/2 +10, 40);
-
+  var string = box.value();
+  var lines = [];
+  var line = [];
+  for(var i = 0; i < string.length; i++){
+    line[i%20] = string[i];
+    if(i%20 == 19){
+      lines[floor(i/lineLenght)] = line;
+    }
+  }
+  for(var j = 0; j < 2; j++){
+    console.log(lines[j]);
+  }
+  /*
+  lines[floor(i/lineLenght)] = "TET";
+  text(string[i], windowWidth/2 + 10 + (i%20) * 20, 40 + floor(i/lineLenght)*40);
+*/
 
 }
