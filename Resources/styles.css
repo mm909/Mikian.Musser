@@ -18,6 +18,11 @@ body {
   background: #AFFC80;
   padding: 3px;
 }
+.tag-Math {
+  border-radius: 20px;
+  background: #F881FF;
+  padding: 3px;
+}
 .tag-Home {
   padding-left: 10px;
   display: inline-block;

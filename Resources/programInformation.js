@@ -2,7 +2,7 @@ var programs = [
   {
     number: 1,
     tags: ['Sorting', 'JavaScript', 'Visualization'],
-    title: 'Bubble Sort Visualization',
+    title: 'Bubble Sort',
     shortDescription: 'Visual representation of the Bubble sort algorithm.',
     imgpath: 'Sorting/1.%20Bubble%20Sort/image.png',
     filepath: 'Sorting/1.%20Bubble%20Sort/index.html',
@@ -14,7 +14,7 @@ var programs = [
   {
     number: 2,
     tags: ['Sorting', 'JavaScript', 'Visualization'],
-    title: 'Count Sort Visualization',
+    title: 'Count Sort',
     shortDescription: 'Visual representation of the Count sort algorithm.',
     imgpath: 'Sorting/2.%20Count%20Sort/image.png',
     filepath: 'Sorting/2.%20Count%20Sort/index.html',
@@ -26,7 +26,7 @@ var programs = [
   {
     number: 3,
     tags: ['Sorting', 'JavaScript', 'Visualization'],
-    title: 'Gnome Sort Visualization',
+    title: 'Gnome Sort',
     shortDescription: 'Visual representation of the Gnome sort algorithm.',
     imgpath: 'Sorting/3.%20Gnome%20Sort/image.png',
     filepath: 'Sorting/3.%20Gnome%20Sort/index.html',
@@ -38,7 +38,7 @@ var programs = [
   {
     number: 4,
     tags: ['Sorting', 'JavaScript', 'Visualization'],
-    title: 'Insertion Sort Visualization',
+    title: 'Insertion Sort',
     shortDescription: 'Visual representation of the Insertion sort algorithm.',
     imgpath: 'Sorting/4.%20Insertion%20Sort/image.png',
     filepath: 'Sorting/4.%20Insertion%20Sort/index.html',
