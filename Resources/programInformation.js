@@ -48,3 +48,9 @@ var programs = [
     downloadLink: 'Insertion%20Sort%20Visualization.zip'
   }
 ]
+
+var tags = [
+  'Sorting',
+  'JavaScript',
+  'Visualization'
+]

@@ -1,124 +1,112 @@
-html {
+body {
   background-color: #C5C6Ca;
 }
 
-.Tags {
-  padding-left: 10px;
-  display: inline-block;
-}
-
-.programDescription {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.download {
-  padding-left: 10px;
-}
-
-.tag {
-  display: inline;
-}
-
-.tagEle {
-  display: inline-block;
-}
-
-.tag-Sorting {
-  border-radius: 20px;
-  background: #FCFA80;
-  padding: 3px;
-}
-
-.tag-JavaScript {
-  border-radius: 20px;
-  background: #AFFC80;
-  padding: 3px;
-}
-
-.tag-download {
-  border-radius: 20px;
-  background: #80FCF1;
-  padding: 4px;
-}
-
+/* Tags */
 .tag-Visualization {
   border-radius: 20px;
   background: #80B3FC;
   padding: 3px;
 }
-
-.code-Description {
-  display: inline-block;
-  vertical-align:middle;
+.tag-Sorting {
+  border-radius: 20px;
+  background: #FCFA80;
+  padding: 3px;
 }
-
-.code-Description p{
+.tag-JavaScript {
+  border-radius: 20px;
+  background: #AFFC80;
+  padding: 3px;
+}
+.tag-Home {
+  padding-left: 10px;
+  display: inline-block;
+}
+.tag-Home-Filter {
+  width: 50%;
+  margin: auto;
+  background-color: #C5C6Ca;
+  padding-bottom: 5px;
+}
+.tag-Home-Filter p {
   margin: 0px;
-  margin-left: 5px;
 }
-
-.short-Description p{
+.tag-Filter {
   display: inline-block;
-  margin: 0px;
 }
-
-.title p {
+.tag-PEP {
   display: inline-block;
-  width: auto;
+}
+.tag-PEP-Download {
+  padding-left: 10px;
+}
+.tag-Download {
+  border-radius: 20px;
+  background: #80FCF1;
+  padding: 4px;
+}
+.tag-ProjectPill {
+  display: inline;
 }
 
-.title a {
-  margin-left: 5px;
+/* Home Page */
+.Home-Header {
+  background-color: #C5C6Ca;
+  margin: auto;
+  padding-bottom: 5px;
+  text-align: center;
 }
-
-.example-image {
+.Home-ProjectPill {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #81F6FF;
+  margin-bottom: 3px;
+}
+.Home-ProjectPill-Image {
   height: 50px;
   width: 50px;
 }
-
-.code-line {
-  width: 80%;
-  height: auto;
-  margin: auto;
-  padding-top: 10px;
+.Home-ProjectPill-Title a {
+  margin-left: 5px;
+}
+.Home-ProjectPill-Title p {
+  display: inline-block;
+  width: auto;
+}
+.Home-ProjectPill-Description {
+  display: inline-block;
+  vertical-align:middle;
+}
+.Home-ProjectPill-Description p {
+  margin: 0px;
+  margin-left: 5px;
 }
 
-.code-container {
-  height: auto;
-  background-color: #C5C6Ca;
+/* Program Example Page */
+.PEP-Description-Box p {
+  margin-left: 5px;
 }
-
-.CCContainer {
+.PEP-ContentContainer {
   background-color: #C5C6Ca;
   width: auto;
 }
-
-.canvas {
+.PEP-Title h1{
+  margin-bottom: 0px;
+  text-align: center;
+}
+.PEP-Canvas {
   width: auto;
   padding-top: 5px;
   padding-left: 4px;
   padding-right: 5px;
   margin: auto;
   float:left;
-
 }
-
-.exampleDesc {
-  width: auto;
-}
-
-.exampleDesc p {
-  margin-left: 5px;
-}
-
-.programTitleC {
-  width:100%;
-}
-
-.programTitleC h1{
-  margin-bottom: 0px;
-  text-align: center;
+.PEP-Desc {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Nav */
