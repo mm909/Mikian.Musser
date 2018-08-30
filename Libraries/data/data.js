@@ -70,3 +70,23 @@ function insertionSort(array){
 
   console.log("-- Fnished -- ")
 }
+
+function tentobinary(i) {
+  var string = "";
+  while(true){
+    if(i>0){
+      var a = (i%2);
+      string = string + a;
+      i = floor(i/2);
+    } else {
+      var answer = "";
+      for(var i = 0; i < 16-string.length; i++){
+        answer += "0";
+      }
+      for(var i = 0; i < string.length; i++){
+        answer += string[string.length-1-i];
+      }
+      return answer;
+    }
+  }
+}
