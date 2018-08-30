@@ -7,9 +7,6 @@ var j = 0;
 
 function setup() {
   var canvas = createCanvas(windowWidth-9,500)
-  canvas.parent("canvasContainer");
-
-
   data = new dataVisualization();
   data.setHeight(500);
   data.setWidth(windowWidth-10);
