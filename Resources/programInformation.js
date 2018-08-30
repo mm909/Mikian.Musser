@@ -43,10 +43,23 @@ var programs = [
     imgpath: 'Sorting/4.%20Insertion%20Sort/image.png',
     filepath: 'Sorting/4.%20Insertion%20Sort/index.html',
     rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Insertion_sort',
-    description: 'Insertion is a visual representation of the ',
+    description: 'This is a visual representation of the ',
     algLink:     'Insertion sort algorithm',
     downloadLink: 'Insertion%20Sort%20Visualization.zip'
+  },
+  {
+    number: 5,
+    tags: ['Math', 'JavaScript', 'Visualization'],
+    title: 'Babbage Problem',
+    shortDescription: 'Solving the Charles Babbage problem',
+    imgpath: 'Projects/6.Babbage-Problem/image.png',
+    filepath: 'Projects/6.Babbage-Problem/index.html',
+    rosettaLink: 'http://www.rosettacode.org/wiki/Babbage_problem',
+    description: 'This program solves the ',
+    algLink:     'Babbage Problem',
+    downloadLink: 'Babbage-Problem.zip'
   }
+
 ]
 
 var tags = [
