@@ -65,5 +65,6 @@ var programs = [
 var tags = [
   'Sorting',
   'JavaScript',
-  'Visualization'
+  'Visualization',
+  'Math'
 ]
