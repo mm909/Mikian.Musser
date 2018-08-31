@@ -45,7 +45,7 @@ function Draw(){
                         $temp = $( "<div class='tag-ProjectPill' id='tag-ProjectPill" + i + j + "' ></div>" )
                         $( "#tag-Home" + i  ).append($temp);
 
-                            $temp = $( "<p class=' tag-" + programs[i].tags[j] + "-Pill tag-" + programs[i].tags[j] + "'>" + programs[i].tags[j] + "</p>" )
+                            $temp = $( "<p class=' tag-Unselectable tag-" + programs[i].tags[j] + "-Pill tag-" + programs[i].tags[j] + "'>" + programs[i].tags[j] + "</p>" )
                             $( "#tag-ProjectPill" + i + j  ).append($temp);
                       }
 

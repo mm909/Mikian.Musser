@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   for(var i = 0; i < tags.length; i++){
         /* Create the tag */
-        $temp = $( "<p class='" + "tag-" + tags[i] + " tag-Filter' id=" + i + ">" + tags[i] + "</p>" )
+        $temp = $( "<p class=' tag-Unselectable " + "tag-" + tags[i] + " tag-Filter' id=" + i + ">" + tags[i] + "</p>" )
         $( ".tag-Home-Filter").append($temp);
   }
 
@@ -95,7 +95,6 @@ $( document ).ready(function() {
 });
 
 function hide(filter) {
-  console.log("Hiding: " + filter)
   if(filter == "All"){
     for(var i = 0; i < programs.length; i++){
       programs[i].visible = true;
