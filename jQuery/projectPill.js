@@ -4,8 +4,10 @@ $( document ).ready(function() {
       for(var i = 0; i < programs.length; i++){
           index[i] = i;
       }
+
       var i = 0;
       for(var k = 0; k < programs.length; k++){
+
         i = index[Math.floor(Math.random()*index.length)];
         index.splice(index.indexOf(i), 1);
 
@@ -41,11 +43,11 @@ $( document ).ready(function() {
                               $( "#tag-ProjectPill" + i + j  ).append($temp);
                         }
 
-                $temp = $( "<div class='short-Description' id='short-Description" + i + "' ></div>" )
+                $temp = $( "<div class='Home-ProjectPill-shortDescription' id='Home-ProjectPill-shortDescription" + i + "' ></div>" )
                 $( "#Home-ProjectPill-Description" + i  ).append($temp);
 
                 $temp = $( "<p>" + programs[i].shortDescription + "</p>" )
-                $( "#Home-ProjectPill-Description" + i  ).append($temp);
+                $( "#Home-ProjectPill-shortDescription" + i  ).append($temp);
       }
 
 });
