@@ -20,11 +20,13 @@ $(".PEP-Description-Box").append($temp);
     $( "#tag" + $id + j  ).append($temp);
 }
 
-
 $temp = $( "<p class='PEP-Desc'>" + programs[$id-1].description + "<a target='_blank' href=" + programs[$id-1].rosettaLink + ">" + programs[$id-1].algLink + "</a></p>" )
 $(".PEP-Description-Box").append($temp);
 
-$temp = $( "<p class='PEP-Desc'>Created with <a target='_blank' href='https://p5js.org/'>P5.js</a></p>" )
-$(".PEP-Description-Box").append($temp);
+if(programs[i].p5 != false){
+  $temp = $( "<p class='PEP-Desc'>Created with <a target='_blank' href='https://p5js.org/'>P5.js</a></p>" )
+  $(".PEP-Description-Box").append($temp);
+}
+
 
 });

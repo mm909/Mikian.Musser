@@ -92,5 +92,7 @@ var tags = [
   'Sorting',
   'JavaScript',
   'Visualization',
-  'Math'
+  'Math',
+  'Cryptography',
+  'Console'
 ]

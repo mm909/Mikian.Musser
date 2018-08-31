@@ -38,16 +38,17 @@ body {
   display: inline-block;
 }
 .tag-Home-Filter {
-  width: 51%;
+  width: 100%;
   margin: auto;
   background-color: #C5C6Ca;
   padding-bottom: 5px;
+  text-align: center;
 }
 .tag-Home-Filter p {
-  margin: 0px;
 }
 .tag-Filter {
   display: inline-block;
+  margin: 0px;
 }
 .tag-PEP {
   display: inline-block;
