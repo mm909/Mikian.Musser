@@ -38,18 +38,19 @@ body {
   display: inline-block;
 }
 .tag-Home-Filter {
-  width: 100%;
-  margin: auto;
   background-color: #C5C6Ca;
-  padding-bottom: 5px;
   text-align: center;
+  min-height: 40px;
+  width: 100%;
+  display: table
+
 }
 .tag-Home-Filter p {
   margin: 2px;
 }
 .tag-Filter {
-  display: inline-block;
-  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
 }
 .tag-PEP {
   display: inline-block;

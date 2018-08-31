@@ -14,6 +14,7 @@ $( document ).ready(function() {
         $temp = $( "<div class='Home-ProjectPill' id='Home-ProjectPill" + i + "' ></div>" )
         $( ".Home-ProjectPill-Container" ).append($temp);
         //--
+
             $temp =
             $( "<img class='Home-ProjectPill-Image' id='Home-ProjectPill-Image" +
             i
