@@ -70,6 +70,20 @@ var programs = [
     description: 'Converts base 10 numbers to ',
     algLink:     'binary digits.',
     downloadLink: 'BinaryNumbers.zip'
+  },
+  {
+    number: 7,
+    tags: ['Cryptography', 'JavaScript', 'Console'],
+    title: 'Caesar Cipher',
+    shortDescription: 'Encrypt/Decrypt text using a Caesar Cipher',
+    imgpath: 'Projects/8.Caesar-Cipher/image.png',
+    filepath: 'Projects/8.Caesar-Cipher/index.html',
+    rosettaLink: 'https://www.rosettacode.org/wiki/Caesar_cipher',
+    description: 'Encrypt/Decrypt text using a ',
+    algLink:     'Caesar Cipher.',
+    downloadLink: 'Caesar-Cipher.zip',
+    p5: false,
+    console: true
   }
 
 ]

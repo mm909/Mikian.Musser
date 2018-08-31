@@ -23,6 +23,16 @@ body {
   background: #F881FF;
   padding: 3px;
 }
+.tag-Cryptography {
+  border-radius: 20px;
+  background: #FFCF81;
+  padding: 3px;
+}
+.tag-Console {
+  border-radius: 20px;
+  background: #81FFCB;
+  padding: 3px;
+}
 .tag-Home {
   padding-left: 10px;
   display: inline-block;
@@ -90,6 +100,55 @@ body {
 }
 
 /* Program Example Page */
+.PEP-Instructions-Container {
+  display: inline-block
+  width: auto;
+  text-align: center;
+}
+.PEP-Instructions-Outter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #81FFCB;
+  padding: 3px;
+  display: inline-block
+}
+.PEP-Instructions-Outter h3 {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.PEP-Instructions-Inner1 {
+  display: inline-block
+  height: 200px;
+  background: #B381FF;
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 1px;
+}
+.PEP-Instructions-Inner1 p {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.PEP-Instructions-Inner2 {
+  display: inline-block
+  height: 200px;
+  background: #FF81D0;
+  border-radius: 20px;
+  margin: 3px;
+}
+.PEP-Instructions-Inner2 p {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.PEP-Description-Box {
+  display: inline-block
+  width: auto;
+  text-align: center;
+  color: #000000;
+}
 .PEP-Description-Box p {
   margin-left: 5px;
 }
