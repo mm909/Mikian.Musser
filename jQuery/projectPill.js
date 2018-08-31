@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-
+      // For random sel
       index = [];
       for(var i = 0; i < programs.length; i++){
           index[i] = i;
