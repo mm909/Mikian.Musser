@@ -118,6 +118,21 @@ var programs = [
     p5: false,
     console: true,
     visible: true
+  },
+  {
+    number: 9,
+    tags: ['Challenge', 'JavaScript', 'Visualization'],
+    title: 'Starfield',
+    shortDescription: 'Fly through space at warpspeed!',
+    imgpath: 'CodingChallenges/10.Starfield/image.png',
+    filepath: 'CodingChallenges/10.Starfield/index.html',
+    rosettaLink: 'https://www.youtube.com/watch?v=17WoOqgXsRM',
+    description: 'Fly through space at ',
+    algLink:     'warpspeed!',
+    downloadLink: 'Starfield.zip',
+    p5: true,
+    console: false,
+    visible: true
   }
 ]
 
@@ -128,5 +143,6 @@ var tags = [
   'Visualization',
   'Math',
   'Cryptography',
-  'Console'
+  'Console',
+  'Challenge'
 ]

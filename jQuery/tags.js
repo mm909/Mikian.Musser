@@ -3,6 +3,7 @@ $( document ).ready(function() {
         /* Create the tag */
         $temp = $( "<p class=' tag-Unselectable " + "tag-" + tags[i] + " tag-Filter' id=" + i + ">" + tags[i] + "</p>" )
         $( ".tag-Home-Filter").append($temp);
+        console.log(tags[i])
   }
 
   $( ".tag-All" ).click(function() {
@@ -92,6 +93,21 @@ $( document ).ready(function() {
   $( ".tag-Console" ).click(function() {
     hide(tags[6]);
   });
+
+  $(".tag-Challenge").hover(function(){
+      $(this).css("background", "#FD9696");
+      $(this).css("padding", "2px");
+      $(this).css("border", "1px solid gray");
+      }, function(){
+      $(this).css("background", "#FF8181");
+      $(this).css("border-width", "0px");
+      $(this).css("padding", "3px");
+  });
+
+  $( ".tag-Challenge" ).click(function() {
+    hide(tags[7]);
+  });
+
 });
 
 function hide(filter) {
@@ -199,6 +215,20 @@ function drawTags(){
 
   $( ".tag-Console-Pill" ).click(function() {
     hide(tags[6]);
+  });
+
+  $(".tag-Challenge-Pill").hover(function(){
+      $(this).css("background", "#FD9696");
+      $(this).css("padding", "2px");
+      $(this).css("border", "1px solid gray");
+      }, function(){
+      $(this).css("background", "#FF8181");
+      $(this).css("border-width", "0px");
+      $(this).css("padding", "3px");
+  });
+
+  $( ".tag-Challenge-Pill" ).click(function() {
+    hide(tags[7]);
   });
 
 }

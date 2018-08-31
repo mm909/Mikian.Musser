@@ -2,7 +2,6 @@ body {
   background-color: #C5C6Ca;
 }
 
-
 /* Tags */
 .tag-Visualization {
   border-radius: 20px;
@@ -22,6 +21,11 @@ body {
 .tag-Math {
   border-radius: 20px;
   background: #F881FF;
+  padding: 3px;
+}
+.tag-Challenge {
+  border-radius: 20px;
+  background: #FF8181;
   padding: 3px;
 }
 .tag-Cryptography {
@@ -77,7 +81,6 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
-
 
 /* Home Page */
 .Home-Header {
@@ -176,23 +179,23 @@ body {
 }
 .PEP-ContentContainer {
   background-color: #C5C6Ca;
-  width: auto;
 }
 .PEP-Title h1{
   margin-bottom: 0px;
   text-align: center;
 }
 .PEP-Canvas {
-  width: auto;
-  padding-top: 5px;
-  padding-left: 4px;
-  padding-right: 5px;
-  margin: auto;
-  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.p5Canvas {
 }
 .PEP-Desc {
   padding-left: 10px;
   padding-right: 10px;
+
 }
 
 /* Nav */
