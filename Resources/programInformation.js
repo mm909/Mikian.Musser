@@ -119,7 +119,6 @@ var programs = [
     console: true,
     visible: true
   }
-
 ]
 
 var tags = [
