@@ -11,7 +11,8 @@ var programs = [
     algLink:     'Bubble sort algorithm',
     downloadLink: 'Bubble%20Sort%20Visualization.zip',
     p5: true,
-    console: false
+    console: false,
+    visible: true
   },
   {
     number: 2,
@@ -25,7 +26,8 @@ var programs = [
     algLink:     'Count sort algorithm',
     downloadLink: 'Count%20Sort%20Visualization.zip',
     p5: true,
-    console: false
+    console: false,
+    visible: true
   },
   {
     number: 3,
@@ -39,7 +41,8 @@ var programs = [
     algLink:     'Gnome sort algorithm',
     downloadLink: 'Gnome%20Sort%20Visualization.zip',
     p5: true,
-    console: false
+    console: false,
+    visible: true
   },
   {
     number: 4,
@@ -53,7 +56,8 @@ var programs = [
     algLink:     'Insertion sort algorithm',
     downloadLink: 'Insertion%20Sort%20Visualization.zip',
     p5: true,
-    console: false
+    console: false,
+    visible: true
   },
   {
     number: 5,
@@ -67,7 +71,8 @@ var programs = [
     algLink:     'Babbage Problem',
     downloadLink: 'Babbage-Problem.zip',
     p5: true,
-    console: false
+    console: false,
+    visible: true
   },
   {
     number: 6,
@@ -81,7 +86,8 @@ var programs = [
     algLink:     'binary digits.',
     downloadLink: 'BinaryNumbers.zip',
     p5: true,
-    console: false
+    console: false,
+    visible: true
   },
   {
     number: 7,
@@ -95,7 +101,8 @@ var programs = [
     algLink:     'Caesar Cipher.',
     downloadLink: 'Caesar-Cipher.zip',
     p5: false,
-    console: true
+    console: true,
+    visible: true
   },
   {
     number: 8,
@@ -109,12 +116,14 @@ var programs = [
     algLink:     'Rot-13 Cipher.',
     downloadLink: 'Rot-13.zip',
     p5: false,
-    console: true
+    console: true,
+    visible: true
   }
 
 ]
 
 var tags = [
+  'All',
   'Sorting',
   'JavaScript',
   'Visualization',

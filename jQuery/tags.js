@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
       for(var i = 0; i < tags.length; i++){
             /* Create the tag */
-            $temp = $( "<p class='" + "tag-" + tags[i] + " tag-Filter'>" + tags[i] + "</p>" )
+            $temp = $( "<p class='" + "tag-" + tags[i] + " tag-Filter' id=" + i + ">" + tags[i] + "</p>" )
             $( ".tag-Home-Filter").append($temp);
       }
 
@@ -14,6 +14,9 @@ $( document ).ready(function() {
           $(this).css("padding", "3px");
       });
 
+      $( ".tag-Filter" ).click(function() {
+        hide(tags[this.id]);
+      });
 
       $(".tag-Sorting").hover(function(){
           $(this).css("background", "#FDFC95");
@@ -26,7 +29,6 @@ $( document ).ready(function() {
           }, function(){
           $(this).css("background", "#AFFC80");
       });
-
 
       $(".tag-Visualization").hover(function(){
           $(this).css("background", "#8EBBFE");
@@ -53,3 +55,25 @@ $( document ).ready(function() {
       });
 
 });
+
+function hide(filter) {
+  if(filter == "All"){
+    for(var i = 0; i < programs.length; i++){
+      programs[i].visible = true;
+    }
+  } else {
+    for(var i = 0; i < programs.length; i++){
+      var hide = true;
+      programs[i].visible = hide;
+      for(var j = 0; j < programs[i].tags.length; j++){
+          if(programs[i].tags[j] == filter){
+            hide = false;
+        }
+      }
+      programs[i].visible = !hide;
+    }
+  }
+
+
+  Draw();
+}

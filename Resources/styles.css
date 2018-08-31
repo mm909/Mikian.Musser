@@ -33,6 +33,11 @@ body {
   background: #81FFCB;
   padding: 3px;
 }
+.tag-All {
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 3px;
+}
 .tag-Home {
   padding-left: 10px;
   display: inline-block;
