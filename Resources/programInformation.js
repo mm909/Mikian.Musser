@@ -96,6 +96,20 @@ var programs = [
     downloadLink: 'Caesar-Cipher.zip',
     p5: false,
     console: true
+  },
+  {
+    number: 8,
+    tags: ['Cryptography', 'JavaScript', 'Console'],
+    title: 'Rot-13 Cipher',
+    shortDescription: 'Encrypt/Decrypt text using a Rot-13 Cipher',
+    imgpath: 'Projects/9.Rot-13/image.png',
+    filepath: 'Projects/9.Rot-13/index.html',
+    rosettaLink: 'https://www.rosettacode.org/wiki/Rot-13',
+    description: 'Encrypt/Decrypt text using a ',
+    algLink:     'Rot-13 Cipher.',
+    downloadLink: 'Rot-13.zip',
+    p5: false,
+    console: true
   }
 
 ]
