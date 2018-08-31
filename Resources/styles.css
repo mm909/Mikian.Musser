@@ -40,17 +40,14 @@ body {
 .tag-Home-Filter {
   background-color: #C5C6Ca;
   text-align: center;
-  min-height: 40px;
-  width: 100%;
-  display: table
-
-}
-.tag-Home-Filter p {
-  margin: 2px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 2px;
 }
 .tag-Filter {
-  display: table-cell;
-  vertical-align: middle;
+  display: inline;
+  min-height: 50px;
+  margin: 2px;
 }
 .tag-PEP {
   display: inline-block;

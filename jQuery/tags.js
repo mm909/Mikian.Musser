@@ -14,6 +14,7 @@ $( document ).ready(function() {
           $(this).css("padding", "3px");
       });
 
+
       $(".tag-Sorting").hover(function(){
           $(this).css("background", "#FDFC95");
           }, function(){
