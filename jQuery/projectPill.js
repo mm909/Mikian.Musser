@@ -1,7 +1,14 @@
 $( document ).ready(function() {
 
-
+      index = [];
       for(var i = 0; i < programs.length; i++){
+          index[i] = i;
+      }
+      var i = 0;
+      for(var k = 0; k < programs.length; k++){
+        i = index[Math.floor(Math.random()*index.length)];
+        index.splice(index.indexOf(i), 1);
+
         $temp = $( "<div class='Home-ProjectPill' id='Home-ProjectPill" + i + "' ></div>" )
         $( ".Home-ProjectPill-Container" ).append($temp);
         //--
