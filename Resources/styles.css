@@ -72,13 +72,18 @@ body {
   padding-bottom: 5px;
   text-align: center;
 }
+.Home-ProjectPill-Container {
+  display: inline-block
+  width: auto;
+  text-align: center;
+}
 .Home-ProjectPill {
-  width: 50%;
-  margin: auto;
+  min-width: 450px;
   padding: 10px;
   border-radius: 20px;
   background-color: #81F6FF;
   margin-bottom: 3px;
+  display: inline-block
 }
 .Home-ProjectPill-Image {
   height: 50px;

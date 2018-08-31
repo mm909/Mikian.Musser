@@ -9,7 +9,9 @@ var programs = [
     rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Bubble_sort',
     description: 'This is a visual representation of the ',
     algLink:     'Bubble sort algorithm',
-    downloadLink: 'Bubble%20Sort%20Visualization.zip'
+    downloadLink: 'Bubble%20Sort%20Visualization.zip',
+    p5: true,
+    console: false
   },
   {
     number: 2,
@@ -21,7 +23,9 @@ var programs = [
     rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Counting_sort',
     description: 'This is a visual representation of the ',
     algLink:     'Count sort algorithm',
-    downloadLink: 'Count%20Sort%20Visualization.zip'
+    downloadLink: 'Count%20Sort%20Visualization.zip',
+    p5: true,
+    console: false
   },
   {
     number: 3,
@@ -33,7 +37,9 @@ var programs = [
     rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Gnome_sort',
     description: 'This is a visual representation of the ',
     algLink:     'Gnome sort algorithm',
-    downloadLink: 'Gnome%20Sort%20Visualization.zip'
+    downloadLink: 'Gnome%20Sort%20Visualization.zip',
+    p5: true,
+    console: false
   },
   {
     number: 4,
@@ -45,7 +51,9 @@ var programs = [
     rosettaLink: 'http://www.rosettacode.org/wiki/Sorting_algorithms/Insertion_sort',
     description: 'This is a visual representation of the ',
     algLink:     'Insertion sort algorithm',
-    downloadLink: 'Insertion%20Sort%20Visualization.zip'
+    downloadLink: 'Insertion%20Sort%20Visualization.zip',
+    p5: true,
+    console: false
   },
   {
     number: 5,
@@ -57,7 +65,9 @@ var programs = [
     rosettaLink: 'http://www.rosettacode.org/wiki/Babbage_problem',
     description: 'This program solves the ',
     algLink:     'Babbage Problem',
-    downloadLink: 'Babbage-Problem.zip'
+    downloadLink: 'Babbage-Problem.zip',
+    p5: true,
+    console: false
   },
   {
     number: 6,
@@ -69,7 +79,9 @@ var programs = [
     rosettaLink: 'http://www.rosettacode.org/wiki/Binary_digits',
     description: 'Converts base 10 numbers to ',
     algLink:     'binary digits.',
-    downloadLink: 'BinaryNumbers.zip'
+    downloadLink: 'BinaryNumbers.zip',
+    p5: true,
+    console: false
   },
   {
     number: 7,
