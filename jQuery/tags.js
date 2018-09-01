@@ -10,6 +10,15 @@ $( document ).ready(function() {
     hide(tags[0]);
   });
 
+  $(".tag-All").hover(function(){
+      $(this).css("padding", "2px");
+      $(this).css("border", "1px solid gray");
+      }, function(){
+      $(this).css("border-width", "0px");
+      $(this).css("padding", "3px");
+  });
+
+
   $(".tag-Sorting").hover(function(){
     $(this).css("background", "#FDFC95");
       $(this).css("padding", "2px");
