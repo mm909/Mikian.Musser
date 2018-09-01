@@ -1,6 +1,12 @@
 body {
   background-color: #C5C6Ca;
 }
+.fixed {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
 
 /* Tags */
 .tag-Visualization {
@@ -40,7 +46,7 @@ body {
 }
 .tag-Game {
   border-radius: 20px;
-  background: #FF8181;
+  background: #9981FF;
   padding: 3px;
 }
 .tag-All {
@@ -57,10 +63,11 @@ body {
   margin-bottom: 2px;
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   margin: auto;
   justify-content: center;
   align-items: center;
+  margin-top: 56px;
 }
 .tag-Filter {
   margin: 2px;
@@ -96,7 +103,6 @@ body {
   text-align: center;
 }
 .Home-ProjectPill-Container {
-  display: inline-block
   width: auto;
   text-align: center;
 }
@@ -122,7 +128,6 @@ body {
 }
 .Home-ProjectPill-Title p {
   display: inline-block;
-
 }
 .Home-ProjectPill-Description {
   display: inline-block;
@@ -216,7 +221,7 @@ body {
   color: #65FBF0 !important;
   font-size: 20px;
   display:inline;
-
+  padding: 0px;
 }
 .navbar-brand {
   color: #65FBF0 !important;
