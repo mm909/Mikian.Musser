@@ -49,14 +49,15 @@ body {
 }
 .tag-Home-Filter {
   background-color: #C5C6Ca;
-  text-align: center;
-  width: 95%;
-  margin: auto;
   margin-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 .tag-Filter {
-  display: inline;
-  min-height: 50px;
   margin: 2px;
 }
 .tag-PEP {
