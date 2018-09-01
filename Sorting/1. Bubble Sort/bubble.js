@@ -4,12 +4,12 @@ var sorting = true;
 var swapped = false;
 
 function setup() {
-  var canvas = createCanvas(windowWidth-9,500)
+  var canvas = createCanvas(501,500)
   canvas.parent("canvasContainer");
 
   data = new dataVisualization();
   data.setHeight(500);
-  data.setWidth(windowWidth-10);
+  data.setWidth(500);
   data.setBackgroundColor(150);
   data.setDataCount(50);
   data.setDataMin(-100);

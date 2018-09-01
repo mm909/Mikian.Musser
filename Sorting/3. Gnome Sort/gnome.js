@@ -7,13 +7,13 @@ var j = 2;
 
 
 function setup() {
-  var canvas = createCanvas(windowWidth-9,500)
+  var canvas = createCanvas(501,500)
   canvas.parent("canvasContainer");
 
 
   data = new dataVisualization();
   data.setHeight(500);
-  data.setWidth(windowWidth-10);
+  data.setWidth(501);
   data.setBackgroundColor(150);
   data.setDataCount(dataCount);
   data.setDataMin(dataMin);

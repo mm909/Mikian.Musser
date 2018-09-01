@@ -18,7 +18,7 @@ function getOffset( el ) {
 }
 
 function setup() {
-  var canvas = createCanvas(windowWidth-9,500)
+  var canvas = createCanvas(500,500)
   canvas.parent("canvasContainer");
   var x = getOffset( document.getElementById('defaultCanvas0') ).top;
   console.log(x)
