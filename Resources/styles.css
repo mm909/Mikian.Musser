@@ -40,7 +40,7 @@ body {
 }
 .tag-Game {
   border-radius: 20px;
-  background: #9981FF;
+  background: #FF8181;
   padding: 3px;
 }
 .tag-All {
@@ -102,6 +102,7 @@ body {
 }
 .Home-ProjectPill {
   min-width: 450px;
+  max-width: 450px;
   padding: 10px;
   border-radius: 20px;
   background-color: #81F6FF;

@@ -138,7 +138,7 @@ var programs = [
     number: 10,
     tags: ['Challenge', 'JavaScript', 'Game'],
     title: 'Snake Game',
-    shortDescription: 'Play the retro arcade Snake Game',
+    shortDescription: 'Play the retro arcade game: Snake',
     imgpath: 'CodingChallenges/11.SnakeGame/image.png',
     filepath: 'CodingChallenges/11.SnakeGame/index.html',
     rosettaLink: 'https://youtu.be/AaGK-fj-BAM',
