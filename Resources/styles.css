@@ -107,21 +107,27 @@ body {
   border-radius: 20px;
   background-color: #81F6FF;
   margin: 2px;
-  display: inline-block
+  display: inline-block;
 }
 .Home-ProjectPill-Image {
   height: 50px;
   width: 50px;
+  float: left;
+}
+.Home-ProjectPill-Title {
+  float: left;
 }
 .Home-ProjectPill-Title a {
   margin-left: 5px;
 }
 .Home-ProjectPill-Title p {
   display: inline-block;
+
 }
 .Home-ProjectPill-Description {
   display: inline-block;
-  vertical-align:middle;
+  float: left;
+  margin-left: 5px;
 }
 .Home-ProjectPill-Description p {
   margin: 0px;

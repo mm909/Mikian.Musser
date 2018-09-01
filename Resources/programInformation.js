@@ -148,6 +148,21 @@ var programs = [
     p5: true,
     console: false,
     visible: true
+  },
+  {
+    number: 10,
+    tags: ['Challenge', 'JavaScript', 'Visualization'],
+    title: 'Purple Rain',
+    shortDescription: 'Play in the Purple Rain!',
+    imgpath: 'CodingChallenges/12.PurpleRain/image.png',
+    filepath: 'CodingChallenges/12.PurpleRain/index.html',
+    rosettaLink: 'https://www.youtube.com/watch?v=KkyIDI6rQJI',
+    description: 'Watch the ',
+    algLink:     'Purple Rain fall!',
+    downloadLink: 'PurpleRain.zip',
+    p5: true,
+    console: false,
+    visible: true
   }
 ]
 
