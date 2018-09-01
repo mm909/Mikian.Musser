@@ -133,6 +133,21 @@ var programs = [
     p5: true,
     console: false,
     visible: true
+  },
+  {
+    number: 10,
+    tags: ['Challenge', 'JavaScript', 'Game'],
+    title: 'Snake Game',
+    shortDescription: 'Play the retro arcade Snake Game',
+    imgpath: 'CodingChallenges/11.SnakeGame/image.png',
+    filepath: 'CodingChallenges/11.SnakeGame/index.html',
+    rosettaLink: 'https://youtu.be/AaGK-fj-BAM',
+    description: 'Use the <b>Arrow Keys</b> to play the ',
+    algLink:     'Snake Game!',
+    downloadLink: 'SnakeGame.zip',
+    p5: true,
+    console: false,
+    visible: true
   }
 ]
 
