@@ -23,11 +23,6 @@ body {
   background: #F881FF;
   padding: 3px;
 }
-.tag-Challenge {
-  border-radius: 20px;
-  background: #FF8181;
-  padding: 3px;
-}
 .tag-Cryptography {
   border-radius: 20px;
   background: #FFCF81;
@@ -36,6 +31,16 @@ body {
 .tag-Console {
   border-radius: 20px;
   background: #81FFCB;
+  padding: 3px;
+}
+.tag-Challenge {
+  border-radius: 20px;
+  background: #FF8181;
+  padding: 3px;
+}
+.tag-Game {
+  border-radius: 20px;
+  background: #9981FF;
   padding: 3px;
 }
 .tag-All {

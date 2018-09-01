@@ -159,5 +159,6 @@ var tags = [
   'Math',
   'Cryptography',
   'Console',
-  'Challenge'
+  'Challenge',
+  'Game'
 ]

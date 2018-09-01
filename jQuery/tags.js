@@ -108,6 +108,20 @@ $( document ).ready(function() {
     hide(tags[7]);
   });
 
+  $(".tag-Game").hover(function(){
+      $(this).css("background", "#A894FE");
+      $(this).css("padding", "2px");
+      $(this).css("border", "1px solid gray");
+      }, function(){
+      $(this).css("background", "#9981FF");
+      $(this).css("border-width", "0px");
+      $(this).css("padding", "3px");
+  });
+
+  $( ".tag-Game" ).click(function() {
+    hide(tags[8]);
+  });
+
 });
 
 function hide(filter) {
@@ -229,6 +243,20 @@ function drawTags(){
 
   $( ".tag-Challenge-Pill" ).click(function() {
     hide(tags[7]);
+  });
+
+  $(".tag-Game-Pill").hover(function(){
+      $(this).css("background", "#A894FE");
+      $(this).css("padding", "2px");
+      $(this).css("border", "1px solid gray");
+      }, function(){
+      $(this).css("background", "#9981FF");
+      $(this).css("border-width", "0px");
+      $(this).css("padding", "3px");
+  });
+
+  $( ".tag-Game-Pill" ).click(function() {
+    hide(tags[8]);
   });
 
 }
