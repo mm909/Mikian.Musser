@@ -150,7 +150,7 @@ var programs = [
     visible: true
   },
   {
-    number: 10,
+    number: 11,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Purple Rain',
     shortDescription: 'Play in the Purple Rain!',
@@ -161,6 +161,21 @@ var programs = [
     algLink:     'Purple Rain fall!',
     downloadLink: 'PurpleRain.zip',
     p5: true,
+    console: false,
+    visible: true
+  },
+  {
+    number: 12,
+    tags: ['Challenge', 'JavaScript', 'Game'],
+    title: '<i>Space Invaders</i>',
+    shortDescription: 'Comming Soon',
+    imgpath: 'Resources/CommingSoon/image.jpg',
+    filepath: 'Resources/CommingSoon/index.html',
+    rosettaLink: 'https://www.youtube.com/watch?v=biN3v3ef-Y0',
+    description: 'Idea: ',
+    algLink:     'Space Invaders',
+    downloadLink: '#',
+    p5: false,
     console: false,
     visible: true
   }
