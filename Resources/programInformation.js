@@ -182,7 +182,22 @@ var programs = [
   {
     number: 13,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
-    title: '<i>Solar System</i>',
+    title: 'Solar System',
+    shortDescription: 'Solar System Simulation!',
+    imgpath: 'CodingChallenges/14.SolarSystem/image.png',
+    filepath: 'CodingChallenges/14.SolarSystem/index.html',
+    rosettaLink: 'https://www.youtube.com/watch?v=l8SiJ-RmeHU',
+    description: 'A Solar System ',
+    algLink:     'Simulation!',
+    downloadLink: 'SolarSystem.zip',
+    p5: true,
+    console: false,
+    visible: true
+  },
+  {
+    number: 14,
+    tags: ['Challenge', 'JavaScript', 'Visualization'],
+    title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
     imgpath: 'Resources/CommingSoon/image.jpg',
     filepath: 'Resources/CommingSoon/index.html',
