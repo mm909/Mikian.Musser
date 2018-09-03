@@ -214,7 +214,7 @@ var programs = [
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'RDA!',
     shortDescription: 'Comming Soon!',
-    imgpath: 'Resources/CommingSoon/image.jpg',
+    imgpath: 'CodingChallenges/16.ReactionDiffusion/image.png',
     filepath: 'CodingChallenges/16.ReactionDiffusion/index.html',
     rosettaLink: 'http://karlsims.com/rd.html',
     description: 'This is a Simulation based on the ',
@@ -225,7 +225,7 @@ var programs = [
     visible: true
   },
   {
-    number: 15,
+    number: 16,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
