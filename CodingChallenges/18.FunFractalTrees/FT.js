@@ -22,7 +22,7 @@ function setup() {
 }
 
 function draw() {
-  background(150);
+  background("#C5C6Ca");
   stroke(255)
   strokeWeight(1)
   translate(width/2,height-length/2)
