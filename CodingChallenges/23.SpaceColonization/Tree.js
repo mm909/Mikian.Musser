@@ -3,12 +3,12 @@ function Tree() {
   // -- Environment vars -- //
   this.bounds = [width,height/1.5]
   this.startingPos = [width/2,height]
-  this.leafSize = 5;
-  this.leafCount = 200;
-  this.maxDistance = 100;
+  this.leafCount = 50;
+  this.maxDistance = 50;
   this.minDistance = 5;
-  this.branchLength = 5;
   this.maxBranches = 5000;
+  this.leafSize = 5;
+  this.branchLength = 5;
   this.c = color(0,25,25);
 
   // -- Tree Arrays -- //
