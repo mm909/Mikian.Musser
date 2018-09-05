@@ -14,18 +14,18 @@ function Tree(x,y,a,l,c) {
   }
 
   this.branch = function(l,level){
-    var s = map(level, 1, 11, 0, 2)
+    var s = map(level, 1, 11, 0, 3)
     strokeWeight(11-level)
-    stroke(s * this.c.levels[0], s * this.c.levels[1], s * this.c.levels[2], 200)
+    stroke(s * this.c.levels[0], s * this.c.levels[1], s * this.c.levels[2], 175)
     if(level > 1){
      line(0, 0, 0, -l)
     }
 
     this.x+=0.01 * this.dir
-    if(this.x > width/15){
+    if(this.x > width/16){
       this.dir*=-1;
     }
-    if(this.x < -width/15){
+    if(this.x < -width/16){
       this.dir*=-1;
     }
 

@@ -29,9 +29,9 @@ function draw() {
 }
 
 function branch(l,level){
-  var c = map(level, 1, 10, 0, 1.5)
+  var c = map(level, 1, 10, 0, 2.25)
   strokeWeight(10-level)
-  stroke(c * r, c * g, c * b)
+  stroke(c * r, c * g, c * b,175)
   line(0, 0, 0, -l)
   translate(0,  -l)
   if(l>5){
