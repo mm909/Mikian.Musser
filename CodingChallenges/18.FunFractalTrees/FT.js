@@ -4,7 +4,7 @@ var tree;
 var tree2;
 
 function setup() {
-  var canvas = createCanvas(600,500)
+  var canvas = createCanvas(1000,500)
   canvas.parent("canvasContainer");
   var r = random(255);
   var g = random(255);

@@ -8,13 +8,13 @@ function Tree(x,y,a,l,c) {
   this.dir = 1;
 
   this.draw = function() {
-    this.a += 0.025;
+    this.a += 0.020;
     var level = 1;
     this.branch(this.l,level);
   }
 
   this.branch = function(l,level){
-    var s = map(level, 1, 11, 0, 1)
+    var s = map(level, 1, 11, 0, 2)
     strokeWeight(11-level)
     stroke(s * this.c.levels[0], s * this.c.levels[1], s * this.c.levels[2], 200)
     if(level > 1){
@@ -22,10 +22,10 @@ function Tree(x,y,a,l,c) {
     }
 
     this.x+=0.01 * this.dir
-    if(this.x > width/2){
+    if(this.x > width/15){
       this.dir*=-1;
     }
-    if(this.x < -width/2){
+    if(this.x < -width/15){
       this.dir*=-1;
     }
 

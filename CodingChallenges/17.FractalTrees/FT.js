@@ -29,12 +29,12 @@ function draw() {
 }
 
 function branch(l,level){
-  var c = map(level, 1, 10, 0, 1)
+  var c = map(level, 1, 10, 0, 1.5)
   strokeWeight(10-level)
   stroke(c * r, c * g, c * b)
   line(0, 0, 0, -l)
   translate(0,  -l)
-  if(l>10){
+  if(l>5){
     push()
     rotate(a);
     branch( l * .66,level+1)
