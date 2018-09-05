@@ -1,10 +1,11 @@
-
-function Leaf(x,y) {
+function Leaf(x,y,s) {
   this.pos = createVector(x,y)
-  this.size = 7;
+  this.s = s;
+  this.remove = false;
+
   this.show = function() {
-    fill(0,255,0)
+    fill(255,100,100)
     noStroke();
-    ellipse(this.pos.x,this.pos.y,this.size,this.size)
+    ellipse(this.pos.x,this.pos.y,this.s,this.s)
   }
 }
