@@ -28,6 +28,7 @@ function star() {
       this.px = map(this.x / this.pz, 0, 1, 0, width/2);
       this.py = map(this.y / this.pz, 0, 1, 0, height/2);
       this.pz = this.z
+      stroke(125,125,255)
       line(this.sx, this.sy, this.px, this.py);
 
     };

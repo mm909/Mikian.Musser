@@ -1,5 +1,5 @@
 var fireworks = [];
-var count = 20;
+var count = 50;
 var force;
 var ss = 5;
 

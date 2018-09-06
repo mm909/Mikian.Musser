@@ -35,7 +35,7 @@ function Firework(x, y, s, c) {
     if (!this.exploded) {
       noStroke();
       fill(this.c, 255, 255);
-      rect(this.pos.x, this.pos.y, this.s / 2, this.s * 1.5);
+      ellipse(this.pos.x, this.pos.y, this.s, this.s);
     }
     for (var i = this.particles.length - 1; i >= 0; i--) {
       this.particles[i].update();

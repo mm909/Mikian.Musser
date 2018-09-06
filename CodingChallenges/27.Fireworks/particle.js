@@ -8,7 +8,7 @@ function Particle(f, x, y, s, force, c) {
   this.force = force;
   this.del = false;
   this.life = 0;
-  this.lifeSpan = 25;
+  this.lifeSpan = 35;
   this.c = c;
 
   this.applyForce = function() {
@@ -28,7 +28,7 @@ function Particle(f, x, y, s, force, c) {
 
   this.show = function() {
     colorMode(HSB)
-    var a = map(this.life, 0, this.lifeSpan, 255, 100)
+    var a = map(this.life, 0, this.lifeSpan, 255, 25)
     fill(this.c, a, a)
     ellipse(this.pos.x, this.pos.y, this.s, this.s)
   }
