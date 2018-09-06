@@ -1,13 +1,13 @@
 var population;
 var lifespan = 200;
 var count = 0;
-var maxSpeed = 0.2
+var maxSpeed = 0.18
 
 var target;
 var targetSize = 5;
-var threshold = 20;
+var threshold = 15;
 
-var sucessFactor = 1.5;
+var sucessFactor = 3;
 var deadFactor = 0;
 var mutationRate = 2;
 
@@ -22,7 +22,7 @@ function setup() {
   var y = getOffset( document.getElementById('defaultCanvas0') ).top;
   population = new Population();
   var c = color(0,255,0);
-  target = new Target(width/2,50,targetSize,c,threshold);
+  target = new Target(50,50,targetSize,c,threshold);
   gen = createP();
   gen.position(x + 10,y + height-20);
   dead = createP();

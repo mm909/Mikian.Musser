@@ -398,7 +398,7 @@ var programs = [
     filepath: 'CodingChallenges/28.SmartRockets/index.html',
     rosettaLink: 'https://www.youtube.com/watch?v=bGz7mv2vD6g',
     description: 'Watch these rockets ',
-    algLink:     'evolve </a> to hit a target.',
+    algLink:     'evolve </a> to hit a target. <br> Usually around generation 15-20:)',
     downloadLink: 'SmartRockets.zip',
     p5: true,
     console: false,

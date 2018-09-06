@@ -1,6 +1,6 @@
 function Rocket(dna) {
   this.size = 10;
-  this.pos = createVector(width/2,height - this.size*2);
+  this.pos = createVector(width - 50,height - 50);
   this.vel = createVector(0,0);
   this.acc = createVector(0,0);
   this.g   = createVector(0,0.01);
