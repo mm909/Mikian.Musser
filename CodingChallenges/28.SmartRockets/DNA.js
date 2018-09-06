@@ -6,7 +6,7 @@ function DNA(g) {
   } else {
     for (var i = 0; i < lifespan; i++) {
       this.genes[i] = p5.Vector.random2D();
-      this.genes[i].setMag(0.1);
+      this.genes[i].setMag(maxSpeed);
     }
   }
 
@@ -28,7 +28,7 @@ function DNA(g) {
     for (var i = 0; i < d.length; i++) {
       if(random(100) < mutationRate){
         d[i] = p5.Vector.random2D();
-        d[i].setMag(0.1);
+        d[i].setMag(maxSpeed);
       }
     }
   }

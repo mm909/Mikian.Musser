@@ -15,6 +15,14 @@ function Rocket(dna) {
     this.DNA = new DNA();
   }
 
+  this.updateDeadCount = function() {
+    if(!this.dead){population.deadCount++}
+  }
+
+  this.updateReachedCount = function() {
+    if(!this.reached){population.reachedCount++}
+  }
+
   this.crashed = function(){
     if(this.pos.x < 0 || this.pos.x > width) return true;
     if(this.pos.y < 0 || this.pos.y > height) return true;
@@ -38,9 +46,11 @@ function Rocket(dna) {
   this.update = function() {
     var d = dist(this.pos.x, this.pos.y, target.x, target.y)
     if(this.crashed()){
+      this.updateDeadCount();
       this.dead = true;
     }
     if(d < threshold) {
+      this.updateReachedCount();
       this.reached = true;
       this.reachedScore = count;
     }
@@ -56,14 +66,15 @@ function Rocket(dna) {
   this.show = function () {
     push();
     rectMode(CENTER);
+    noStroke();
     translate(this.pos.x,this.pos.y);
     rotate(this.vel.heading());
     if(this.reached){
       fill(0,255,0,150)
     } else if(this.dead) {
-      fill(255,0,0,150)
+      fill(255,0,0,200)
     } else {
-      var tempR = map(count,0,lifespan,0,255);
+      var tempR = map(count,0,lifespan,-100,255);
       var tempG = map(count,0,lifespan,255,0);
       var r = tempR;
       var g = tempG;

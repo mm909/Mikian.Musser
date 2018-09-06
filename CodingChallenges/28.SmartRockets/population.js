@@ -2,6 +2,10 @@ function Population() {
   this.popSize = 100;
   this.rockets = [];
   this.matingPool = [];
+  this.allDead = false;
+  this.deadCount = 0;
+  this.reachedCount = 0;
+  this.gen = 0;
 
   for (var i = 0; i < this.popSize; i++) {
     this.rockets[i] = new Rocket();
@@ -15,6 +19,9 @@ function Population() {
   }
 
   this.evaluate = function() {
+    this.deadCount = 0;
+    this.reachedCount = 0;
+
     var maxFit = 0;
     for (var i = 0; i < this.popSize; i++) {
       this.rockets[i].calcFitness();
@@ -23,15 +30,13 @@ function Population() {
       }
     }
 
-    if(maxFit == 0){
-      for (var i = 0; i < this.popSize; i++) {
-        this.rockets[i] = new Rocket();
-      }
-      return;
-    }
-
     for (var i = 0; i < this.popSize; i++) {
       this.rockets[i].fitness /= maxFit;
+    }
+
+    if(maxFit == 0){
+      console.log("All dead")
+      this.allDead = true;
     }
 
     this.matingPool = [];
@@ -52,5 +57,7 @@ function Population() {
       newRockets[i] = new Rocket(child)
     }
     this.rockets = newRockets;
+    background(151)
+    this.gen++;
   }
 }
