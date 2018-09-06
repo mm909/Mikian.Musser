@@ -360,7 +360,7 @@ var programs = [
     visible: true
   },
   {
-    number: 24,
+    number: 25,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Phyllotaxis',
     shortDescription: 'An example of algorithmix Botany!',
@@ -375,7 +375,7 @@ var programs = [
     visible: true
   },
   {
-    number: 25,
+    number: 26,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Fireworks',
     shortDescription: 'Watch fireworks light up the sky.',
@@ -390,7 +390,7 @@ var programs = [
     visible: true
   },
   {
-    number: 26,
+    number: 27,
     tags: ['Challenge', 'Visualization'],
     title: 'Smart Rockets',
     shortDescription: 'Watch rockets evolve to hit a target.',
@@ -398,14 +398,14 @@ var programs = [
     filepath: 'CodingChallenges/28.SmartRockets/index.html',
     rosettaLink: 'https://www.youtube.com/watch?v=bGz7mv2vD6g',
     description: 'Watch these rockets ',
-    algLink:     'evolve </a> to hit a target. <br> Usually around generation 15-20:)',
+    algLink:     'evolve </a> to hit a target. <br> Usually around generation 15-20 :)',
     downloadLink: 'SmartRockets.zip',
     p5: true,
     console: false,
     visible: true
   },
   {
-    number: 26,
+    number: 28,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
