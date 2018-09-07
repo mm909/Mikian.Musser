@@ -7,14 +7,15 @@ var MAX = 500;
 var ATTEMPTS = CIRCLESEACHFRAME * 10;
 var finished = false;
 var firstTime = true;
-var swapChance = 100;
+var swapChance = 50;
 
 function preload(){
   M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
 }
 
 function setup() {
-  createCanvas(500,500);
+  var canvas = createCanvas(500,500);
+  canvas.parent("canvasContainer")
   M.loadPixels();
   for (var i = 0; i < M.pixels.length; i+=4) {
     var sum = 0;
