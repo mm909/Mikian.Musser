@@ -40,7 +40,8 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(450,225)
+  var canvas = createCanvas(450,225);
+  canvas.parent("canvasContainer")
 }
 
 function draw() {
