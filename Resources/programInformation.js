@@ -465,7 +465,7 @@ var programs = [{
   },
   {
     number: 31,
-    tags: ['C2allenge', 'JavaScript', 'Visualization'],
+    tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
     imgpath: 'Resources/CommingSoon/image.jpg',
