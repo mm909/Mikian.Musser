@@ -406,7 +406,7 @@ var programs = [
   },
   {
     number: 28,
-    tags: ['Challenge', 'JavaScript', 'Visualization'],
+    tags: ['Challenge', 'Visualization'],
     title: 'Traveling Salesman',
     shortDescription: 'The famous traveling salesman problem.',
     imgpath: 'CodingChallenges/29.TSMP/image.png',

@@ -9,6 +9,9 @@ var p = [];
 var sp = [];
 var record = Infinity;
 
+var oTime;
+var nTime;
+
 function setup() {
   var canvas = createCanvas(600,600);
   canvas.parent("canvasContainer")
@@ -17,10 +20,12 @@ function setup() {
     cities[i] = createVector(random(width),random(height/2));
     p[i] = sp[i] = i;
   }
+  oTime = millis();
 }
 
 function draw() {
   background(151)
+  nTime = millis();
 
   push()
   beginShape();
@@ -61,13 +66,14 @@ function draw() {
     }
   }
 
-  // p = shuffle(p);
+  // p = shuffleA(p);
   Lexi(p);
 
   fill(0, 0, 0);
-  text(nf(progress()*100,0,2) + "% completed.",10,height-10);
-  text("Record Length: " + nf(record,0,2),10,height-35);
-  text("Current Length: " + nf(d,0,2),10,height-50);
+  text("Time: " + floor((nTime - oTime)/1000),10,height-55);
+  text(nf(progress()*100,0,2) + "% completed.",10,height-40);
+  text("Current Length: " + nf(d,0,2),10,height-25);
+  text("Record Length: " + nf(record,0,2),10,height-10);
 
   count++;
   var prog = progress();
@@ -101,7 +107,7 @@ function Lexi(a) {
 	return a;
 }
 
-function shuffle(a) {
+function shuffleA(a) {
     var j, x, i;
     for (i = a.length - 1; i > 0; i--) {
         j = Math.floor(Math.random() * (i + 1));
