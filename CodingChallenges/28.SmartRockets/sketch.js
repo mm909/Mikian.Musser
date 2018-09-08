@@ -5,7 +5,7 @@ var maxSpeed = 0.18
 
 var target;
 var targetSize = 5;
-var threshold = 15;
+var threshold = 20;
 
 var sucessFactor = 3;
 var deadFactor = 0;
