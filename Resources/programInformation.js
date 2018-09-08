@@ -481,6 +481,21 @@ var programs = [{
   {
     number: 33,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
+    title: 'A* Maze!',
+    shortDescription: 'This is super cool and you need to watch.',
+    imgpath: 'Resources/CommingSoon/image.jpg',
+    filepath: 'CodingChallenges/34.AStarMaze/index.html',
+    rosettaLink: 'https://en.wikipedia.org/wiki/A*_search_algorithm',
+    description: 'Combines the Maze Generator with the ',
+    algLink: 'A*</a> algorithm.',
+    downloadLink: 'AStarMaze.zip',
+    p5: true,
+    console: false,
+    visible: true
+  },
+  {
+    number: 34,
+    tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
     imgpath: 'Resources/CommingSoon/image.jpg',

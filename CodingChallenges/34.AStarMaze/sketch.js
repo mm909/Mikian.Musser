@@ -4,7 +4,8 @@ var cellWidth = 20;
 var drawingMaze = true;
 
 function setup() {
-  createCanvas(500,500)
+  var canvas = createCanvas(500, 500)
+  canvas.parent("canvasContainer");
   maze = new Maze(cellWidth);
 }
 
