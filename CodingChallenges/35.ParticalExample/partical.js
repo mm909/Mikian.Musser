@@ -3,7 +3,8 @@ function Partical(x,y,r_,g_,b_) {
   this.vel = createVector(0,0)
   this.acc = createVector(0,0)
   this.s = 10;
-  this.life = 200;
+  this.lifeMax = 200;
+  this.life = this.lifeMax;
   this.r = r_;
   this.g = g_;
   this.b = b_;
@@ -29,7 +30,8 @@ function Partical(x,y,r_,g_,b_) {
 
   this.show = function() {
     noStroke();
-    fill(this.r,this.g,this.b,this.life)
+    var f = map(this.life,this.lifeMax,0,150,10)
+    fill(this.r,this.g,this.b,f)
     ellipse(this.pos.x, this.pos.y,this.s)
   }
 
