@@ -1,4 +1,4 @@
-var cellWidth = 20;
+var cellWidth = 25;
 var maze;
 var aStar;
 var drawingMaze = true;
@@ -28,7 +28,7 @@ function draw() {
   if(drawingMaze){
     drawingMaze = maze.update();
     if(!drawingMaze){
-      aStar = new AStar(maze.grid);
+      aStar = new AStar(maze);
     } else {
     }
   } else {
