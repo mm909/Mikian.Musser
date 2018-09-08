@@ -464,12 +464,26 @@ var programs = [{
     visible: true
   },
   {
-    number: 31,
+    number: 32,
+    tags: ['Challenge', 'JavaScript', 'Visualization'],
+    title: 'A*',
+    shortDescription: 'Comming Soon!',
+    imgpath: 'CodingChallenges/33.AStar/image.png',
+    filepath: 'CodingChallenges/33.AStar/index.html',
+    rosettaLink: 'https://en.wikipedia.org/wiki/A*_search_algorithm',
+    description: 'Watch the ',
+    algLink: 'A*</a> algorithm work through a field of obstacles.',
+    downloadLink: 'AStar.zip',
+    p5: true,
+    console: false,
+    visible: true
+  },
+  {
+    number: 33,
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
     imgpath: 'Resources/CommingSoon/image.jpg',
-    // filepath: '#',
     filepath: 'CodingChallenges/0.Dev/Code/index.html',
     rosettaLink: '#',
     description: '#',
