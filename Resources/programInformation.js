@@ -483,7 +483,7 @@ var programs = [{
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'A* Maze!',
     shortDescription: 'This is super cool and you need to watch.',
-    imgpath: 'Resources/CommingSoon/image.jpg',
+    imgpath: 'CodingChallenges/34.AStarMaze/image.png',
     filepath: 'CodingChallenges/34.AStarMaze/index.html',
     rosettaLink: 'https://en.wikipedia.org/wiki/A*_search_algorithm',
     description: 'Combines the Maze Generator with the ',
