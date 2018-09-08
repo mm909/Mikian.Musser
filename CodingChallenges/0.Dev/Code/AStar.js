@@ -117,7 +117,8 @@ function AStar(Grid) {
           rect(c.x, c.y, c.w, c.w);
         }
     } else {
-      noLoop();
+      // noLoop();
+      this.openSet = [];
     }
 
     fill(255,255,0,150)

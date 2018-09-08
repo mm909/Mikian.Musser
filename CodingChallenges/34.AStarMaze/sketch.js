@@ -1,12 +1,26 @@
+var cellWidth = 20;
 var maze;
 var aStar;
-var cellWidth = 20;
 var drawingMaze = true;
+var resetButton;
+var resetingMaze = false;
 
 function setup() {
-  var canvas = createCanvas(500, 500)
+  var canvas = createCanvas(600, 600)
   canvas.parent("canvasContainer");
+  resetButton = createButton("Reset");
+  resetButton.mousePressed(resetMaze)
+  resetButton.parent("ButtonCotainer");
+  resetMaze();
+}
+
+function resetMaze() {
+  strokeWeight(1)
   maze = new Maze(cellWidth);
+  drawingMaze = true;
+  resetingMaze = true;
+  aStar = new AStar(maze);
+  resetingMaze = false;
 }
 
 function draw() {
@@ -14,7 +28,8 @@ function draw() {
   if(drawingMaze){
     drawingMaze = maze.update();
     if(!drawingMaze){
-      aStar = new AStar(maze);
+      aStar = new AStar(maze.grid);
+    } else {
     }
   } else {
     maze.update()

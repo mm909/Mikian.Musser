@@ -1,5 +1,5 @@
 function Maze() {
-  this.w = 25;
+  this.w = 20;
   this.grid = [];
   this.current;
   this.stack = [];
