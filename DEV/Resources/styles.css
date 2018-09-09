@@ -1,0 +1,236 @@
+body {
+  background-color: #C5C6Ca;
+}
+.fixed {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+/* Tags */
+.tag-Visualization {
+  border-radius: 20px;
+  background: #80B3FC;
+  padding: 3px;
+}
+.tag-Sorting {
+  border-radius: 20px;
+  background: #FCFA80;
+  padding: 3px;
+}
+.tag-JavaScript {
+  border-radius: 20px;
+  background: #AFFC80;
+  padding: 3px;
+}
+.tag-Math {
+  border-radius: 20px;
+  background: #F881FF;
+  padding: 3px;
+}
+.tag-Cryptography {
+  border-radius: 20px;
+  background: #FFCF81;
+  padding: 3px;
+}
+.tag-Console {
+  border-radius: 20px;
+  background: #81FFCB;
+  padding: 3px;
+}
+.tag-Challenge {
+  border-radius: 20px;
+  background: #FF8181;
+  padding: 3px;
+}
+.tag-Game {
+  border-radius: 20px;
+  background: #9981FF;
+  padding: 3px;
+}
+.tag-All {
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 3px;
+}
+.tag-Home {
+  padding-left: 10px;
+  display: inline-block;
+}
+.tag-Home-Filter {
+  background-color: #C5C6Ca;
+  margin-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+.tag-Filter {
+  margin: 2px;
+}
+.tag-PEP {
+  display: inline-block;
+}
+.tag-PEP-Download {
+  padding-left: 10px;
+}
+.tag-Download {
+  border-radius: 20px;
+  background: #80FCF1;
+  padding: 4px;
+}
+.tag-ProjectPill {
+  display: inline;
+}
+.tag-Unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Home Page */
+.Home-Header {
+  background-color: #C5C6Ca;
+  margin: auto;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.Home-ProjectPill-Container {
+  width: auto;
+  text-align: center;
+}
+.Home-ProjectPill {
+  min-width: 450px;
+  max-width: 450px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #81F6FF;
+  margin: 2px;
+  display: inline-block;
+}
+.Home-ProjectPill-Image {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+.Home-ProjectPill-Title {
+  float: left;
+}
+.Home-ProjectPill-Title a {
+  margin-left: 5px;
+}
+.Home-ProjectPill-Title p {
+  display: inline-block;
+}
+.Home-ProjectPill-Description {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+}
+.Home-ProjectPill-Description p {
+  margin: 0px;
+  margin-left: 5px;
+}
+.Home-ProjectPill-shortDescription {
+  text-align: left;
+}
+
+/* Program Example Page */
+.PEP-Instructions-Container {
+  display: inline-block
+  width: auto;
+  text-align: center;
+}
+.PEP-Instructions-Outter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #81FFCB;
+  padding: 3px;
+  display: inline-block
+}
+.PEP-Instructions-Outter h3 {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.PEP-Instructions-Inner1 {
+  display: inline-block
+  height: 200px;
+  background: #B381FF;
+  border-radius: 20px;
+  margin: auto;
+  padding-bottom: 1px;
+}
+.PEP-Instructions-Inner1 p {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.PEP-Instructions-Inner2 {
+  display: inline-block
+  height: 200px;
+  background: #FF81D0;
+  border-radius: 20px;
+  margin: 3px;
+}
+.PEP-Instructions-Inner2 p {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.PEP-Description-Box {
+  display: inline-block
+  width: auto;
+  text-align: center;
+  color: #000000;
+}
+.PEP-Description-Box p {
+  margin-left: 5px;
+}
+.PEP-ContentContainer {
+  background-color: #C5C6Ca;
+}
+.PEP-Title h1{
+  margin-bottom: 0px;
+  text-align: center;
+}
+.PEP-Canvas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.p5Canvas {
+}
+.PEP-Desc {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+/* Nav */
+.slogan a {
+  color: #65FBF0 !important;
+  font-size: 20px;
+  display:inline;
+  padding: 0px;
+}
+.navbar-brand {
+  color: #65FBF0 !important;
+  font-size: 20px;
+
+}
+.navigation-clean-button.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF !important;
+}
+.navbar {
+  background-color: #1F2833;
+}

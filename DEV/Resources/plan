@@ -1,0 +1,10 @@
+1 - Get 9 code projects
+    a. Have at least 7 different Tags
+2 - Make a "Highlight" function
+    a. Have the tags at the top of the screen, show a set number of them.
+    b. When one tag is clicked only show programs with that tag.
+    c. If the tag is 'unclicked' it should show everything again.
+3 - Make a "Suggestion" function
+    a. Use like tags to suggest 3 programs to view next.
+4 - Create the resume pages
+5 - Create the MTAR page
