@@ -23,6 +23,7 @@ body {
   width:100%;
   height:100%;
   background: #141414;
+  margin-top: 30px;
 }
 .HOME-Spotlight-Canvas-Container {
   background: #141414;
@@ -158,35 +159,30 @@ body {
   }
 }
 @media only screen and (max-width: 450px) {
-  .HOME-Spotlight-Canvas {
-    width:300px;
-    height:300px;
-    background: #666666;
+  .HOME-Spotlight {
+    margin-top: 50px;
   }
   .HOME-Spotlight-Canvas-Container {
     height:auto;
-    background: #333333;
+  }
+  .HOME-Spotlight-Canvas {
+    width:300px;
+    height:300px;
+  }
+  .HOME-Spotlight-Title-Tokens {
+    display: none;
+  }
+  .HOME-Spotlight-Text {
+    width: 100%;
+    margin:auto;
   }
   .HOME-Spotlight-Text-Description {
     display: none;
   }
-  .HOME-Spotlight-Text{
-    width: 100%;
-    margin:auto;
-    height: auto;
+  .HOME-Spotlight-Text-Play {
+    width:45%;
   }
-  .HOME-Spotlight-Text-Description-Container {
-    padding-top: 10px;
-  }
-
-  .HOME-Spotlight {
-    margin-top: 50px;
-  }
-
 }
-
-
-
 
 /* Tags */
 .tag-Visualization {
