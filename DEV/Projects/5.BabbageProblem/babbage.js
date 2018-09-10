@@ -41,7 +41,7 @@ function draw() {
         if(i!=l)
         babbage[i].style("color","black");
       }
-      noloop();
+      noLoop();
     }
   l++;
   if(l%lineCount == 0) l = 0;

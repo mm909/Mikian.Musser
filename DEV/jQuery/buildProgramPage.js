@@ -1,7 +1,9 @@
 $( document ).ready(function() {
 
-
 $id = $('.PEP-ContentContainer').attr('id');
+
+$temp = $( "<title>" + programs[$id].title + "</title>" )
+$("Body").append($temp);
 
 $temp = $( "<h1 class='programTitle'>" + programs[$id].title + "</h1>" )
 $(".PEP-Title").append($temp);
@@ -43,7 +45,7 @@ $(".PEP-Description-Box").append($temp);
 $temp = $( "<p class='PEP-Desc'>" + programs[$id].description + "<a target='_blank' href=" + programs[$id].rosettaLink + ">" + programs[$id].algLink + "</a></p>" )
 $(".PEP-Description-Box").append($temp);
 
-if(programs[$id - 1].p5){
+if(programs[$id].p5){
   $temp = $( "<p class='PEP-Desc'>Created with <a target='_blank' href='https://p5js.org/'>P5.js</a></p>" )
   $(".PEP-Description-Box").append($temp);
 }

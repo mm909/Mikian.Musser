@@ -7,7 +7,7 @@ var MAX = 500;
 var ATTEMPTS = CIRCLESEACHFRAME * 10;
 var finished = false;
 var firstTime = true;
-var swapChance = 50;
+var swapChance = 100;
 
 function preload(){
   M = loadImage("https://image.ibb.co/mYwzje/m.jpg");

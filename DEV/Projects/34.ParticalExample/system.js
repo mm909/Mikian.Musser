@@ -6,7 +6,8 @@ function System(){
   this.g = 0;
   this.b = 0;
   // this.target = createVector(random(width),random(height))
-  this.target = createVector(width/2,height/2)
+  this.target = createVector(0,0)
+  // this.target = createVector(width/2,height/2)
   this.rate = 0.75;
 
   var rC = floor(random(3))
@@ -22,7 +23,7 @@ function System(){
     for (var i = 0; i < this.particals.length; i++) {
       this.particals[i].move();
       this.particals[i].update();
-      var f = this.particals[i].seek(this.target);
+      var f = this.particals[i].seek(createVector(random(width),random(height)));
       this.particals[i].applyForce(f);
     }
     for (var i = this.particals.length-1; i >= 0; i--) {

@@ -1,5 +1,6 @@
 function Circle(x,y) {
-  this.pos = createVector(random(width),random(height))
+  // this.pos = createVector(random(width),random(height))
+  this.pos = createVector(x,y)
   this.vel = createVector(0,0);
   this.acc = createVector(0,0);
   this.target = createVector(x,y)
