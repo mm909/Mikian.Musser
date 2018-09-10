@@ -10,6 +10,7 @@ body {
 }
 /* #e5e5e5 */
 /* 999 */
+/* 141414 */
 .HOME-Spotlight {
   width:90%;
   margin: auto;
@@ -91,6 +92,12 @@ body {
   color: #e5e5e5;
   margin: 0;
   font-size: 20px;
+}
+.bg-dark{
+  background-color: #141414 !important;
+}
+.btn {
+  background-color: FFFFFF;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -391,18 +398,18 @@ body {
 
 /* Nav */
 .slogan a {
-  color: #65FBF0 !important;
+  color: #e50914 !important;
   font-size: 20px;
   display:inline;
   padding: 0px;
 }
 .navbar-brand {
-  color: #65FBF0 !important;
+  color: #e50914 !important;
   font-size: 20px;
 
 }
 .navigation-clean-button.navbar-default .navbar-nav > li > a {
-  color: #FFFFFF !important;
+  color: #e50914 !important;
 }
 .navbar {
   background-color: #1F2833;

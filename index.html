@@ -9,10 +9,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-    <script type= "text/javascript" src= "Libraries/p5/p5.js"></script>
-    <script type= "text/javascript" src= "30.CirclePacking/sketch.js"></script>
-    <script type= "text/javascript" src= "30.CirclePacking/circle.js"></script>
     <link rel="stylesheet" href="CSS/styles.css">
+    <script type= "text/javascript" src= "jQuery/programInformation.js"></script>
+    <script type= "text/javascript" src= "jQuery/projectPill.js"></script>
+    <script type= "text/javascript" src= "jQuery/tags.js"></script>
   </head>
 
   <body>
@@ -34,45 +34,13 @@
               <a class="nav-link" href="#">IT</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          <div class="slogan">
+            <a class="nav-link" href="#">More than a resume</a>
         </div>
       </nav>
     </div>
-
-    <div class="HOME-Spotlight">
-      <div class="HOME-Spotlight-Content">
-        <div class="HOME-Spotlight-Canvas-Container">
-          <div class="HOME-Spotlight-Canvas" id="canvasContainer"></div>
-        </div>
-        <div class="HOME-Spotlight-Text">
-          <div class="HOME-Spotlight-Text-Title-Container">
-            <div class="HOME-Spotlight-Title">
-              <h1 class="HOME-Spotlight-Title-TitleText">Circle Packing!</h1>
-            </div>
-            <div class="HOME-Spotlight-Title-Tokens"></div></div>
-          <div class="HOME-Spotlight-Text-Description-Container">
-            <div class="HOME-Spotlight-Text-Description">
-              <p class="HOME-Spotlight-Text-Description-Text">
-                This colorful 'M' is an example of a process called
-                <a href="https://en.wikipedia.org/wiki/Circle_packing"> circle packing.</a> <br>
-                A black and white image is processed and all black pixels are marked as possible circle location.
-                Each frame a set number of circles try to spawn and grow.
-                Some fail because they randomly choose a position that is already occupied by another circle.
-                Circles stop growing once they have touched another circle (After considering a buffer).
-                This idea comes from Daniel Shiffman's coding challange - <a href="https://www.youtube.com/watch?v=QHEQuoIKgNE"> Coding Challenge #50.1: Animated Circle Packing.</a>
-                </p>
-                <img class="HOME-Spotlight-Text-Description-Images" src="30.CirclePacking/m.jpg" alt="">
-            </div>
-            <div class="HOME-Spotlight-Text-Play">
-              <p>Check it out!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="tag-Home-Filter"></div>
+    <div class="Home-ProjectPill-Container"></div>
 
   </body>
 </html>
