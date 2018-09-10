@@ -5,6 +5,7 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 1
 }
 
 .HOME-Spotlight {
@@ -16,14 +17,15 @@ body {
   text-align: center;
 }
 .HOME-Spotlight-Content {
-  width:90%;
-  height:90%;
+  /* width:90%;
+  height:90%; */
+  width:100%;
+  height:100%;
   margin: 0 auto;
   background: #333333;
   position: relative;
   top: 50%;
   transform: perspective(1px) translateY(-50%);
-  display: block
 }
 .HOME-Spotlight-Canvas-Container {
   height:500px;
@@ -117,6 +119,9 @@ body {
     max-width: 100%;
     margin-top: 10px;
   }
+  .HOME-Spotlight {
+    margin-top: 10px;
+  }
   .HOME-Spotlight-Content {
     width:100%;
     height:100%;
@@ -128,7 +133,6 @@ body {
     height:100%;
   }
 }
-
 @media only screen and (max-width: 662px) {
   .HOME-Spotlight-Text {
     margin-top: 10px;
@@ -183,8 +187,9 @@ body {
   .HOME-Spotlight-Text-Description-Container {
     padding-top: 10px;
   }
-  .HOME-Spotlight-Content {
 
+  .HOME-Spotlight {
+    margin-top: 50px;
   }
 
 }
