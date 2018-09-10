@@ -1,5 +1,6 @@
 body {
-  background-color: #333333;
+  background-color: #141414;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 .fixed {
   position: fixed; /* Set the navbar to fixed position */
@@ -7,84 +8,67 @@ body {
   width: 100%; /* Full width */
   z-index: 1
 }
-
+/* #e5e5e5 */
+/* 999 */
 .HOME-Spotlight {
-  width:100%;
+  width:90%;
+  margin: auto;
   height:600px;
   margin-top: 56px;
-  /* margin-top: 80px; */
-  background: #666666;
+  background: #141414;
   text-align: center;
 }
 .HOME-Spotlight-Content {
-  /* width:90%;
-  height:90%; */
   width:100%;
   height:100%;
-  margin: 0 auto;
-  background: #333333;
-  position: relative;
-  top: 50%;
-  transform: perspective(1px) translateY(-50%);
+  background: #141414;
 }
 .HOME-Spotlight-Canvas-Container {
-  height:500px;
-  background: #666666;
-  margin: auto;
-  position: relative;
-  top: 50%;
-  transform: perspective(1px) translateY(-50%);
+  background: #141414;
   display: inline-block;
 }
 .HOME-Spotlight-Canvas {
   width:500px;
   height:500px;
-  background: #666666;
+  background: #141414;
 }
 .HOME-Spotlight-Text {
   max-width: 65%;
-  min-height: 500px;
-  /* min-height: 500px; */
-  /* height:500px; */
-  /* height: auto; */
+  max-height: 500px;
+  margin-top: 50px;
   float: right;
-  background: #333333;
-  position: relative;
-  top: 50%;
-  transform: perspective(0px) translateY(-50%);
-
+  background: #141414;
 }
 .HOME-Spotlight-Text-Title-Container {
   width:97%;
   margin: auto;
   height:20%;
-  background: #cccccc;
+  background: #141414;
 }
 .HOME-Spotlight-Title {
   width:100%;
   height:80%;
-  background: #dddddd;
+  background: #141414;
 }
 .HOME-Spotlight-Title-TitleText {
+  color: #e5e5e5;
 }
 .HOME-Spotlight-Title-Tokens {
   width:100%;
-  height:20%;
-  background: #bbbbbb;
+  min-height: 20px;
+  background: #141414;
 }
 .HOME-Spotlight-Text-Description-Container {
   width:97%;
-  margin: auto;
   height:80%;
-  background: #999999;
+  margin: auto;
+  background: #141414;
 }
 .HOME-Spotlight-Text-Description {
   width:100%;
-  height:80%;
-  background: #999999;
+  background: #141414;
   padding: 15px;
-}
-.HOME-Spotlight-Text-Description-Text {
+  color: #999;
   font-size: 20px;
 }
 .HOME-Spotlight-Text-Description-Images {
@@ -99,12 +83,12 @@ body {
   transform: perspective(1px) translateY(-2.5%);
   margin:auto;
   margin-bottom: 10px;
-  width:35%;
+  width:20%;
   height:15%;
   background: #333333;
 }
 .HOME-Spotlight-Text-Play p {
-  color: #ffffff;
+  color: #e5e5e5;
   margin: 0;
   font-size: 20px;
 }

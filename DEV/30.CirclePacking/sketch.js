@@ -57,7 +57,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,0,0)
+  background("#141414")
   var count = 0;
   var a = 0;
   if(circles.length < MAX && !finished){
