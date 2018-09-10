@@ -1,6 +1,8 @@
 body {
   background-color: #141414;
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-top: 70px;
+
 }
 .fixed {
   position: fixed; /* Set the navbar to fixed position */
@@ -14,14 +16,16 @@ body {
 .HOME-Spotlight {
   width:90%;
   margin: auto;
-  height:600px;
-  margin-top: 56px;
+  height:auto;
+  /* margin-top: 56px; */
+  /* margin-top: 70px; */
   background: #141414;
   text-align: center;
+  position: relative;
 }
 .HOME-Spotlight-Content {
   width:100%;
-  height:100%;
+  height:auto;
   background: #141414;
 }
 .HOME-Spotlight-Canvas-Container {
@@ -35,9 +39,7 @@ body {
 }
 .HOME-Spotlight-Text {
   max-width: 65%;
-  max-height: 500px;
-  margin-top: 50px;
-  float: right;
+  display: inline-block;
   background: #141414;
 }
 .HOME-Spotlight-Text-Title-Container {
@@ -99,6 +101,13 @@ body {
 .btn {
   background-color: FFFFFF;
 }
+.Box {
+  width:500px;
+  height:500px;
+  background: #c5c6c7;
+  margin:auto;
+}
+
 
 @media only screen and (max-width: 1600px) {
   .HOME-Spotlight-Text {
@@ -127,6 +136,9 @@ body {
 @media only screen and (max-width: 662px) {
   .HOME-Spotlight-Text {
     margin-top: 10px;
+  }
+  .HOME-Spotlight-Text-Play {
+    width:45%;
   }
 }
 @media only screen and (max-width: 655px) {
