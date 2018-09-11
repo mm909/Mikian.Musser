@@ -155,24 +155,11 @@ body {
 .gallery-cell:hover {
   transform: scale(1);
 }
-.gallery-cell> img {
-   border-radius:30px;
-}
-
-
-.gallery-cell:hover> img {
-   width:100%;
-   height:100%;
-   position:absolute;
-   background-color:#000;
-   opacity:0.5;
-}
-
 .gallery-cell.is-selected {
   /* background: #ED2; */
   background: #141414;
 }
-/* cell number */
+/* cell Content */
 /* .gallery-cell:before {
   display: block;
   text-align: center;
@@ -184,6 +171,14 @@ body {
 .gallery-cell img {
   height: 100%;
   width:100%;
+  border-radius:30px;
+}
+.gallery-cell:hover> img {
+   width:100%;
+   height:100%;
+   position:absolute;
+   background-color:#000;
+   opacity:0.5;
 }
 /*! Flickity v2.1.2
 https://flickity.metafizzy.co
@@ -306,9 +301,6 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-.gallery-image {
-  height: 350px;
-}
 
 @media only screen and (max-width: 1600px) {
   .HOME-Spotlight-Text {
@@ -405,5 +397,8 @@ https://flickity.metafizzy.co
   }
   .HOME-Spotlight-Text-Play {
     width:45%;
+  }
+  .gallery-cell {
+    width: 90.00%;
   }
 }
