@@ -1,3 +1,78 @@
+// e.changeSelected = function(t) {
+//  var e = t ? "add" : "remove";
+//  this.cells.forEach(function(i) {
+//    i.element.classList[e]("is-selected"), i.element.setAttribute("aria-selected", t.toString())
+//  })
+// }
+
+$( document ).ready(function() {
+  var $carouselA = $('#testA').flickity({
+    on: {
+      ready: function() {
+      },
+      change: function( index ) {
+      }
+    }
+  });
+
+  $carouselA.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+    // dismiss if cell was not clicked
+    if ( !cellElement ) {
+      return;
+    }
+    // change cell background with .is-clicked
+    $carouselA.find('.is-selected').removeClass('is-selected');
+    $( cellElement ).addClass('is-selected');
+    // jQuery
+
+    $carouselA.flickity( 'select', cellIndex );
+  });
+
+  var $carouselB = $('#testB').flickity({
+    on: {
+      ready: function() {
+      },
+      change: function( index ) {
+      }
+    }
+  });
+
+  $carouselB.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+    // dismiss if cell was not clicked
+    if ( !cellElement ) {
+      return;
+    }
+    // change cell background with .is-clicked
+    $carouselB.find('.is-selected').removeClass('is-selected');
+    $( cellElement ).addClass('is-selected');
+    // jQuery
+
+    $carouselB.flickity( 'select', cellIndex );
+  });
+
+  var $carouselC = $('#testC').flickity({
+    on: {
+      ready: function() {
+      },
+      change: function( index ) {
+      }
+    }
+  });
+
+  $carouselC.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+    // dismiss if cell was not clicked
+    if ( !cellElement ) {
+      return;
+    }
+    // change cell background with .is-clicked
+    $carouselC.find('.is-selected').removeClass('is-selected');
+    $( cellElement ).addClass('is-selected');
+    // jQuery
+
+    $carouselC.flickity( 'select', cellIndex );
+  });
+
+});
 /*!
  * Flickity PACKAGED v2.1.2
  * Touch, responsive, flickable carousels
