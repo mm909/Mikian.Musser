@@ -156,13 +156,17 @@ body {
   background: #ED2;
 }
 /* cell number */
-.gallery-cell:before {
+/* .gallery-cell:before {
   display: block;
   text-align: center;
   content: counter(gallery-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
+} */
+.gallery-cell img {
+  /* height: 100%; */
+  width:100%;
 }
 /*! Flickity v2.1.2
 https://flickity.metafizzy.co
@@ -284,6 +288,9 @@ https://flickity.metafizzy.co
 }
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
+}
+.gallery-image {
+  height: 350px;
 }
 
 @media only screen and (max-width: 1600px) {
