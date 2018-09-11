@@ -294,6 +294,9 @@ var programs = [{
   },
   {
     number: 18,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'oop fractal trees'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'OOP Fractal Trees',
     shortDescription: 'Object Oriented Fractal Trees',
@@ -309,6 +312,9 @@ var programs = [{
   },
   {
     number: 19,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'l-system', 'l system', 'example', 'l-system example', 'plant', 'tree', 'sentence'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Example',
     shortDescription: 'Create a plant from sentences!',
@@ -324,6 +330,9 @@ var programs = [{
   },
   {
     number: 20,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'l-system', 'l system', 'fractal plant', 'l-system fractal plant', 'plant', 'tree', 'sentence'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Fractal Plant',
     shortDescription: 'Fractal Tree? No, <i>Fractal Plant</i>',
@@ -339,6 +348,9 @@ var programs = [{
   },
   {
     number: 21,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'l-system', 'l system', 'l-system binary tree', 'plant', 'tree', 'sentence'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Binary Tree',
     shortDescription: 'Create a Binary Tree using an L-System.',
