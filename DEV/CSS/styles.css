@@ -359,13 +359,21 @@ https://flickity.metafizzy.co
   width: 400px;
   height: 600px;
 }
-
-
 /*Sentence*/
 .sentence{
-     color: #222;
-     font-size: 30px;
-     text-align: center;
+    animation:sentence 1.5s;
+    animation-timing-function:linear;
+    animation-delay:4s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation:sentence 1.5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:4s;
+    -webkit-animation-fill-mode: forwards;
+    color:#e5e5e5;
+    font-size: 100px;
+    text-align: center;
 }
 /*Wrapper*/
 .wrapper{
@@ -376,7 +384,6 @@ https://flickity.metafizzy.co
     position: relative;
     width: 70%;
 }
-
 /*Vertical Sliding*/
 .slidingVertical{
 	display: inline;
@@ -390,6 +397,8 @@ https://flickity.metafizzy.co
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
+  font-size: 100px;
+
 }
 .slidingVertical .EndFrame{
 	animation: topToBottomStop;
@@ -415,13 +424,11 @@ https://flickity.metafizzy.co
 	-ms-animation-delay: 1.5s;
 	-webkit-animation-delay: 1.5s;
 }
-
- .slidingVertical span:nth-child(5){
+.slidingVertical span:nth-child(5){
   animation-delay: 2s;
 	-ms-animation-delay: 2s;
 	-webkit-animation-delay: 2s;
 }
-
 .slidingVertical span:nth-child(6){
   animation-delay: 2.5s;
 	-ms-animation-delay: 2.5s;
@@ -432,33 +439,6 @@ https://flickity.metafizzy.co
 	-ms-animation-delay: 3s;
 	-webkit-animation-delay: 3s;
 }
-
-/* .slidingVertical span:nth-child(9){
-	animation-delay: 8s;
-	-ms-animation-delay: 8s;
-	-webkit-animation-delay: 8s;
-}
-.slidingVertical span:nth-child(10){
-	animation-delay: 9s;
-	-ms-animation-delay: 9s;
-	-webkit-animation-delay: 9s;
-}
-.slidingVertical span:nth-child(11){
-	animation-delay: 10s;
-	-ms-animation-delay: 10s;
-	-webkit-animation-delay: 10s;
-}
-.slidingVertical span:nth-child(12){
-	animation-delay: 11s;
-	-ms-animation-delay: 11s;
-	-webkit-animation-delay: 11s;
-}
-.slidingVertical span:nth-child(13){
-	animation-delay: 12s;
-	-ms-animation-delay: 12s;
-	-webkit-animation-delay: 12s;
-} */
-
 .fadein{
   opacity: 0;
   animation:fadein 1.5s;
@@ -472,31 +452,9 @@ https://flickity.metafizzy.co
   -webkit-animation-delay:4s;
   -webkit-animation-fill-mode: forwards;
   color: #00abe9;
-}
-
-.slidingVertical span {
-  font-size: 100px;
-}
-.fadein {
-  font-size: 100px;
-}
-.sentence {
   font-size: 100px;
 }
 
-.sentence {
-  animation:sentence 1.5s;
-  animation-timing-function:linear;
-  animation-delay:4s;
-  animation-fill-mode:forwards;
-  animation-iteration-count: 1;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation:sentence 1.5s;
-  -webkit-animation-timing-function:linear;
-  -webkit-animation-delay:4s;
-  -webkit-animation-fill-mode: forwards;
-  color:#e5e5e5;
-}
 @-webkit-keyframes sentence {
   0%{opacity:1;}
   50%{color:#88ffff;}
@@ -507,10 +465,6 @@ https://flickity.metafizzy.co
   50%{color:#88ffff;}
   60%{color: #44defd;}
   100%{color: #00abe9;}
-}
-
-.transtart{
-  opacity:0
 }
 @-webkit-keyframes fadein {
   0%{opacity:0;}
@@ -530,17 +484,6 @@ https://flickity.metafizzy.co
   60%{color: #44defd;}
   100%{color: #00abe9;}
 }
-
-/*topToBottom Animation*/
-/* @-moz-keyframes topToBottom{
-	0% { opacity: 0; }
-	5% { opacity: 0; -moz-transform: translateY(-50px); }
-	10% { opacity: 1; -moz-transform: translateY(0px); }
-	25% { opacity: 1; -moz-transform: translateY(0px); }
-	30% { opacity: 0; -moz-transform: translateY(50px); }
-	80% { opacity: 0; }
-	100% { opacity: 0; }
-} */
 @-webkit-keyframes topToBottom{
 	5% { opacity: 0; -webkit-transform: translateY(-50px); }
 	15% { opacity: 1; -webkit-transform: translateY(0px); }
@@ -553,16 +496,6 @@ https://flickity.metafizzy.co
 	10% { opacity: 1; -webkit-transform: translateY(0px); }
   100% { opacity: 1; }
 }
-/* @-ms-keyframes topToBottom{
-	0% { opacity: 0; }
-	5% { opacity: 0; -ms-transform: translateY(-50px); }
-	10% { opacity: 1; -ms-transform: translateY(0px); }
-	25% { opacity: 1; -ms-transform: translateY(0px); }
-	30% { opacity: 0; -ms-transform: translateY(50px); }
-	80% { opacity: 0; }
-	100% { opacity: 0; }
-} */
-
 
 @media only screen and (max-width: 1650px) {
   .bioContainer {
