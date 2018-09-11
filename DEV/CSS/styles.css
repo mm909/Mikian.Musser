@@ -136,7 +136,7 @@ body {
 
 /* Carousel */
 .gallery {
-  background: #EEE;
+  background: #141414;
   width: 100%;
   margin:auto;
 }
@@ -543,9 +543,16 @@ https://flickity.metafizzy.co
     margin: auto;
   }
 }
+@media only screen and (max-width: 1150px) {
+  .bioContainer {
+    width:55%;
+    margin: auto;
+
+  }
+}
 @media only screen and (max-width: 1050px) {
   .bioContainer {
-    width:52%;
+    width:50%;
     margin: auto;
 
   }
