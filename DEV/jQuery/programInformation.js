@@ -1,6 +1,6 @@
-var programs = [
-  {
+var programs = [{
     number: 0,
+    keyWords: ['development'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
@@ -16,6 +16,7 @@ var programs = [
   },
   {
     number: 1,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'bubble sort', 'rosetta code', 'coding challenge'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Bubble Sort',
     shortDescription: 'Visual representation of the Bubble sort algorithm.',
@@ -31,6 +32,7 @@ var programs = [
   },
   {
     number: 2,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'count sort', 'rosetta code'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Count Sort',
     shortDescription: 'Visual representation of the Count sort algorithm.',
@@ -46,6 +48,7 @@ var programs = [
   },
   {
     number: 3,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'gnome sort', 'rosetta code'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Gnome Sort',
     shortDescription: 'Visual representation of the Gnome sort algorithm.',
@@ -61,6 +64,7 @@ var programs = [
   },
   {
     number: 4,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'insertion sort', 'rosetta code'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Insertion Sort',
     shortDescription: 'Visual representation of the Insertion sort algorithm.',
@@ -76,6 +80,7 @@ var programs = [
   },
   {
     number: 5,
+    keyWords: ['javascript', 'visualization', 'math', 'rosetta code', 'babbage problem'],
     tags: ['Math', 'JavaScript', 'Visualization'],
     title: 'Babbage Problem',
     shortDescription: 'Solving the Charles Babbage problem',
@@ -91,6 +96,7 @@ var programs = [
   },
   {
     number: 6,
+    keyWords: ['javascript', 'visualization', 'math', 'rosetta code', 'binary numbers'],
     tags: ['Math', 'JavaScript', 'Visualization'],
     title: 'Binary Numbers',
     shortDescription: 'Converting Base 10 to 2',
@@ -106,6 +112,7 @@ var programs = [
   },
   {
     number: 7,
+    keyWords: ['javascript', 'cryptography', 'console', 'rosetta code', 'caesar cipher'],
     tags: ['Cryptography', 'JavaScript', 'Console'],
     title: 'Caesar Cipher',
     shortDescription: 'Encrypt/Decrypt text using a Caesar Cipher',
@@ -121,6 +128,7 @@ var programs = [
   },
   {
     number: 8,
+    keyWords: ['javascript', 'cryptography', 'console', 'rosetta code', 'rot-13 cipher'],
     tags: ['Cryptography', 'JavaScript', 'Console'],
     title: 'Rot-13 Cipher',
     shortDescription: 'Encrypt/Decrypt text using a Rot-13 Cipher',
@@ -136,6 +144,7 @@ var programs = [
   },
   {
     number: 9,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'starfield', 'space'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Starfield',
     shortDescription: 'Fly through space at warpspeed!',
@@ -151,6 +160,7 @@ var programs = [
   },
   {
     number: 10,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'snake', 'game', 'retro', 'arcade', 'simple'],
     tags: ['Challenge', 'JavaScript', 'Game'],
     title: 'Snake',
     shortDescription: 'Play the retro arcade game: Snake',
@@ -166,6 +176,7 @@ var programs = [
   },
   {
     number: 11,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'purple rain', 'beautiful', 'calming'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Purple Rain',
     shortDescription: 'Play in the Purple Rain!',
@@ -181,6 +192,7 @@ var programs = [
   },
   {
     number: 12,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'game', 'space invaders', 'retro', 'arcade', 'simple'],
     tags: ['Challenge', 'JavaScript', 'Game'],
     title: 'Space Invaders',
     shortDescription: 'Play the classic: Space Invaders',
@@ -196,6 +208,7 @@ var programs = [
   },
   {
     number: 13,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'solar system'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Solar System',
     shortDescription: 'Solar System Simulation!',
@@ -211,6 +224,9 @@ var programs = [
   },
   {
     number: 14,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'maze generator',
+      'algorithm', 'fun', 'recursive', 'recursion'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Maze Generator',
     shortDescription: 'Generate a maze using a recursive backtracker!',
@@ -226,6 +242,7 @@ var programs = [
   },
   {
     number: 15,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'algorithm', 'rda'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'RDA!',
     shortDescription: 'Reaction Diffusion Algorithm Simulation',
@@ -241,6 +258,9 @@ var programs = [
   },
   {
     number: 16,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Fractal Tree - Recursive',
     shortDescription: 'Build a fractal tree recursively.',
@@ -256,6 +276,9 @@ var programs = [
   },
   {
     number: 17,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'fun fractal trees'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Fun Fractal Trees',
     shortDescription: 'Bug? No, <i>feature!</i>',
