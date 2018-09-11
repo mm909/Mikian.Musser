@@ -117,13 +117,14 @@ body {
 }
 
 
+
 .gallery {
   background: #EEE;
-  width: 90%;
+  width: 100%;
   margin:auto;
 }
 .gallery-cell {
-  width: 28%;
+  width: 20%;
   transform: scale(0.9);
   height: 200px;
   margin-right: 10px;
@@ -158,6 +159,7 @@ https://flickity.metafizzy.co
   position: relative;
   height: 100%;
   background: #141414;
+  transition: height 0.2s;
 }
 .flickity-slider {
   position: absolute;
@@ -241,7 +243,7 @@ https://flickity.metafizzy.co
   position: absolute;
   width: 100%;
   /* bottom: -25px; */
-  bottom: -22px;
+  bottom: -12px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -254,7 +256,7 @@ https://flickity.metafizzy.co
   /* width: 10px; */
   /* height: 10px; */
   /* margin: 0 8px; */
-  background: #333;
+  background: #999;
   /* border-radius: 50%; */
   opacity: 0.25;
   cursor: pointer;
@@ -266,13 +268,23 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-
-.flickity-viewport {
-  transition: height 0.2s;
-}
 /* */
 
-
+@media only screen and (max-width: 1400px) {
+  .gallery-cell {
+    width: 33.33%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .gallery-cell {
+    width: 50.00%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gallery-cell {
+    width: 75.00%;
+  }
+}
 /*  */
 
 
