@@ -142,18 +142,35 @@ body {
 }
 .gallery-cell {
   width: 20%;
+  max-width: 340px;
   transform: scale(0.9);
-  height: 200px;
+  height: 350px;
   margin-right: 10px;
   background: #8C8;
   counter-increment: gallery-cell;
   transition: transform .5s;
+  background: #141414;
+
 }
 .gallery-cell:hover {
   transform: scale(1);
 }
+.gallery-cell> img {
+   border-radius:30px;
+}
+
+
+.gallery-cell:hover> img {
+   width:100%;
+   height:100%;
+   position:absolute;
+   background-color:#000;
+   opacity:0.5;
+}
+
 .gallery-cell.is-selected {
-  background: #ED2;
+  /* background: #ED2; */
+  background: #141414;
 }
 /* cell number */
 /* .gallery-cell:before {
@@ -165,7 +182,7 @@ body {
   color: white;
 } */
 .gallery-cell img {
-  /* height: 100%; */
+  height: 100%;
   width:100%;
 }
 /*! Flickity v2.1.2
@@ -296,6 +313,9 @@ https://flickity.metafizzy.co
 @media only screen and (max-width: 1600px) {
   .HOME-Spotlight-Text {
     max-width: 60%;
+  }
+  .gallery-cell {
+    width: 27.00%;
   }
 }
 @media only screen and (max-width: 1400px) {
