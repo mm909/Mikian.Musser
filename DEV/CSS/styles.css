@@ -149,6 +149,7 @@ body {
   background: #8C8;
   counter-increment: gallery-cell;
   transition: transform .5s;
+  border-radius:30px;
   background: #141414;
 
 }
@@ -178,6 +179,7 @@ body {
    height:100%;
    position:absolute;
    background-color:#000;
+   border-radius:30px;
    opacity:0.5;
 }
 /*! Flickity v2.1.2
