@@ -645,3 +645,5 @@ var tags = [
   'Trees',
   'Vectors'
 ]
+
+var Spotlight = 30;
