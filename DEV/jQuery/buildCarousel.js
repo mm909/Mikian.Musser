@@ -31,13 +31,15 @@ $( document ).ready(function() {
         // </div>
         $temp = $( "<div class='gallery-cell' id='cell" + i + j + "'>")
         $("#c-" + tags[i] + "-flickity").append($temp);
+        $temp = $("<div class='galleryTitleText'><h1 style='color:" + programs[j].titleText + "'>" + programs[j].title + "</h1></div>")
+        $("#cell" + i + j).append($temp);
         $temp = $( "<div class='button_cont gobtn' align='center'><a class='example_a' href='" + programs[j].filepath + "' target='_blank' rel='nofollow noopener'>Open Project</a></div>")
         $("#cell" + i + j).append($temp);
         $temp = $( "<img class='' src='" + programs[j].imgpath + "' alt=''>")
         $("#cell" + i + j).append($temp);
       }
-
     }
+
     $("#c-" + tags[i] + "-flickity").flickity({
       // options
       contain: true,

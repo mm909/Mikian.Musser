@@ -182,6 +182,20 @@ body {
    border-radius:30px;
    opacity:0.5;
 }
+/* Title */
+.galleryTitleText {
+  position: absolute;
+  z-index: 1;
+  bottom:0;
+  top:0;
+  right: 0;
+  left: 0;
+  height:80%;
+  width:80%;
+  margin:auto;
+  text-align: center;
+  visibility: hidden;
+}
 /*! Flickity v2.1.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
@@ -319,7 +333,7 @@ https://flickity.metafizzy.co
 .example_a {
   color: #fff !important;
   text-transform: uppercase;
-  background: #ed3330;
+  background: #e50914;
   padding: 20px;
   border-radius: 5px;
   display: inline-block;

@@ -12,7 +12,8 @@ var programs = [{
     downloadLink: '#',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 1,
@@ -28,7 +29,8 @@ var programs = [{
     downloadLink: 'Bubble%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 2,
@@ -44,7 +46,8 @@ var programs = [{
     downloadLink: 'Count%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 3,
@@ -60,7 +63,8 @@ var programs = [{
     downloadLink: 'Gnome%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 4,
@@ -76,7 +80,8 @@ var programs = [{
     downloadLink: 'Insertion%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 5,
@@ -92,7 +97,8 @@ var programs = [{
     downloadLink: 'Babbage-Problem.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 6,
@@ -108,7 +114,8 @@ var programs = [{
     downloadLink: 'BinaryNumbers.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 7,
@@ -124,7 +131,8 @@ var programs = [{
     downloadLink: 'Caesar-Cipher.zip',
     p5: false,
     console: true,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 8,
@@ -140,7 +148,8 @@ var programs = [{
     downloadLink: 'Rot-13.zip',
     p5: false,
     console: true,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 9,
@@ -156,7 +165,8 @@ var programs = [{
     downloadLink: 'Starfield.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 10,
@@ -172,7 +182,8 @@ var programs = [{
     downloadLink: 'SnakeGame.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 11,
@@ -188,7 +199,8 @@ var programs = [{
     downloadLink: 'PurpleRain.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 12,
@@ -204,7 +216,8 @@ var programs = [{
     downloadLink: 'SpaceInvaders.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 13,
@@ -220,7 +233,8 @@ var programs = [{
     downloadLink: 'SolarSystem.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 14,
@@ -238,7 +252,8 @@ var programs = [{
     downloadLink: 'MazeGenerator.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 15,
@@ -254,7 +269,8 @@ var programs = [{
     downloadLink: 'ReactionDiffusionAlg.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 16,
@@ -272,7 +288,8 @@ var programs = [{
     downloadLink: 'FractalTree.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 17,
@@ -290,7 +307,8 @@ var programs = [{
     downloadLink: 'FFT.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 18,
@@ -308,7 +326,8 @@ var programs = [{
     downloadLink: 'OOPFT.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 19,
@@ -326,7 +345,8 @@ var programs = [{
     downloadLink: 'L-System-Example.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 20,
@@ -344,7 +364,8 @@ var programs = [{
     downloadLink: 'L-System-Fractal-Plant.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 21,
@@ -362,7 +383,8 @@ var programs = [{
     downloadLink: 'L-System-Binary-Tree.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 22,
@@ -380,7 +402,8 @@ var programs = [{
     downloadLink: 'SpaceColonization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 23,
@@ -398,7 +421,8 @@ var programs = [{
     downloadLink: 'MendelbrotSet.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 24,
@@ -416,7 +440,8 @@ var programs = [{
     downloadLink: 'JuliaSets.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 25,
@@ -435,7 +460,8 @@ var programs = [{
     downloadLink: 'Phyllotaxis.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 26,
@@ -453,7 +479,8 @@ var programs = [{
     downloadLink: 'fireworks.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 27,
@@ -472,7 +499,8 @@ var programs = [{
     downloadLink: 'SmartRockets.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 28,
@@ -490,7 +518,8 @@ var programs = [{
     downloadLink: 'TSMP.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 29,
@@ -508,7 +537,8 @@ var programs = [{
     downloadLink: 'PixelSorting.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 30,
@@ -526,7 +556,8 @@ var programs = [{
     downloadLink: 'CirclePacking.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 31,
@@ -545,7 +576,8 @@ var programs = [{
     downloadLink: 'NoiseTrees.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 32,
@@ -563,7 +595,8 @@ var programs = [{
     downloadLink: 'AStar.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   },
   {
     number: 33,
@@ -582,7 +615,8 @@ var programs = [{
     downloadLink: 'AStarMaze.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: '#e5e5e5'
   },
   {
     number: 34,
@@ -600,7 +634,8 @@ var programs = [{
     downloadLink: 'ParticalExample.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5"
   }
 ]
 
