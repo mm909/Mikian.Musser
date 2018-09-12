@@ -6,7 +6,7 @@ var resetButton;
 var resetingMaze = false;
 
 function setup() {
-  var canvas = createCanvas(601, 501)
+  var canvas = createCanvas(500, 500)
   canvas.parent("canvasContainer");
   // resetButton = createButton("Reset");
   // resetButton.mousePressed(resetMaze)
