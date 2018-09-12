@@ -259,7 +259,7 @@ var programs = [{
   {
     number: 16,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
-      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful'
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'featured', 'colorful'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'Fractal Tree - Recursive',
@@ -331,7 +331,7 @@ var programs = [{
   {
     number: 20,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-      'l-system', 'l system', 'fractal plant', 'l-system fractal plant', 'plant', 'tree', 'sentence'
+      'l-system', 'l system', 'fractal plant', 'l-system fractal plant', 'plant', 'tree', 'sentence', 'featured'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Fractal Plant',
@@ -366,6 +366,9 @@ var programs = [{
   },
   {
     number: 22,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'plant', 'tree', 'interactive', 'vectors', 'space colonization'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Space Colonization',
     shortDescription: 'Watch a tree grow to find its leaves.',
@@ -382,6 +385,9 @@ var programs = [{
   {
     number: 23,
     tags: ['Challenge', 'Visualization'],
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'math', 'cool', 'imaginary', 'numbers', 'mendelbrot set', 'julia set', 'sets'
+    ],
     title: 'Mendelbrot Set',
     shortDescription: 'Visualization of the famous Mendelbrot Set.',
     imgpath: 'Projects/23.MandelbrotSet/image.png',
@@ -396,9 +402,12 @@ var programs = [{
   },
   {
     number: 24,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'math', 'cool', 'imaginary', 'numbers', 'mendelbrot set', 'julia set', 'sets'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Julia Sets',
-    shortDescription: 'Comming Soon!',
+    shortDescription: 'Subsections of the Mendelbrot set.',
     imgpath: 'Projects/24.JuliaSets/image.png',
     filepath: 'Projects/24.JuliaSets/index.html',
     rosettaLink: 'https://en.wikipedia.org/wiki/Julia_set',
@@ -411,9 +420,13 @@ var programs = [{
   },
   {
     number: 25,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'math', 'cool', 'phyllotaxis', 'algorithmic', 'botany', 'algorithmic botany', 'plant', 'colorful',
+      'beautiful', 'real world'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Phyllotaxis',
-    shortDescription: 'An example of algorithmix Botany!',
+    shortDescription: 'An example of algorithmic Botany!',
     imgpath: 'Projects/25.Phyllotaxis/image.png',
     filepath: 'Projects/25.Phyllotaxis/index.html',
     rosettaLink: 'http://algorithmicbotany.org/papers/abop/abop-ch4.pdf',
@@ -426,6 +439,9 @@ var programs = [{
   },
   {
     number: 26,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'fireworks', 'colorful', 'beautiful', 'particals', 'vectors', 'physics'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Fireworks',
     shortDescription: 'Watch fireworks light up the sky.',
@@ -441,6 +457,10 @@ var programs = [{
   },
   {
     number: 27,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'rockets', 'colorful', 'smart', 'particals', 'vectors', 'physics', 'smart rockets',
+      'evolution', 'nature of code', 'dna', 'featured'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Smart Rockets',
     shortDescription: 'Watch rockets evolve to hit a target.',
@@ -456,6 +476,9 @@ var programs = [{
   },
   {
     number: 28,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'algorithm', 'tsm', 'traveling salesman', 'famous'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Traveling Salesman',
     shortDescription: 'The famous traveling salesman problem.',
@@ -471,6 +494,9 @@ var programs = [{
   },
   {
     number: 29,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'sorting', 'pixel sorting', 'fun', 'm&ms'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Pixel Sorting!',
     shortDescription: 'Watch an image get sorted by brightness.',
@@ -486,6 +512,9 @@ var programs = [{
   },
   {
     number: 30,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'beautiful', 'colorful', 'circle packing', 'fun', 'physics', 'vectors', 'featured'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Circle Packing',
     shortDescription: 'Circle Packing with simple physics.',
@@ -501,6 +530,10 @@ var programs = [{
   },
   {
     number: 31,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'beautiful', 'colorful', 'noise trees', 'fun', 'perlin noise', 'perlin', 'trees', 'fractal',
+      'wind', 'fractal trees'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Noise Trees',
     shortDescription: 'Fractal Trees blown by perlin noise.',
@@ -516,6 +549,9 @@ var programs = [{
   },
   {
     number: 32,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algroithm', 'algorithm', 'featured'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'A*',
     shortDescription: 'Comming Soon!',
@@ -531,6 +567,10 @@ var programs = [{
   },
   {
     number: 33,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algroithm', 'algorithm',
+      'maze generation', 'combination', 'a* maze', 'featured'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'A* Maze!',
     shortDescription: 'This is super cool and you need to watch.',
@@ -546,6 +586,9 @@ var programs = [{
   },
   {
     number: 34,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+               'physics', 'particle', 'example partical system'
+    ],
     tags: ['Challenge'],
     title: 'Example Partical System',
     shortDescription: 'Simple physics engine.',
@@ -562,13 +605,8 @@ var programs = [{
 ]
 
 var tags = [
-  'All',
-  'Sorting',
-  'JavaScript',
-  'Visualization',
-  'Math',
-  'Cryptography',
-  'Console',
-  'Challenge',
-  'Game'
+  'featured',
+  'beautiful',
+  'algroithm',
+  'trees'
 ]
