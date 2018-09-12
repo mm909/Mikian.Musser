@@ -12,22 +12,22 @@ var swapChance = 100;
 function preload(){
   var th = $("#canvasContainer").height();
   var tw = $("#canvasContainer").width();
-  console.log(th,tw);
+  // console.log(th,tw);
   if(th >= 500){
     M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
-    console.log(">499");
+    // console.log(">499");
   } else if(th > 399){
     M = loadImage("https://image.ibb.co/dR8Epp/m400.jpg");
-    console.log(">399");
+    // console.log(">399");
   } else if(th > 299) {
     M = loadImage("https://image.ibb.co/cQL5vU/m300.jpg");
-    console.log(">299");
+    // console.log(">299");
   } else if(th > 199){
     M = loadImage("https://image.ibb.co/iEBdFU/m200.jpg");
-    console.log(">199");
+    // console.log(">199");
   } else if(th > 99){
     M = loadImage("https://image.ibb.co/kjmdFU/m100.jpg");
-    console.log(">99");
+    // console.log(">99");
   }
 
 }
@@ -35,8 +35,8 @@ function preload(){
 function setup() {
   var th = $("#canvasContainer").height();
   var tw = $("#canvasContainer").width();
-  console.log(th);
-  console.log(tw);
+  // console.log(th);
+  // console.log(tw);
   M.loadPixels();
   var canvas = createCanvas(th,tw);
   canvas.parent("canvasContainer")

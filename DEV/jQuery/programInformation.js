@@ -259,7 +259,7 @@ var programs = [{
   {
     number: 16,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
-      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'featured', 'colorful'
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'featured', 'colorful', 'trees'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'Fractal Tree - Recursive',
@@ -277,7 +277,7 @@ var programs = [{
   {
     number: 17,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
-      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'fun fractal trees'
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'fun fractal trees', 'trees'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'Fun Fractal Trees',
@@ -295,7 +295,7 @@ var programs = [{
   {
     number: 18,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
-      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'oop fractal trees'
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'oop fractal trees', 'trees'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'OOP Fractal Trees',
@@ -313,7 +313,7 @@ var programs = [{
   {
     number: 19,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-      'l-system', 'l system', 'example', 'l-system example', 'plant', 'tree', 'sentence'
+      'l-system', 'l system', 'example', 'l-system example', 'plant', 'trees', 'sentence'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Example',
@@ -331,7 +331,7 @@ var programs = [{
   {
     number: 20,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-      'l-system', 'l system', 'fractal plant', 'l-system fractal plant', 'plant', 'tree', 'sentence', 'featured'
+      'l-system', 'l system', 'fractal plant', 'l-system fractal plant', 'plant', 'trees', 'sentence', 'featured'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Fractal Plant',
@@ -349,7 +349,7 @@ var programs = [{
   {
     number: 21,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-      'l-system', 'l system', 'l-system binary tree', 'plant', 'tree', 'sentence'
+      'l-system', 'l system', 'l-system binary tree', 'plant', 'trees', 'sentence'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Binary Tree',
@@ -367,7 +367,7 @@ var programs = [{
   {
     number: 22,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-      'plant', 'tree', 'interactive', 'vectors', 'space colonization'
+      'plant', 'trees', 'interactive', 'vectors', 'space colonization'
     ],
     tags: ['Challenge', 'Visualization'],
     title: 'Space Colonization',
@@ -550,7 +550,7 @@ var programs = [{
   {
     number: 32,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algroithm', 'algorithm', 'featured'
+      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algorithm', 'algorithm', 'featured'
     ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'A*',
@@ -568,7 +568,7 @@ var programs = [{
   {
     number: 33,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algroithm', 'algorithm',
+      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algorithm', 'algorithm',
       'maze generation', 'combination', 'a* maze', 'featured'
     ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
@@ -587,7 +587,7 @@ var programs = [{
   {
     number: 34,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-               'physics', 'particle', 'example partical system'
+               'physics', 'particle', 'example partical system', 'vectors'
     ],
     tags: ['Challenge'],
     title: 'Example Partical System',
@@ -605,8 +605,8 @@ var programs = [{
 ]
 
 var tags = [
-  'featured',
-  'beautiful',
-  'algroithm',
-  'trees'
+  'Featured',
+  'Beautiful',
+  'Trees',
+  'Vectors'
 ]
