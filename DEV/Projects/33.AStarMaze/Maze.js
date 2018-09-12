@@ -4,8 +4,8 @@ function Maze(cellWidth) {
   this.grid = [];
   this.stack = [];
   this.w = cellWidth;
-  this.rows = height / this.w;
-  this.cols = width  / this.w;
+  this.rows = floor(height / this.w);
+  this.cols = floor(width  / this.w);
   this.finished = false;
   this.current = null;
 

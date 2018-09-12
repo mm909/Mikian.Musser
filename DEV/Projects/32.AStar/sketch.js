@@ -13,7 +13,7 @@ var End;
 var wallChance = 0.3;
 
 function setup() {
-  var canvas = createCanvas(600, 600)
+  var canvas = createCanvas(600, 500)
   canvas.parent("canvasContainer");
   console.log("A*");
   w = width / cols;

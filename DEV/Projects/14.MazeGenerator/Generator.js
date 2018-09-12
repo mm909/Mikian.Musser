@@ -7,10 +7,10 @@ var stack = [];
 var finished = false;
 
 function setup() {
-  var canvas = createCanvas(500, 500);
+  var canvas = createCanvas(501, 501);
   canvas.parent("canvasContainer");
-  rows = height / w;
-  cols = width  / w;
+  rows = floor(height / w);
+  cols = floor(width  / w);
   for(var i = 0; i < rows; i++){
     for(var j = 0; j < cols; j++){
       // [rows][cols]

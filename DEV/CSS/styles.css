@@ -517,6 +517,7 @@ https://flickity.metafizzy.co
   background-color: #141414;
   margin: auto;
   text-align: center;
+  margin-top: 10px;
 }
 .PROJECTS-Cell {
   display: inline-block;
@@ -557,6 +558,93 @@ https://flickity.metafizzy.co
   width:60%;
   margin:auto;
 }
+
+/* Home */
+.PROJECT {
+  width:100%;
+  margin: auto;
+  height:auto;
+  background: #141414;
+  text-align: center;
+  position: relative;
+}
+.PROJECT-Content {
+  width:100%;
+  height:auto;
+  background: #141414;
+}
+.PROJECT-Canvas-Container {
+  background: #141414;
+}
+.PROJECT-Canvas {
+  width:600px;
+  height:500px;
+  background: #141414;
+  margin: auto;
+}
+.PROJECT-Text {
+  width: 65%;
+  margin-top: 10px;
+  display: inline-block;
+  background: #141414;
+}
+.PROJECT-Text-Title-Container {
+  width:97%;
+  margin: auto;
+  height:20%;
+  background: #141414;
+}
+.PROJECT-Title {
+  width:100%;
+  height:80%;
+  background: #141414;
+}
+.PROJECT-Title-TitleText {
+  color: #e5e5e5;
+}
+.PROJECT-Title-Tokens {
+  width:100%;
+  min-height: 20px;
+  background: #141414;
+}
+.PROJECT-Text-Description-Container {
+  width:97%;
+  height:80%;
+  margin: auto;
+  background: #141414;
+}
+.PROJECT-Text-Description {
+  width:100%;
+  background: #141414;
+  color: #999;
+  font-size: 20px;
+}
+.PROJECT-Text-Description-Images {
+  width: 100px;
+  height: 100px;
+}
+.PROJECT-Text-Play {
+  border-radius: 20px;
+  padding: 3px;
+  position: relative;
+  top: 2.5%;
+  transform: perspective(1px) translateY(-2.5%);
+  margin:auto;
+  margin-bottom: 10px;
+  width:20%;
+  height:15%;
+  background: #333333;
+  transition: transform .33s;
+}
+.PROJECT-Text-Play:hover {
+    transform: scale(1.05);
+}
+.PROJECT-Text-Play p {
+  color: #e5e5e5;
+  margin: 0;
+  font-size: 20px;
+}
+
 
 @media only screen and (max-width: 1650px) {
   .bioContainer {

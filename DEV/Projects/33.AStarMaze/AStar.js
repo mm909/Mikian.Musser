@@ -5,8 +5,8 @@ function AStar(Grid) {
   this.rows = Grid.rows;
   this.oGrid = Grid;
   this.maze = [];
-  this.w = width / this.cols;
-  this.h = height / this.rows;
+  this.w = floor(width / this.cols);
+  this.h = floor(height / this.rows);
   this.path = [];
 
   this.closedSet = [];

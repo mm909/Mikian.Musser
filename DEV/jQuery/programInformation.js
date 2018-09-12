@@ -13,7 +13,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 1,
@@ -30,7 +31,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 2,
@@ -47,7 +49,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 3,
@@ -64,7 +67,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 4,
@@ -81,7 +85,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 5,
@@ -97,8 +102,9 @@ var programs = [{
     downloadLink: 'Babbage-Problem.zip',
     p5: true,
     console: false,
-    visible: true,
-    titleText: "#e5e5e5"
+    visible: false,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 6,
@@ -114,8 +120,9 @@ var programs = [{
     downloadLink: 'BinaryNumbers.zip',
     p5: true,
     console: false,
-    visible: true,
-    titleText: "#e5e5e5"
+    visible: false,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 7,
@@ -132,7 +139,8 @@ var programs = [{
     p5: false,
     console: true,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 8,
@@ -149,7 +157,8 @@ var programs = [{
     p5: false,
     console: true,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 9,
@@ -166,7 +175,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 10,
@@ -183,7 +193,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 11,
@@ -200,7 +211,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 12,
@@ -217,7 +229,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 13,
@@ -234,7 +247,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 14,
@@ -253,7 +267,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 15,
@@ -270,7 +285,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 16,
@@ -289,7 +305,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 17,
@@ -308,7 +325,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 18,
@@ -327,7 +345,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 19,
@@ -346,7 +365,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 20,
@@ -365,7 +385,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 21,
@@ -384,7 +405,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 22,
@@ -403,7 +425,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 23,
@@ -422,7 +445,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 24,
@@ -441,7 +465,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 25,
@@ -461,7 +486,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 26,
@@ -480,7 +506,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 27,
@@ -500,7 +527,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 28,
@@ -519,7 +547,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 29,
@@ -538,7 +567,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 30,
@@ -557,7 +587,14 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "This colorful \'M\' is an example of a process called" +
+                "<a href='https://en.wikipedia.org/wiki/Circle_packing'> circle packing.</a> <br>" +
+                 "A black and white image is processed and all black pixels are marked as possible circle locations." +
+                 "A set number of circles try to spawn and grow each frame." +
+                 "Some fail because they randomly choose a position that is already occupied by another circle." +
+                 "Circles stop growing once they have touched another circle (After considering a buffer)." +
+                 "This idea comes from Daniel Shiffman\'s coding challange - <a href='https://www.youtube.com/watch?v=QHEQuoIKgNE'> Coding Challenge #50.1: Animated Circle Packing.</a>"
   },
   {
     number: 31,
@@ -577,7 +614,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 32,
@@ -596,7 +634,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 33,
@@ -616,7 +655,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: '#e5e5e5'
+    titleText: '#e5e5e5',
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 34,
@@ -635,7 +675,8 @@ var programs = [{
     p5: true,
     console: false,
     visible: true,
-    titleText: "#e5e5e5"
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 ]
 

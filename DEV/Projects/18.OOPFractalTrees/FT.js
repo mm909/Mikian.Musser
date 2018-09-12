@@ -4,7 +4,7 @@ var trees = [];
 var count = 3;
 
 function setup() {
-  var canvas = createCanvas(1000,350);
+  var canvas = createCanvas(600,500);
   canvas.parent("canvasContainer")
   for(var i = 0; i < count; i++){
     var r = random(255);
@@ -23,7 +23,7 @@ function draw() {
   strokeWeight(1)
   for(var i = 0; i < trees.length; i++){
     push();
-    translate(width/(trees.length+4) + (width/trees.length)*i,height)
+    translate(150 + 166*i,height)
     trees[i].draw();
     pop();
   }

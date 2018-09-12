@@ -16,25 +16,17 @@ var juliaSets = [
     b: 0.1428
   },
   {
-    a: 0.1428,
-    b: -0.3842
-  },
-  {
     a: -0.835,
     b: 0.2321
   },
   {
     a: -0.7269,
     b: 0.1889
-  },
-  {
-    a: -0.8,
-    b: -0.8
-  },
+  }
 ]
 
 function setup() {
-  var canvas = createCanvas(360,360);
+  var canvas = createCanvas(500,500);
   canvas.parent("canvasContainer")
   pixelDensity(1);
 }
