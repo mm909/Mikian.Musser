@@ -16,7 +16,7 @@ var programs = [{
     downloadLink: '#',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Welcome to the <i>Dev</i> page! I am constantly adding new projects and thought it might be fun to have a “pre-release” version. Let me know what you think! Warning: This project might be buggy, incomplete, or just plain missing.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 1,
@@ -27,7 +27,7 @@ var programs = [{
     downloadLink: 'Bubble%20Sort%20Visualization.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "	Watch the <a href=’https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort’>bubble sort algorithm<a> do its magic! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=67k3I2GxTH8'> Coding Challenge #114: Bubble Sort Visualization.</a><br> <a href=’Bubble%20Sort%20Visualization.zip’> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 2,
@@ -381,12 +381,12 @@ var programs = [{
     visible: true,
     titleText: "#e5e5e5",
     SpotlightText: "This colorful \'M\' is an example of a process called" +
-                "<a href='https://en.wikipedia.org/wiki/Circle_packing'> circle packing.</a> <br>" +
-                 "A black and white image is processed and all black pixels are marked as possible circle locations." +
-                 "A set number of circles try to spawn and grow each frame." +
-                 "Some fail because they randomly choose a position that is already occupied by another circle." +
-                 "Circles stop growing once they have touched another circle (After considering a buffer)." +
-                 "This idea comes from Daniel Shiffman\'s coding challange - <a href='https://www.youtube.com/watch?v=QHEQuoIKgNE'> Coding Challenge #50.1: Animated Circle Packing.</a>"
+      "<a href='https://en.wikipedia.org/wiki/Circle_packing'> circle packing.</a> <br>" +
+      "A black and white image is processed and all black pixels are marked as possible circle locations." +
+      "A set number of circles try to spawn and grow each frame." +
+      "Some fail because they randomly choose a position that is already occupied by another circle." +
+      "Circles stop growing once they have touched another circle (After considering a buffer)." +
+      "Inspired by Daniel Shiffman\'s coding challange - <a href='https://www.youtube.com/watch?v=QHEQuoIKgNE'> Coding Challenge #50.1: Animated Circle Packing.</a>"
   },
   {
     number: 31,
@@ -432,7 +432,7 @@ var programs = [{
   {
     number: 34,
     keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
-               'physics', 'particle', 'example partical system', 'vectors'
+      'physics', 'particle', 'example partical system', 'vectors'
     ],
     title: 'Example Partical System',
     imgpath: 'Projects/34.ParticalExample/image.png',

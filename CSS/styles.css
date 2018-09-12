@@ -621,6 +621,9 @@ https://flickity.metafizzy.co
   color: #999;
   font-size: 20px;
 }
+.PROJECT-Text-Description a {
+  color:#999
+}
 .PROJECT-Text-Description-Images {
   width: 100px;
   height: 100px;
