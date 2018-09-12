@@ -2,7 +2,7 @@ var stars = [];
 var count = 100;
 var sun;
 function setup() {
-  var canvas = createCanvas(windowWidth/1.5,windowHeight/1.5);
+  var canvas = createCanvas(600,500);
   canvas.parent("canvasContainer");
   for(var i = 0; i < count; i++){
     stars[i] = new star();

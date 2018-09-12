@@ -1,6 +1,6 @@
-var programs = [
-  {
+var programs = [{
     number: 0,
+    keyWords: ['development'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: '<i>Next Project</i>',
     shortDescription: 'Comming Soon!',
@@ -12,10 +12,13 @@ var programs = [
     downloadLink: '#',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 1,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'bubble sort', 'rosetta code', 'coding challenge'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Bubble Sort',
     shortDescription: 'Visual representation of the Bubble sort algorithm.',
@@ -27,10 +30,13 @@ var programs = [
     downloadLink: 'Bubble%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 2,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'count sort', 'rosetta code'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Count Sort',
     shortDescription: 'Visual representation of the Count sort algorithm.',
@@ -42,10 +48,13 @@ var programs = [
     downloadLink: 'Count%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 3,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'gnome sort', 'rosetta code'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Gnome Sort',
     shortDescription: 'Visual representation of the Gnome sort algorithm.',
@@ -57,10 +66,13 @@ var programs = [
     downloadLink: 'Gnome%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 4,
+    keyWords: ['sorting', 'javascript', 'visualization', 'p5.js', 'algorithm', 'insertion sort', 'rosetta code'],
     tags: ['Sorting', 'JavaScript', 'Visualization'],
     title: 'Insertion Sort',
     shortDescription: 'Visual representation of the Insertion sort algorithm.',
@@ -72,10 +84,13 @@ var programs = [
     downloadLink: 'Insertion%20Sort%20Visualization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 5,
+    keyWords: ['javascript', 'visualization', 'math', 'rosetta code', 'babbage problem'],
     tags: ['Math', 'JavaScript', 'Visualization'],
     title: 'Babbage Problem',
     shortDescription: 'Solving the Charles Babbage problem',
@@ -87,10 +102,13 @@ var programs = [
     downloadLink: 'Babbage-Problem.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: false,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 6,
+    keyWords: ['javascript', 'visualization', 'math', 'rosetta code', 'binary numbers'],
     tags: ['Math', 'JavaScript', 'Visualization'],
     title: 'Binary Numbers',
     shortDescription: 'Converting Base 10 to 2',
@@ -102,10 +120,13 @@ var programs = [
     downloadLink: 'BinaryNumbers.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: false,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 7,
+    keyWords: ['javascript', 'cryptography', 'console', 'rosetta code', 'caesar cipher'],
     tags: ['Cryptography', 'JavaScript', 'Console'],
     title: 'Caesar Cipher',
     shortDescription: 'Encrypt/Decrypt text using a Caesar Cipher',
@@ -117,10 +138,13 @@ var programs = [
     downloadLink: 'Caesar-Cipher.zip',
     p5: false,
     console: true,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 8,
+    keyWords: ['javascript', 'cryptography', 'console', 'rosetta code', 'rot-13 cipher'],
     tags: ['Cryptography', 'JavaScript', 'Console'],
     title: 'Rot-13 Cipher',
     shortDescription: 'Encrypt/Decrypt text using a Rot-13 Cipher',
@@ -132,10 +156,13 @@ var programs = [
     downloadLink: 'Rot-13.zip',
     p5: false,
     console: true,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 9,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'starfield', 'space'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Starfield',
     shortDescription: 'Fly through space at warpspeed!',
@@ -147,10 +174,13 @@ var programs = [
     downloadLink: 'Starfield.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 10,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'snake', 'game', 'retro', 'arcade', 'simple'],
     tags: ['Challenge', 'JavaScript', 'Game'],
     title: 'Snake',
     shortDescription: 'Play the retro arcade game: Snake',
@@ -162,10 +192,13 @@ var programs = [
     downloadLink: 'SnakeGame.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 11,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'purple rain', 'beautiful', 'calming'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Purple Rain',
     shortDescription: 'Play in the Purple Rain!',
@@ -177,10 +210,13 @@ var programs = [
     downloadLink: 'PurpleRain.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 12,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'game', 'space invaders', 'retro', 'arcade', 'simple'],
     tags: ['Challenge', 'JavaScript', 'Game'],
     title: 'Space Invaders',
     shortDescription: 'Play the classic: Space Invaders',
@@ -192,10 +228,13 @@ var programs = [
     downloadLink: 'SpaceInvaders.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 13,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'solar system'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Solar System',
     shortDescription: 'Solar System Simulation!',
@@ -207,10 +246,15 @@ var programs = [
     downloadLink: 'SolarSystem.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 14,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'maze generator',
+      'algorithm', 'fun', 'recursive', 'recursion'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Maze Generator',
     shortDescription: 'Generate a maze using a recursive backtracker!',
@@ -222,10 +266,13 @@ var programs = [
     downloadLink: 'MazeGenerator.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 15,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'algorithm', 'rda'],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'RDA!',
     shortDescription: 'Reaction Diffusion Algorithm Simulation',
@@ -237,10 +284,15 @@ var programs = [
     downloadLink: 'ReactionDiffusionAlg.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 16,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'featured', 'colorful', 'trees'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Fractal Tree - Recursive',
     shortDescription: 'Build a fractal tree recursively.',
@@ -252,10 +304,15 @@ var programs = [
     downloadLink: 'FractalTree.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 17,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'fun fractal trees', 'trees'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Fun Fractal Trees',
     shortDescription: 'Bug? No, <i>feature!</i>',
@@ -267,10 +324,15 @@ var programs = [
     downloadLink: 'FFT.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 18,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train', 'fractal tree',
+      'algorithm', 'fun', 'recursive', 'recursion', 'beautiful', 'bug', 'oop fractal trees', 'trees'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'OOP Fractal Trees',
     shortDescription: 'Object Oriented Fractal Trees',
@@ -282,10 +344,15 @@ var programs = [
     downloadLink: 'OOPFT.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 19,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'l-system', 'l system', 'example', 'l-system example', 'plant', 'trees', 'sentence'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Example',
     shortDescription: 'Create a plant from sentences!',
@@ -297,10 +364,15 @@ var programs = [
     downloadLink: 'L-System-Example.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 20,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'l-system', 'l system', 'fractal plant', 'l-system fractal plant', 'plant', 'trees', 'sentence', 'featured'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Fractal Plant',
     shortDescription: 'Fractal Tree? No, <i>Fractal Plant</i>',
@@ -312,10 +384,15 @@ var programs = [
     downloadLink: 'L-System-Fractal-Plant.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 21,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'l-system', 'l system', 'l-system binary tree', 'plant', 'trees', 'sentence'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'L-System Binary Tree',
     shortDescription: 'Create a Binary Tree using an L-System.',
@@ -327,10 +404,15 @@ var programs = [
     downloadLink: 'L-System-Binary-Tree.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 22,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'plant', 'trees', 'interactive', 'vectors', 'space colonization'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Space Colonization',
     shortDescription: 'Watch a tree grow to find its leaves.',
@@ -342,11 +424,16 @@ var programs = [
     downloadLink: 'SpaceColonization.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 23,
     tags: ['Challenge', 'Visualization'],
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'math', 'cool', 'imaginary', 'numbers', 'mendelbrot set', 'julia set', 'sets'
+    ],
     title: 'Mendelbrot Set',
     shortDescription: 'Visualization of the famous Mendelbrot Set.',
     imgpath: 'Projects/23.MandelbrotSet/image.png',
@@ -357,13 +444,18 @@ var programs = [
     downloadLink: 'MendelbrotSet.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 24,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'math', 'cool', 'imaginary', 'numbers', 'mendelbrot set', 'julia set', 'sets'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Julia Sets',
-    shortDescription: 'Comming Soon!',
+    shortDescription: 'Subsections of the Mendelbrot set.',
     imgpath: 'Projects/24.JuliaSets/image.png',
     filepath: 'Projects/24.JuliaSets/index.html',
     rosettaLink: 'https://en.wikipedia.org/wiki/Julia_set',
@@ -372,13 +464,19 @@ var programs = [
     downloadLink: 'JuliaSets.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 25,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'math', 'cool', 'phyllotaxis', 'algorithmic', 'botany', 'algorithmic botany', 'plant', 'colorful',
+      'beautiful', 'real world'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Phyllotaxis',
-    shortDescription: 'An example of algorithmix Botany!',
+    shortDescription: 'An example of algorithmic Botany!',
     imgpath: 'Projects/25.Phyllotaxis/image.png',
     filepath: 'Projects/25.Phyllotaxis/index.html',
     rosettaLink: 'http://algorithmicbotany.org/papers/abop/abop-ch4.pdf',
@@ -387,10 +485,15 @@ var programs = [
     downloadLink: 'Phyllotaxis.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 26,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'fireworks', 'colorful', 'beautiful', 'particals', 'vectors', 'physics'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Fireworks',
     shortDescription: 'Watch fireworks light up the sky.',
@@ -402,10 +505,16 @@ var programs = [
     downloadLink: 'fireworks.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 27,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'rockets', 'colorful', 'smart', 'particals', 'vectors', 'physics', 'smart rockets',
+      'evolution', 'nature of code', 'dna', 'featured'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Smart Rockets',
     shortDescription: 'Watch rockets evolve to hit a target.',
@@ -417,10 +526,15 @@ var programs = [
     downloadLink: 'SmartRockets.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 28,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'algorithm', 'tsm', 'traveling salesman', 'famous'
+    ],
     tags: ['Challenge', 'Visualization'],
     title: 'Traveling Salesman',
     shortDescription: 'The famous traveling salesman problem.',
@@ -432,10 +546,15 @@ var programs = [
     downloadLink: 'TSMP.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 29,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'sorting', 'pixel sorting', 'fun', 'm&ms'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Pixel Sorting!',
     shortDescription: 'Watch an image get sorted by brightness.',
@@ -447,10 +566,15 @@ var programs = [
     downloadLink: 'PixelSorting.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 30,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'beautiful', 'colorful', 'circle packing', 'fun', 'physics', 'vectors', 'featured'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Circle Packing',
     shortDescription: 'Circle Packing with simple physics.',
@@ -462,10 +586,22 @@ var programs = [
     downloadLink: 'CirclePacking.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "This colorful \'M\' is an example of a process called" +
+                "<a href='https://en.wikipedia.org/wiki/Circle_packing'> circle packing.</a> <br>" +
+                 "A black and white image is processed and all black pixels are marked as possible circle locations." +
+                 "A set number of circles try to spawn and grow each frame." +
+                 "Some fail because they randomly choose a position that is already occupied by another circle." +
+                 "Circles stop growing once they have touched another circle (After considering a buffer)." +
+                 "This idea comes from Daniel Shiffman\'s coding challange - <a href='https://www.youtube.com/watch?v=QHEQuoIKgNE'> Coding Challenge #50.1: Animated Circle Packing.</a>"
   },
   {
     number: 31,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'beautiful', 'colorful', 'noise trees', 'fun', 'perlin noise', 'perlin', 'trees', 'fractal',
+      'wind', 'fractal trees'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'Noise Trees',
     shortDescription: 'Fractal Trees blown by perlin noise.',
@@ -477,10 +613,15 @@ var programs = [
     downloadLink: 'NoiseTrees.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 32,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algorithm', 'algorithm', 'featured'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'A*',
     shortDescription: 'Comming Soon!',
@@ -492,10 +633,16 @@ var programs = [
     downloadLink: 'AStar.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 33,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+      'cool', 'maze', 'path finding', 'a*', 'game', 'animation', 'search algorithm', 'algorithm',
+      'maze generation', 'combination', 'a* maze', 'featured'
+    ],
     tags: ['Challenge', 'JavaScript', 'Visualization'],
     title: 'A* Maze!',
     shortDescription: 'This is super cool and you need to watch.',
@@ -507,10 +654,15 @@ var programs = [
     downloadLink: 'AStarMaze.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: '#e5e5e5',
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     number: 34,
+    keyWords: ['javascript', 'p5.js', 'visualization', 'challenge', 'shiffman', 'coding train',
+               'physics', 'particle', 'example partical system', 'vectors'
+    ],
     tags: ['Challenge'],
     title: 'Example Partical System',
     shortDescription: 'Simple physics engine.',
@@ -522,18 +674,17 @@ var programs = [
     downloadLink: 'ParticalExample.zip',
     p5: true,
     console: false,
-    visible: true
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 ]
 
 var tags = [
-  'All',
-  'Sorting',
-  'JavaScript',
-  'Visualization',
-  'Math',
-  'Cryptography',
-  'Console',
-  'Challenge',
-  'Game'
+  'Featured',
+  'Beautiful',
+  'Trees',
+  'Vectors'
 ]
+
+var Spotlight = 30;

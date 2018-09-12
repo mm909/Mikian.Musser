@@ -16,7 +16,7 @@ var reached;
 var gen;
 
 function setup() {
-  var canvas = createCanvas(600,600);
+  var canvas = createCanvas(600,500);
   canvas.parent("canvasContainer")
   var x = getOffset( document.getElementById('defaultCanvas0') ).left;
   var y = getOffset( document.getElementById('defaultCanvas0') ).top;

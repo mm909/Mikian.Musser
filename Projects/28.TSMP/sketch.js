@@ -13,7 +13,7 @@ var oTime;
 var nTime;
 
 function setup() {
-  var canvas = createCanvas(600,600);
+  var canvas = createCanvas(500,500);
   canvas.parent("canvasContainer")
   perm = fact(cityCount);
   for (var i = 0; i < cityCount; i++) {

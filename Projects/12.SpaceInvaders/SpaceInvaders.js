@@ -7,7 +7,7 @@ var invaderCount = 5;
 var shots = [];
 
 function setup() {
-  var canvas = createCanvas(600,400);
+  var canvas = createCanvas(600,500);
   canvas.parent("canvasContainer");
   for(var i = 0; i < count; i++){
     stars[i] = new star();
