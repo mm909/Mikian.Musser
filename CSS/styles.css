@@ -352,6 +352,8 @@ https://flickity.metafizzy.co
   color: #e5e5e5;
   left: 0;
   margin-left: 60px;
+  margin-top: 50px;
+
 }
 
 .me {
@@ -653,9 +655,15 @@ https://flickity.metafizzy.co
   .HOME-Spotlight-Text {
     max-width: 60%;
   }
+  .PROJECTS-Cell {
+    width: 25%;
+  }
 }
 @media only screen and (max-width: 1600px) {
   .gallery-cell {
+    width: 27.00%;
+  }
+  .PROJECTS-Cell {
     width: 27.00%;
   }
 }
@@ -672,6 +680,9 @@ https://flickity.metafizzy.co
     height:100%;
   }
   .gallery-cell {
+    width: 33.33%;
+  }
+  .PROJECTS-Cell {
     width: 33.33%;
   }
   .bioContainer {
@@ -698,12 +709,17 @@ https://flickity.metafizzy.co
     margin: auto;
 
   }
+  .PROJECTS-Container {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1050px) {
   .bioContainer {
     width:50%;
     margin: auto;
-
+  }
+  .PROJECTS-Cell {
+    width: 50%;
   }
 }
 @media only screen and (max-width: 990px) {
@@ -770,6 +786,13 @@ https://flickity.metafizzy.co
   }
   .bioContainer {
     margin: auto;
+  }
+  .PROJECTS-Cell {
+    width: 100px;
+    height: 100px;
+  }
+  .galleryTitleText {
+    visibility: hidden;
   }
 }
 @media only screen and (max-width: 450px) {

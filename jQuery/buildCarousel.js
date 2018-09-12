@@ -7,7 +7,7 @@ $( document ).ready(function() {
     $temp = $( "<div class='HOME-tag' id='c-" + tags[i] + "'></div>" )
     $("Body").append($temp);
 
-    $temp = $( "<h1>" + tags[i] + "<h1>" )
+    $temp = $( "<h1>" + tags[i] + "</h1>" )
     $("#c-" + tags[i]).append($temp);
 
     // <div class="gallery js-flickity" id="testA" data-flickity='{"contain": true, "wrapAround": true,"adaptiveHeight": false}'>
