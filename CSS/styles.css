@@ -523,10 +523,10 @@ https://flickity.metafizzy.co
 }
 .PROJECTS-Cell {
   display: inline-block;
-  width: 300px;
+  width: 250px;
   max-width: 340px;
   transform: scale(0.9);
-  height: 300px;
+  height: 250px;
   margin-right: 10px;
   background: #8C8;
   transition: transform .5s;
@@ -650,6 +650,59 @@ https://flickity.metafizzy.co
   font-size: 20px;
 }
 
+.teachingMTAR {
+  text-align: center;
+}
+.CoverLetterTeaching {
+  width: 90%;
+  color: #aaa;
+  margin: auto;
+  margin-top: 20px;
+}
+.CoverLetterTeachingTitle {
+  text-align: center;
+}
+.CLp1 {
+    width: 60%;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.TeachingExpContainer {
+  width: 90%;
+  margin:auto;
+  font-size: 25px;
+  margin-top: 50px;
+  color:#aaa;
+}
+.iDTech {
+  float: left;
+  width: 50%;
+  display: block;
+}
+.iDTechImage {
+  text-align: center;
+  width: 100%;
+}
+.iDTechImage img {
+  width: 500px;
+  height: 500px;
+}
+.camp {
+  float: right;
+  width: 50%;
+  display: block;
+
+}
+.campImage {
+  text-align: center;
+  width: 100%;
+}
+.campImage img {
+  width: 500px;
+  height: 500px;
+}
 
 @media only screen and (max-width: 1650px) {
   .bioContainer {
