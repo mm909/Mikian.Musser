@@ -24,11 +24,11 @@ function setup() {
   var c = color(0,255,0);
   target = new Target(50,50,targetSize,c,threshold);
   gen = createP();
-  gen.position(x + 10,y + height-20);
+  gen.position(x + 10,y + height-65);
   dead = createP();
-  dead.position(x + 10,y + height);
+  dead.position(x + 10,y + height-45);
   reached = createP();
-  reached.position(x + 10,y + height+20);
+  reached.position(x + 10,y + height-25);
 }
 
 function draw() {

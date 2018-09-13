@@ -523,10 +523,10 @@ https://flickity.metafizzy.co
 }
 .PROJECTS-Cell {
   display: inline-block;
-  width: 20%;
+  width: 300px;
   max-width: 340px;
   transform: scale(0.9);
-  height: 350px;
+  height: 300px;
   margin-right: 10px;
   background: #8C8;
   transition: transform .5s;
@@ -670,6 +670,12 @@ https://flickity.metafizzy.co
     width: 27.00%;
   }
 }
+@media only screen and (max-width: 1475px) {
+  .PROJECTS-Cell {
+    width: 250px;
+    height: 250px;
+  }
+}
 @media only screen and (max-width: 1400px) {
   .HOME-Spotlight-Text {
     max-width: 100%;
@@ -683,9 +689,6 @@ https://flickity.metafizzy.co
     height:100%;
   }
   .gallery-cell {
-    width: 33.33%;
-  }
-  .PROJECTS-Cell {
     width: 33.33%;
   }
   .bioContainer {
@@ -715,6 +718,10 @@ https://flickity.metafizzy.co
   .PROJECTS-Container {
     width: 100%;
   }
+  .PROJECTS-Cell {
+    width: 250px;
+    height: 250px;
+  }
 }
 @media only screen and (max-width: 1050px) {
   .bioContainer {
@@ -722,7 +729,8 @@ https://flickity.metafizzy.co
     margin: auto;
   }
   .PROJECTS-Cell {
-    width: 50%;
+    width: 225px;
+    height: 225px;
   }
 }
 @media only screen and (max-width: 990px) {
@@ -746,6 +754,10 @@ https://flickity.metafizzy.co
   }
   .HOME-Spotlight-Text-Play {
     width:45%;
+  }
+  .PROJECTS-Cell {
+    width: 175px;
+    height: 175px;
   }
 }
 @media only screen and (max-width: 655px) {
