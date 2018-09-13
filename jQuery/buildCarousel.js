@@ -43,8 +43,8 @@ $( document ).ready(function() {
     $("#c-" + tags[i] + "-flickity").flickity({
       // options
       contain: true,
-      wrapAround: true,
       adaptiveHeight: false,
+      cellAlign: 'left'
     });
   }
 });

@@ -125,6 +125,9 @@ body {
   background: #333333;
   transition: transform .33s;
 }
+.nodec {
+  text-decoration: none;
+}
 .HOME-Spotlight-Text-Play:hover {
     transform: scale(1.05);
 }
@@ -139,19 +142,16 @@ body {
   background: #141414;
   width: 100%;
   margin:auto;
+  margin-left: 60px;
 }
 .gallery-cell {
-  width: 20%;
-  max-width: 340px;
+  width: 250px;
+  max-width: 300px;
   transform: scale(0.9);
-  height: 350px;
+  height: 250px;
   margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
   transition: transform .5s;
   border-radius:30px;
-  background: #141414;
-
 }
 .gallery-cell:hover {
   transform: scale(1);
