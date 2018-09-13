@@ -27,7 +27,7 @@ var programs = [{
     downloadLink: 'Bubble%20Sort%20Visualization.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "	Watch the <a href=’https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort’>bubble sort algorithm<a> do its magic! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=67k3I2GxTH8'> Coding Challenge #114: Bubble Sort Visualization.</a><br> <a href=’Bubble%20Sort%20Visualization.zip’> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+    SpotlightText: "Watch the <a href=’https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort’>bubble sort algorithm<a> do its magic! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=67k3I2GxTH8'> Coding Challenge #114: Bubble Sort Visualization.</a><br> <a href=Bubble%20Sort%20Visualization.zip> Download</a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 2,
@@ -38,7 +38,7 @@ var programs = [{
     downloadLink: 'Count%20Sort%20Visualization.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch the <a href=’https://rosettacode.org/wiki/Sorting_algorithms/Counting_sort’>count  sort algorithm<a> do its magic! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=67k3I2GxTH8'> Coding Challenge #114: Bubble Sort Visualization.</a><br> <a href=Count%20Sort%20Visualization.zip> Download</a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 3,
@@ -49,7 +49,7 @@ var programs = [{
     downloadLink: 'Gnome%20Sort%20Visualization.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch the <a href=’https://rosettacode.org/wiki/Sorting_algorithms/Gnome_sort’>gnome sort algorithm<a> do its magic! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=67k3I2GxTH8'> Coding Challenge #114: Bubble Sort Visualization.</a><br> <a href=Gnome%20Sort%20Visualization.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 4,
@@ -60,7 +60,7 @@ var programs = [{
     downloadLink: 'Insertion%20Sort%20Visualization.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch the <a href=’https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort’>insertion sort algorithm<a> do its magic! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=67k3I2GxTH8'> Coding Challenge #114: Bubble Sort Visualization.</a><br> <a href=Insertion%20Sort%20Visualization.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 5,
@@ -71,7 +71,7 @@ var programs = [{
     downloadLink: 'Babbage-Problem.zip',
     visible: false,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "	The <a href=’https://rosettacode.org/wiki/Babbage_problem’>babbage problem<a> finds the first number whose square ends in 269696. <br> <a href=Babbage-Problem.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 6,
@@ -82,7 +82,7 @@ var programs = [{
     downloadLink: 'BinaryNumbers.zip',
     visible: false,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "This is a example of turning <a herf=’https://rosettacode.org/wiki/Binary_digits’> base 10 numbers to binary.  </a> <br> <a href=BinaryNumbers.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 7,
@@ -91,9 +91,9 @@ var programs = [{
     imgpath: 'Projects/7.CaesarCipher/image.png',
     filepath: 'Projects/7.CaesarCipher/index.html',
     downloadLink: 'Caesar-Cipher.zip',
-    visible: true,
+    visible: false,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Encrypt alpha text with a <a herf=’https://www.rosettacode.org/wiki/Caesar_cipher’> Caesar cipher. </a href=Caesar-Cipher.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 8,
@@ -102,9 +102,9 @@ var programs = [{
     imgpath: 'Projects/8.Rot13/image.png',
     filepath: 'Projects/8.Rot13/index.html',
     downloadLink: 'Rot-13.zip',
-    visible: true,
+    visible: false,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Encrypt alpha text with a <a herf=’https://rosettacode.org/wiki/Rot-13’> Rot-13 cipher. </a href=Rot-13.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 9,
@@ -115,7 +115,7 @@ var programs = [{
     downloadLink: 'Starfield.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Fly through space at warp speed! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=17WoOqgXsRM'> Coding Challenge #1: Starfield in Processing.</a><br> <a href=Starfield.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 10,
@@ -126,7 +126,7 @@ var programs = [{
     downloadLink: 'SnakeGame.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Play the retro arcade game - Snake. Use the <b>arrow keys</b> to control the snake. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=AaGK-fj-BAM'> Coding Challenge #3: The Snake Game. </a><br> <a href=SnakeGame.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 11,
@@ -137,7 +137,7 @@ var programs = [{
     downloadLink: 'PurpleRain.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch the rain fall down:) Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=KkyIDI6rQJI'> Coding Challenge #4: Purple Rain in Processing </a><br> <a href=PurpleRain.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 12,
@@ -148,7 +148,7 @@ var programs = [{
     downloadLink: 'SpaceInvaders.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Play the retro arcade game - Space Invaders. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=biN3v3ef-Y0'> Coding Challenge #5: Space Invaders in JavaScript with p5.js </a><br> <a href=SpaceInvaders.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 13,
@@ -159,7 +159,7 @@ var programs = [{
     downloadLink: 'SolarSystem.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Just a small galaxy, far far away:) Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=l8SiJ-RmeHU'> Coding Challenge #7: Solar System in Processing - Part 1 (2D) </a><br> <a href=SolarSystem.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 14,
@@ -172,7 +172,7 @@ var programs = [{
     downloadLink: 'MazeGenerator.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch AI walk through a grid and generate a maze! Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=HyK_Q5rrcr4'> Coding Challenge #10.1: Maze Generator with p5.js - Part 1 </a><br> <a href=MazeGenerator.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 15,
@@ -183,7 +183,7 @@ var programs = [{
     downloadLink: 'ReactionDiffusionAlg.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "This is the reaction diffusion algorithm. Watch these two chemicals react with each other. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=BV9ny785UNc'> Coding Challenge #13: Reaction Diffusion Algorithm in p5.js </a><br> <a href=ReactionDiffusionAlg.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 16,
@@ -196,7 +196,7 @@ var programs = [{
     downloadLink: 'FractalTree.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "This is a fractal Tree. It is beautiful, it is lovely, and it's generated using recursion. For more about recursion see <a href='../17.FunFractalTrees/index.html'> <i>Fun Fractal Trees!</i> </a> Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=0jjeOYMjmDU'> Coding Challenge #14: Fractal Trees - Recursive </a><br> <a href=FractalTree.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 17,
@@ -209,7 +209,8 @@ var programs = [{
     downloadLink: 'FFT.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "This is a fractal Tree. It is beautiful, it is lovely, and it's generated using recursion. For more about recursion see <a href='../16.FractalTrees/index.html'> <i>Fractal Tree!</i> </a> Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=0jjeOYMjmDU'> Coding Challenge #14: Fractal Trees - Recursive </a><br> <a href=FFT.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+
   },
   {
     number: 18,
@@ -222,7 +223,7 @@ var programs = [{
     downloadLink: 'OOPFT.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "These are fractal Trees. They are beautiful, They are lovely, and some might need some extra love:P Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=fcdNSZ9IzJM'> Coding Challenge #15: Fractal Trees - Object Oriented </a><br> <a href=OOPFT.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 19,
@@ -235,7 +236,7 @@ var programs = [{
     downloadLink: 'L-System-Example.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "This is an example of an L-System. An L-System starts with an 'axiom,' usually a single letter, and expands from there based on a set of rules. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=E1B4UoSQMFw'> Coding Challenge #16: Fractal Trees - L-System </a><br> <a href=L-System-Example.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 20,
@@ -248,7 +249,7 @@ var programs = [{
     downloadLink: 'L-System-Fractal-Plant.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "This is an example of an L-System. An L-System starts with an 'axiom,' usually a single letter, and expands from there based on a set of rules. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=E1B4UoSQMFw'> Coding Challenge #16: Fractal Trees - L-System </a><br> <a href=L-System-Fractal-Plant.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 21,
@@ -261,7 +262,7 @@ var programs = [{
     downloadLink: 'L-System-Binary-Tree.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "This is an example of an L-System. An L-System starts with an 'axiom,' usually a single letter, and expands from there based on a set of rules. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=E1B4UoSQMFw'> Coding Challenge #16: Fractal Trees - L-System </a><br> <a href=L-System-Binary-Tree.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 22,
@@ -274,7 +275,8 @@ var programs = [{
     downloadLink: 'SpaceColonization.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Space colonization is all about a tree growing to meet it's roots. Click on the canvas to add new leaves. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=kKT0v3qhIQY'> Coding Challenge #17: Fractal Trees - Space Colonization </a><br> <a href=SpaceColonization.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+
   },
   {
     number: 23,
@@ -287,7 +289,8 @@ var programs = [{
     downloadLink: 'MendelbrotSet.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Ever wonder what imaginary numbers look like? Well they are more beautiful than you could ever imagine;) Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=6z7GQewK-Ks'> Coding Challenge #21: Mandelbrot Set with p5.js </a><br> <a href=MendelbrotSet.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+
   },
   {
     number: 24,
@@ -300,7 +303,8 @@ var programs = [{
     downloadLink: 'JuliaSets.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Ever wonder what imaginary numbers look like? Well they are more beautiful than you could ever imagine;) Now lets ZOOM in to the Mandelbrot Set. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=fAsaSkmbF5s'> Coding Challenge #22: Julia Set in Processing </a><br> <a href=JuliaSets.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+
   },
   {
     number: 25,
@@ -314,7 +318,7 @@ var programs = [{
     downloadLink: 'Phyllotaxis.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Nature is beautiful. This is an example of algorithmic botany. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=KWoJgHFYWxY'> Coding Challenge #30: Phyllotaxis </a><br> <a href=Phyllotaxis.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 26,
@@ -327,7 +331,7 @@ var programs = [{
     downloadLink: 'fireworks.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch some cool partical effects brighten up the... Screen:P Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=CKeyIbT3vXI'> Coding Challenge #27: Fireworks! </a><br> <a href=fireworks.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 27,
@@ -341,7 +345,7 @@ var programs = [{
     downloadLink: 'SmartRockets.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "These rockets will evolve to hit a target. Watch as their DNA changes and the score better over time. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=bGz7mv2vD6g'> Coding Challenge #29: Smart Rockets in p5.js </a><br> <a href=SmartRockets.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 28,
@@ -354,7 +358,7 @@ var programs = [{
     downloadLink: 'TSMP.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "The traveling salesman needs to visit each city along the route in the shortest distance possible. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=BAejnwN4Ccw'> Coding Challenge #35.1: Traveling Salesperson </a><br> <a href=TSMP.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 29,
@@ -367,7 +371,7 @@ var programs = [{
     downloadLink: 'PixelSorting.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Sort an image's pixels from brightest to darkest. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=JUDYkxU6J0o'> Coding Challenge #47: Pixel Sorting in Processing </a><br> <a href=PixelSorting.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 30,
@@ -400,7 +404,7 @@ var programs = [{
     downloadLink: 'NoiseTrees.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch some perlin noise wind blow this fractal tree around. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=0jjeOYMjmDU'> Coding Challenge #14: Fractal Trees - Recursive </a><br> <a href=NoiseTrees.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 32,
@@ -413,7 +417,7 @@ var programs = [{
     downloadLink: 'AStar.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch the A* algorithm navigate through a maze. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=aKYlikFAV4k'> Coding Challenge 51.1: A* Pathfinding Algorithm - Part 1 </a><br> <a href=AStar.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 33,
@@ -427,7 +431,7 @@ var programs = [{
     downloadLink: 'AStarMaze.zip',
     visible: true,
     titleText: '#e5e5e5',
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Watch the A* algorithm navigate through a maze that has been randomly generated. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=aKYlikFAV4k'> Coding Challenge 51.1: A* Pathfinding Algorithm - Part 1 </a><br> <a href=AStarMaze.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   },
   {
     number: 34,
@@ -440,6 +444,6 @@ var programs = [{
     downloadLink: 'ParticalExample.zip',
     visible: true,
     titleText: "#e5e5e5",
-    SpotlightText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   }
 ]
