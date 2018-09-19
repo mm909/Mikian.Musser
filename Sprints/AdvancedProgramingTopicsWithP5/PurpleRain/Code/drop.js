@@ -4,6 +4,7 @@
 // https://www.youtube.com/watch?v=KkyIDI6rQJI
 
   // 1. This is the drop object.
+
   // Drop Vars
     // 2. x
     // 3. y
@@ -15,6 +16,7 @@
       //  r = 138, g = 43, b = 226
     // 7. speed
       //  Random value between 5 to 14
+
   // Functions
     // 8. fall
       // a. Update the rain location by the speed of the drop
@@ -25,6 +27,7 @@
       // a. set the color of the drop
       // b. set the width
       // c. draw the drop as a line
+
 function drop() {                   // 1
   // Vars
   this.x = random(width);           // 2
@@ -36,18 +39,18 @@ function drop() {                   // 1
 
   // Functions
   this.fall = function() {          // 8
-    this.y = this.y + this.speed;   // a
+    this.y = this.y + this.speed;   // 8.a
   }
 
   this.checkBounds = function() {   // 9
-    if(this.y > height){            // a
-      this.y = -this.length;        // b
+    if(this.y > height){            // 9.a
+      this.y = -this.length;        // 9.b
     }
   }
 
   this.show = function() {          // 10
-    stroke(this.color)              // a
-    strokeWeight(this.weight);      // b
-    line(this.x, this.y, this.x, this.y + this.length);  // c
+    stroke(this.color)              // 10.a
+    strokeWeight(this.weight);      // 10.b
+    line(this.x, this.y, this.x, this.y + this.length);  // 10.c
   }
 }
