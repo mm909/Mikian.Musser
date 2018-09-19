@@ -12,7 +12,7 @@
 var rain = [];   // 1
 var count = 300; // 2
 
-// 1. Setup runs before the program starts.
+// 1. Setup runs before the draw loop starts.
 // 2. Make a canvas to draw on.
 // 3. Add 'count' drops to our rain array
 // 4. Create a new drop and add it to the rain array
