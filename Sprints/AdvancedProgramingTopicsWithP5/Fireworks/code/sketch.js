@@ -2,6 +2,21 @@
 // Code Central
 // Sprint: Advanced Programing Topics with P5.js
 // https://www.youtube.com/watch?v=CKeyIbT3vXI
+// https://p5js.org/reference/
+
+// Purple Rain topics
+  // > Map function
+  // > Floor function
+  // > Applying force function
+  // > Acc, vel, pos vectors
+  // > Color Modes
+  // > Vectors
+  // > OOP
+  // > Arrays
+  // > Push and splice
+  // > Random
+  // > Update/Show functions
+  // > P5.js basics
 
 // 1. Array to hold our fireworks
 // 2. How many fireworks on the screen

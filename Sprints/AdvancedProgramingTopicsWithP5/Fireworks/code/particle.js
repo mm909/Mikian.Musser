@@ -31,30 +31,30 @@ function Particle(pos_, size_, color_) { // 1
   // 2. Create a vector with x and y as the passed values.
   // 3. set size to the passed value
   // 4. set the color to the passed value
-  this.pos = createVector(pos_.x,pos_.y);
-  this.size = size_;
-  this.color = color_;
+  this.pos = createVector(pos_.x,pos_.y); // 2
+  this.size = size_; // 3
+  this.color = color_; // 4
 
   // 5. create a vector for the velocity
   // 6. create a vector for the acceleration
   // 7. create a vector for the force of gravity
-  this.vel = createVector(0, 0);
-  this.acc = createVector(0, 0);
-  this.g = createVector(0, 0.01);
+  this.vel = createVector(0, 0); // 5
+  this.acc = createVector(0, 0); // 6
+  this.g = createVector(0, 0.01); // 7
 
   // 8. del is a bool to see if the partical can be deleted from the array.
-  this.del = false;
+  this.del = false; // 8
 
   // 9. this.life is how many frames this partical has been alive
   // 10. this.lifeSpan is how many frames this partical is allowed to live
-  this.life = 0;
-  this.lifeSpan = 40;
+  this.life = 0; // 9
+  this.lifeSpan = 40; // 10
 
   // 11. Apply force
     // Apply force takes in a vector and adds it to the acceleration
     // a. Add the force to acc vector
-  this.applyForce = function(f) {
-    this.acc.add(f);
+  this.applyForce = function(f) { // 11
+    this.acc.add(f);  // a
   }
 
   // 12. Update
@@ -62,14 +62,17 @@ function Particle(pos_, size_, color_) { // 1
     // b > Add g to vel
     // c > Add pos to vel
     // d > 0 out acc
-  this.update = function() {
-    this.vel.add(this.acc);
-    this.vel.add(this.g)
-    this.pos.add(this.vel);
-    this.acc.mult(0);
-    this.life++;
-    if (this.life > this.lifeSpan) {
-      this.del = true;
+    // e > inc the life count
+    // f > if this.life > this.lifeSpan then
+      // g > set del for true
+  this.update = function() { // 12
+    this.vel.add(this.acc); // a
+    this.vel.add(this.g); // b
+    this.pos.add(this.vel); // c
+    this.acc.mult(0); // d
+    this.life++; // e
+    if (this.life > this.lifeSpan) { // f
+      this.del = true; // g
     }
   }
 

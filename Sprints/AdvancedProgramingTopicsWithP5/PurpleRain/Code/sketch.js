@@ -2,6 +2,14 @@
 // Code Central
 // Sprint: Advanced Programing Topics with P5.js
 // https://www.youtube.com/watch?v=KkyIDI6rQJI
+// https://p5js.org/reference/
+
+// Purple Rain topics
+  // > Arrays
+  // > OOP
+  // > Random
+  // > Update/Show functions
+  // > P5.js basics
 
 // Purple rain:
 // Background: (230, 230, 250)
