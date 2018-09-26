@@ -10,7 +10,7 @@ function Circle(x,y) {
   this.buffer = 3;
 
   this.maxSpeed = 5;
-  this.maxForce = 0.3
+  this.maxForce = 0.3;
   this.fleeSpeed = 7;
   this.fleeRange = 75;
 
