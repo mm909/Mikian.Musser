@@ -4,81 +4,59 @@
 // https://www.youtube.com/watch?v=QHEQuoIKgNE
 // https://p5js.org/reference/
 
-var MAXSIZE = 15;
+// MAXSIZE => The max radius of a circle
+// CIRCLESEACHFRAME => The numbers of circles that are spawned each frame
+// ATTEMPTS => The nuber of tries to spawn a circle each frame.
+// MAX => Max number of circles possible
+var MAXSIZE = 50;
 var CIRCLESEACHFRAME = 10;
 var ATTEMPTS = CIRCLESEACHFRAME * 10;
-var MAX = 500;
+var MAX = 1000;
 
+// circle => Array to hold the cirlces
+// Finished => Var to tell if we have finished packing the space yet
 var circles = [];
 var finished = false;
-var firstTime = true;
-var swapChance = 100;
 
+// Create the canvas
 function setup(){
   createCanvas(500,500);
 }
 
 function draw(){
+  // Draw the background
   background(0,0,0)
-  var circlesThisFrame = 0;
-  var attemptsToAddCircle = 0;
-  if(circles.length < MAX && !finished){
-    while (circlesThisFrame < CIRCLESEACHFRAME){
-      attemptsToAddCircle++;
-      if(addCircle()) {
-        circlesThisFrame++;
-      }
-      if(attemptsToAddCircle > ATTEMPTS){
-        finished = true;
-        break;
-      }
-    }
-  } else {
-    if(firstTime){
-      for (var i = 0; i < circles.length; i++) {
-        circles[i].applyForce(p5.Vector.random2D().setMag(10));
-      }
-    } else {
-      if(random(100) < swapChance){swapC()}
-    }
-    firstTime = false;
-  }
+  addCircles();
 
+  // For each circle update, grow, and show.
   for (var i = 0; i < circles.length; i++) {
-    circles[i].update();
     circles[i].grow();
     circles[i].show();
   }
 }
 
-
-function addCircle() {
-  var x = random(width);
-  var y = random(height);
-
-  var valid = true;
-  for (var i = 0; i < circles.length; i++) {
-    var c = circles[i];
-    var d = dist(x,y,c.target.x,c.target.y)
-    if(d - c.buffer < c.r) {
-      valid = false;
+function addCircles(){
+  // circlesThisFrame keeps track of how many circles have sucessfully been spwaned this frame.
+  // attemptsToAddCircle keepts track of how many attempts to add a circle have been made.
+  var circlesThisFrame = 0;
+  var attemptsToAddCircle = 0;
+  // If the number of cirlcs is less than the max and we are not finished then ->
+  if(circles.length < MAX && !finished){
+    // While the # of circles this frame < CIRCLESEACHFRAME
+    while (circlesThisFrame < CIRCLESEACHFRAME){
+      // inc attempts
+      attemptsToAddCircle++;
+      // If we sucessfully add a circle then inc circlesThisFrame
+      if(addCircle()) {
+        circlesThisFrame++;
+      }
+      // If we try too many times (attemptsToAddCircle > ATTEMPTS)
+      // Then we are done trying to pack circles
+      if(attemptsToAddCircle > ATTEMPTS){
+        finished = true;
+        // Break from while loop
+        break;
+      }
     }
-  }
-
-  if(valid){
-    circles.push(new Circle(x,y))
-  }
-
-  return valid;
-}
-
-function swapC() {
-  var tempA = circles[floor(random(circles.length))];
-  var tempB = circles[floor(random(circles.length))];
-
-  if(abs(tempA.r - tempB.r) <= 0){
-    var tempC = tempA.target;
-    tempA.target = tempB.target;
-    tempB.target = tempC;
   }
 }
