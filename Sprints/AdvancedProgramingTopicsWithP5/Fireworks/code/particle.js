@@ -4,10 +4,10 @@
 // https://www.youtube.com/watch?v=CKeyIbT3vXI
 
 // 1. this is a partical object
-  // > it takes in a parent firework
-  // > posistion
-  // > size
-  // > color
+// > it takes in a parent firework
+// > posistion
+// > size
+// > color
 
 // Vars
 // 2. vector pos
@@ -31,7 +31,7 @@ function Particle(pos_, size_, color_) { // 1
   // 2. Create a vector with x and y as the passed values.
   // 3. set size to the passed value
   // 4. set the color to the passed value
-  this.pos = createVector(pos_.x,pos_.y); // 2
+  this.pos = createVector(pos_.x, pos_.y); // 2
   this.size = size_; // 3
   this.color = color_; // 4
 
@@ -51,20 +51,20 @@ function Particle(pos_, size_, color_) { // 1
   this.lifeSpan = 40; // 10
 
   // 11. Apply force
-    // Apply force takes in a vector and adds it to the acceleration
-    // a. Add the force to acc vector
+  // Apply force takes in a vector and adds it to the acceleration
+  // a. Add the force to acc vector
   this.applyForce = function(f) { // 11
-    this.acc.add(f);  // a
+    this.acc.add(f); // a
   }
 
   // 12. Update
-    // a > Add acc to vel
-    // b > Add g to vel
-    // c > Add pos to vel
-    // d > 0 out acc
-    // e > inc the life count
-    // f > if this.life > this.lifeSpan then
-      // g > set del for true
+  // a > Add acc to vel
+  // b > Add g to vel
+  // c > Add pos to vel
+  // d > 0 out acc
+  // e > inc the life count
+  // f > if this.life > this.lifeSpan then
+  // g > set del for true
   this.update = function() { // 12
     this.vel.add(this.acc); // a
     this.vel.add(this.g); // b
@@ -77,11 +77,11 @@ function Particle(pos_, size_, color_) { // 1
   }
 
   // 13. Show
-    // > this function will draw the partical
-    // a > set the color mode to HSB (Hue, saturation, brightness)
-    // b > get the alpha value using the map function (Make it look like they are fading)
-    // c > fill with color and alpha
-    // d > draw the partical
+  // > this function will draw the partical
+  // a > set the color mode to HSB (Hue, saturation, brightness)
+  // b > get the alpha value using the map function (Make it look like they are fading)
+  // c > fill with color and alpha
+  // d > draw the partical
   this.show = function() { // 13
     colorMode(HSB) // a
     var alpha = map(this.life, 0, this.lifeSpan, 255, 50) // b

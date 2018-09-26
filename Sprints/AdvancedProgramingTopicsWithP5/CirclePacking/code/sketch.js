@@ -19,13 +19,13 @@ var circles = [];
 var finished = false;
 
 // Create the canvas
-function setup(){
-  createCanvas(500,500);
+function setup() {
+  createCanvas(500, 500);
 }
 
-function draw(){
+function draw() {
   // Draw the background
-  background(0,0,0)
+  background(0, 0, 0)
   addCircles();
 
   // For each circle update, grow, and show.
@@ -35,24 +35,24 @@ function draw(){
   }
 }
 
-function addCircles(){
+function addCircles() {
   // circlesThisFrame keeps track of how many circles have sucessfully been spwaned this frame.
   // attemptsToAddCircle keepts track of how many attempts to add a circle have been made.
   var circlesThisFrame = 0;
   var attemptsToAddCircle = 0;
   // If the number of cirlcs is less than the max and we are not finished then ->
-  if(circles.length < MAX && !finished){
+  if (circles.length < MAX && !finished) {
     // While the # of circles this frame < CIRCLESEACHFRAME
-    while (circlesThisFrame < CIRCLESEACHFRAME){
+    while (circlesThisFrame < CIRCLESEACHFRAME) {
       // inc attempts
       attemptsToAddCircle++;
       // If we sucessfully add a circle then inc circlesThisFrame
-      if(addCircle()) {
+      if (addCircle()) {
         circlesThisFrame++;
       }
       // If we try too many times (attemptsToAddCircle > ATTEMPTS)
       // Then we are done trying to pack circles
-      if(attemptsToAddCircle > ATTEMPTS){
+      if (attemptsToAddCircle > ATTEMPTS) {
         finished = true;
         // Break from while loop
         break;

@@ -1,17 +1,16 @@
-
 // This is a circle object
 // It takes an x and a y for its location
-function Circle(x,y) {
+function Circle(x, y) {
   // this.pos is a vector with the obejct's pos(x,y)
-  this.pos = createVector(random(width),random(height));
+  this.pos = createVector(random(width), random(height));
   // this.pos = createVector(x,y);
-  this.vel = createVector(0,0);
-  this.acc = createVector(0,0);
-  this.target = createVector(x,y)
+  this.vel = createVector(0, 0);
+  this.acc = createVector(0, 0);
+  this.target = createVector(x, y)
 
   // this.r is the circle's radius
   // this.growrate is how fast the cirlce grows
-    // Amount each frame
+  // Amount each frame
   // this.growing is a bool var for it the circle should grow or not
   // this.buffer is how much black space should be allowed between circles
   this.r = 1;
@@ -40,10 +39,10 @@ function Circle(x,y) {
 
   // This function will update the color of the circle
   this.updateColor = function() {
-    var middle = createVector(width/2,height/2);
+    var middle = createVector(width / 2, height / 2);
     var d = dist(middle.x, middle.y, this.pos.x, this.pos.y);
-    var c = map(d,0,width/2,0,255);
-    this.color = color(c,255,255);
+    var c = map(d, 0, width / 2, 0, 255);
+    this.color = color(c, 255, 255);
   }
 
   // updates color, vel, pos, acc, and calls the arrive function.
@@ -63,17 +62,17 @@ function Circle(x,y) {
   // Once we arive we want to stop
   this.arrive = function(target) {
     // Get the direction
-    var desired = p5.Vector.sub(target,this.pos)
+    var desired = p5.Vector.sub(target, this.pos)
     // See how long this vector is
     var d = desired.mag();
     // Get the max speed
     var speed = this.maxSpeed;
     // This is the "Slow down as we get close" part of the alg
-    speed = map(d, 0, this.maxSpeed, 0, this.maxSpeed/this.slowDown)
+    speed = map(d, 0, this.maxSpeed, 0, this.maxSpeed / this.slowDown)
     // Resize the vector
     desired.setMag(speed)
     // "steer"
-    var steer = p5.Vector.sub(desired,this.vel)
+    var steer = p5.Vector.sub(desired, this.vel)
     // Apply the force
     this.applyForce(steer)
   }
@@ -88,16 +87,16 @@ function Circle(x,y) {
     colorMode(HSB);
     noStroke();
     fill(this.color);
-    ellipse(this.pos.x, this.pos.y, this.r * 2,this.r * 2);
+    ellipse(this.pos.x, this.pos.y, this.r * 2, this.r * 2);
   }
 
   // This.grow will inc this.r by this.growRate if the circle is still growing
   this.grow = function() {
-    if(!this.bounds()) {
+    if (!this.bounds()) {
       this.growing = false;
     }
     // If the circle is still growing and this.r < the MAXSIZE ->
-    if(this.growing && this.r < MAXSIZE){
+    if (this.growing && this.r < MAXSIZE) {
       // this.r = this.r + this.growRate
       this.r += this.growRate;
     }
@@ -108,10 +107,10 @@ function Circle(x,y) {
     // Check to see if the circle is touching a wall
     var tempX = this.target.x + this.r + this.buffer;
     var tempY = this.target.y + this.r + this.buffer;
-    if(tempX > width || tempY > height) return false;
+    if (tempX > width || tempY > height) return false;
     var tempX = this.target.x - this.r - this.buffer;
     var tempY = this.target.y - this.r - this.buffer;
-    if(tempX < 0 || tempY < 0) return false;
+    if (tempX < 0 || tempY < 0) return false;
 
     // Check to see if 'this' is touching any other circle
     for (var i = 0; i < circles.length; i++) {
@@ -122,9 +121,9 @@ function Circle(x,y) {
       // IF D > 1 // NOTE: 'this' is in the circle array so it will
       // check itself so the distance from itself to itself will be 0
       // thus will stop growing
-      if(d > 1){
+      if (d > 1) {
         // if the distance is less than both radius + the buffer then return false
-        if(d < this.r + c.r + this.buffer) {
+        if (d < this.r + c.r + this.buffer) {
           return false;
         }
       }
@@ -140,14 +139,14 @@ function addCircle() {
   var valid = true;
   for (var i = 0; i < circles.length; i++) {
     var c = circles[i];
-    var d = dist(x,y,c.target.x,c.target.y)
-    if(d - c.buffer < c.r) {
+    var d = dist(x, y, c.target.x, c.target.y)
+    if (d - c.buffer < c.r) {
       valid = false;
     }
   }
 
-  if(valid){
-    circles.push(new Circle(x,y))
+  if (valid) {
+    circles.push(new Circle(x, y))
   }
 
   return valid;
