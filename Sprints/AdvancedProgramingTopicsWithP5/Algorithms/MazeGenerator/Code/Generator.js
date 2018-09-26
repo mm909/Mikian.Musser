@@ -1,4 +1,4 @@
-var cellWidth = 50;
+var cellWidth = 25;
 var maze;
 
 function setup() {
