@@ -701,6 +701,10 @@ https://flickity.metafizzy.co
 .whiteText {
   color: #e5e5e5;
 }
+.footer {
+  min-height: 200px;
+}
+
 
 @media only screen and (max-width: 1650px) {
   .bioContainer {
