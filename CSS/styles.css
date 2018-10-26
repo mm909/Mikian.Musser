@@ -140,9 +140,8 @@ body {
 /* Carousel */
 .gallery {
   background: #141414;
-  width: 100%;
+  width: 95%;
   margin:auto;
-  margin-left: 60px;
 }
 .gallery-cell {
   width: 250px;
@@ -677,8 +676,6 @@ https://flickity.metafizzy.co
   color:#aaa;
 }
 .iDTech {
-  float: left;
-  width: 50%;
   display: block;
 }
 .iDTechImage {
@@ -690,10 +687,7 @@ https://flickity.metafizzy.co
   height: 500px;
 }
 .camp {
-  float: right;
-  width: 50%;
   display: block;
-
 }
 .campImage {
   text-align: center;
@@ -702,6 +696,10 @@ https://flickity.metafizzy.co
 .campImage img {
   width: 500px;
   height: 500px;
+}
+
+.whiteText {
+  color: #e5e5e5;
 }
 
 @media only screen and (max-width: 1650px) {

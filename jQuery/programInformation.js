@@ -1,9 +1,9 @@
 var tags = [
-  'Featured',
-  'Beautiful',
-  'Trees',
-  'Vectors'
+  'Featured'
 ]
+// 'Beautiful',
+// 'Trees',
+// 'Vectors'
 
 var Spotlight = 30;
 
