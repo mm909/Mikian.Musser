@@ -470,6 +470,22 @@ https://flickity.metafizzy.co
   font-size: 100px;
 }
 
+.fadeinQuick{
+  opacity: 0;
+  animation:fadein 1.5s;
+  animation-timing-function:linear;
+  animation-delay:.5s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation:fadein 1.5s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-delay:.5s;
+  -webkit-animation-fill-mode: forwards;
+  color: #00abe9;
+  font-size: 100px;
+}
+
 @-webkit-keyframes sentence {
   0%{opacity:1;}
   50%{color:#88ffff;}
