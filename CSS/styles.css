@@ -30,6 +30,21 @@ body {
 .greenText {
   color: #00e900;
 }
+.blueBox {
+  background-color: #00abe9;
+}
+.yellowBox {
+  background-color: #e9e500;
+}
+.greenBox {
+  background-color: #00e900;
+}
+.greenBox2 {
+  background-color: #44bb44;
+}
+.yellowBox2 {
+  background-color: #cccc44;
+}
 .middle {
   margin: auto;
   text-align: center;
@@ -734,7 +749,7 @@ https://flickity.metafizzy.co
   color: #e5e5e5;
 }
 .footer {
-  min-height: 200px;
+  height: auto;
   background: #333333;
   margin-top: 20px;
 
@@ -762,6 +777,25 @@ https://flickity.metafizzy.co
 }
 .footer-hireme-text {
 
+}
+
+.wrapper1 {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-gap: 10px;
+  width: 97%;
+  margin: auto;
+  background-color: #333;
+  color: #444;
+  text-align: center;
+  padding: 10px;
+}
+
+.box {
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 150%;
 }
 
 @media only screen and (max-width: 1650px) {
