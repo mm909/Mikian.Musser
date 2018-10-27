@@ -34,6 +34,9 @@ body {
   margin: auto;
   text-align: center;
 }
+hr {
+  border: 0;
+}
 /* #e5e5e5 */
 /* 999 */
 /* 141414 */
@@ -732,6 +735,33 @@ https://flickity.metafizzy.co
 }
 .footer {
   min-height: 200px;
+  background: #333333;
+  margin-top: 20px;
+
+}
+.footer-hireme-container {
+  text-align: center;
+  color: #e5e5e5;
+  padding-top: 5px;
+}
+.footer-hireme-container p {
+  margin: 0;
+}
+.footer-hireme-round {
+  background-color: #00abe9;
+  max-width: 100px;
+  width: 20%;
+  height: auto;
+  margin: auto;
+  border-radius: 20px;
+  padding: 3px;
+  transition: transform .33s;
+}
+.footer-hireme-round:hover {
+  transform: scale(1.05);
+}
+.footer-hireme-text {
+
 }
 
 @media only screen and (max-width: 1650px) {
