@@ -30,7 +30,10 @@ body {
 .greenText {
   color: #00e900;
 }
-
+.middle {
+  margin: auto;
+  text-align: center;
+}
 /* #e5e5e5 */
 /* 999 */
 /* 141414 */
