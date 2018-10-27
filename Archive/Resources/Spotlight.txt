@@ -1,8 +1,0 @@
-This colorful 'M' is an example of a process called
-<a href="https://en.wikipedia.org/wiki/Circle_packing"> circle packing</a>.
-A black and white image is processed and all black pixels are marked as possible circle location.
-Each frame a set number of circles try to spawn and grow.
-Some fail because they randomly choose a position that is already occupied by another circle.
-Circles stop growing once they have touched another circle (After considering a buffer).
-This idea comes from Daniel Shiffman's coding challange - <a href="https://www.youtube.com/watch?v=QHEQuoIKgNE"> Coding Challenge #50.1: Animated Circle Packing</a>.
-</p>

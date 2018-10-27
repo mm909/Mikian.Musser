@@ -21,6 +21,15 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
+.blueText {
+  color: #00abe9;
+}
+.yellowText {
+  color: #e9e500;
+}
+.greenText {
+  color: #00e900;
+}
 
 /* #e5e5e5 */
 /* 999 */
@@ -676,6 +685,7 @@ https://flickity.metafizzy.co
 }
 .CoverLetterTeachingTitle {
   text-align: center;
+  color: #e5e5e5;
 }
 .CLp1 {
     width: 60%;
@@ -720,7 +730,6 @@ https://flickity.metafizzy.co
 .footer {
   min-height: 200px;
 }
-
 
 @media only screen and (max-width: 1650px) {
   .bioContainer {

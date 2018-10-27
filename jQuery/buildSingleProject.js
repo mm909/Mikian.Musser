@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
   $id = $("head").attr('id');
 
   $(".PROJECT-Title-TitleText").text(programs[$id].title);
