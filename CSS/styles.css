@@ -798,6 +798,15 @@ https://flickity.metafizzy.co
   font-size: 150%;
 }
 
+.box a {
+  color: #fff;
+}
+
+.box hr {
+  border: 0;
+  border-top: 1px solid rgba(151,151,151,.1);
+}
+
 @media only screen and (max-width: 1650px) {
   .bioContainer {
     width:65%;
