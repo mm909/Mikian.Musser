@@ -8,13 +8,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
     <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
     <script type= "text/javascript" src= "sketch.js"></script>
+    <script type= "text/javascript" src= "testJS.js"></script>
     <script type= "text/javascript" src= "p5.js"></script>
     <script type= "text/javascript" src= "p5.dom.js"></script>
     <script type= "text/javascript" src= "../../../jQuery/programInformation.js"></script>
     <script type= "text/javascript" src= "../../../jQuery/buildSingleProject.js"></script>
     <link rel="stylesheet" href="../../../CSS/styles.css">
+    <link rel="stylesheet" href="tempcss.css">
   </head>
 
   <body>
@@ -60,6 +63,30 @@
         </div>
       </div>
     </div>
+
+    <style media="screen">
+
+
+</style>
+
+<section>
+<div class='CodeBox'>
+    <pre class="prettyprint linenums lang-js">
+var _html = 'Here goes your html structure';
+
+$('#some-element').lightbox({
+  zIndex:99999,
+  background:'background-color:rgba(0,0,0,.8);',
+  time:300,
+  width:300,
+  type:'html',
+  contentHtml:_html
+});
+</pre>
+  </div>
+
+
+</section>
 
   </body>
 </html>
