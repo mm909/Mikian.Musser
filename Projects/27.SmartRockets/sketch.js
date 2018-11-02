@@ -16,32 +16,32 @@ var reached;
 var gen;
 
 function setup() {
-  var canvas = createCanvas(600,500);
+  var canvas = createCanvas(600, 500);
   canvas.parent("canvasContainer")
-  var x = getOffset( document.getElementById('defaultCanvas0') ).left;
-  var y = getOffset( document.getElementById('defaultCanvas0') ).top;
+  var x = getOffset(document.getElementById('defaultCanvas0')).left;
+  var y = getOffset(document.getElementById('defaultCanvas0')).top;
   population = new Population();
-  var c = color(0,255,0);
-  target = new Target(50,50,targetSize,c,threshold);
+  var c = color(0, 255, 0);
+  target = new Target(50, 50, targetSize, c, threshold);
   gen = createP();
-  gen.position(x + 10,y + height-65);
+  gen.position(x + 10, y + height - 65);
   dead = createP();
-  dead.position(x + 10,y + height-45);
+  dead.position(x + 10, y + height - 45);
   reached = createP();
-  reached.position(x + 10,y + height-25);
+  reached.position(x + 10, y + height - 25);
 }
 
 function draw() {
-  background(151,125)
+  background(151, 125)
   population.run();
   target.show();
   gen.html("Generation: " + population.gen)
   dead.html("Dead: " + population.deadCount)
   reached.html("On Target: " + population.reachedCount)
   count++;
-  if(count >= lifespan){
+  if (count >= lifespan) {
     population.evaluate();
-    if(!population.allDead){
+    if (!population.allDead) {
       population.selection();
     } else {
       population.allDead = false;
@@ -51,13 +51,16 @@ function draw() {
   }
 }
 
-function getOffset( el ) {
-    var _x = 0;
-    var _y = 0;
-    while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
-        _x += el.offsetLeft - el.scrollLeft;
-        _y += el.offsetTop - el.scrollTop;
-        el = el.offsetParent;
-    }
-    return { top: _y, left: _x };
+function getOffset(el) {
+  var _x = 0;
+  var _y = 0;
+  while (el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop)) {
+    _x += el.offsetLeft - el.scrollLeft;
+    _y += el.offsetTop - el.scrollTop;
+    el = el.offsetParent;
+  }
+  return {
+    top: _y,
+    left: _x
+  };
 }

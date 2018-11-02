@@ -72,16 +72,19 @@
 <section>
 <div class='CodeBox'>
     <pre class="prettyprint linenums lang-js">
-var _html = 'Here goes your html structure';
+// Example Code Snippet - Begin
 
-$('#some-element').lightbox({
-  zIndex:99999,
-  background:'background-color:rgba(0,0,0,.8);',
-  time:300,
-  width:300,
-  type:'html',
-  contentHtml:_html
-});
+function setup() {
+  var canvas = createCanvas(500,500)
+  canvas.parent("canvasContainer");
+}
+
+function draw() {
+  background(151)
+}
+
+// Example Code Snippet - End
+
 </pre>
   </div>
 
