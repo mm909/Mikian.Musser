@@ -72,8 +72,7 @@
 <section>
 <div class='CodeBox'>
     <pre class="prettyprint linenums lang-js">
-// Example Code Snippet - Begin
-
+// Example Code Snippet of p5 - Begin
 function setup() {
   var canvas = createCanvas(500,500)
   canvas.parent("canvasContainer");
@@ -83,12 +82,14 @@ function draw() {
   background(151)
 }
 
+// jQuery for prettify
+jQuery(document).ready(
+  function() {
+    prettyPrint();
+});
 // Example Code Snippet - End
-
-</pre>
-  </div>
-
-
+  </pre>
+</div>
 </section>
 
   </body>
