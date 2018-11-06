@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Project 1</title>
+  <link rel="stylesheet" href="../../../css/styles.css">
+  <link rel="stylesheet" href="../../../css/prettyPrint.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script type="text/javascript" src="../../../js/prettyPrint.js"></script>
+  <script type="text/javascript" src="../../../js/progressbar.js"></script>
+  <script type="text/javascript" src="../../../js/smoothscroll.js"></script>
+  <script type="text/javascript" src="../../../js/question.js"></script>
+  <script type="text/javascript" src="showcase/sketch.js"></script>
+  <script type="text/javascript" src="challenge/sketch.js"></script>
+</head>
+
+<body class="sideNavVisible">
+  <div class="fixedHeaderContainer">
+    <div class="headerWrapper wrapper">
+      <header>
+        <div class="navigationWrapper navigationSlider">
+          <nav class="slidingNav">
+            <ul class="nav-site nav-site-internal">
+              <li class="">.</li>
+              <li class=""><a href="../../../index.html" target="_self">Home</a></li>
+              <!-- <li class="navSearchWrapper reactNavSearchWrapper"><span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="text" id="search_input_react" placeholder="Search" title="Search" class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-labelledby="search_input_react" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 300; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="aa-dataset-1"></div></span></span></li> -->
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+  </div>
+  <div class="navPusher">
+    <div class="docMainWrapper wrapper">
+      <div class="container docsNavContainer" id="docsNav">
+        <nav class="toc">
+          <div class="toggleNav">
+            <section class="navWrapper wrapper">
+              <div class="navGroups">
+                <div class="navGroup"><a href="#top"><h3 class="navGroupCategoryTitle">Project 1</h3></a>
+                  <ul>
+                    <li class="navListItem"><a class="navItem" href="#gettingstarted">1. Getting Started</a></li>
+                    <li class="navListItem"><a class="navItem" href="#addingshapes">2. Adding Shapes</a></li>
+                    <li class="navListItem"><a class="navItem" href="#addingcolor">3. Adding Color</a></li>
+                    <li class="navListItem"><a class="navItem" href="#addingvariables">4. Adding Variables</a></li>
+                    <li class="navListItem"><a class="navItem" href="#followingthemouse">5. Following the mouse!</a></li>
+                    <li class="navListItem"><a class="navItem" href="#finishup">6. Finish up</a></li>
+                    <li class="navListItem"><a class="navItem" href="#challenge"><codeR>Challenge</codeR> </a></li>
+                    <progress id="pb" value="0" max="100"></progress>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </nav>
+      </div>
+      <div class="container mainContainer" id="top">
+        <div class="wrapper">
+          <div class="post">
+            <header class="postHeader"><a class="edit-page-link button" href="https://www.GitHub.com/mm909" rel="noreferrer noopener">GitHub</a><h1  class="postHeaderTitle">Project 1</h1>
+            </header>
+            <article>
+              <div>
+
+                <p>
+                  Make any color shape follow your mouse!
+                </p>
+                <div id="showcaseContainer" style="height:100px;width:auto;"></div>
+
+                <section>
+                  <!-- <a class="class-page-link button" href="https://www.GitHub.com/mm909" rel="noreferrer noopener">GitHub</a> -->
+                  <a id="gettingstarted"><h2>Getting Started</h2></a>
+                  <p>Set up the devlopment environment similar to how we did <a href="../../../introp5.html"><u>here</u></a> or download <a href="../../../blankp5.zip"><u>these files.</u></a></p>
+                  <p>If you download the files you will need to extract them from the .zip and open sketch.js in a text editor and index.html in a web browser. This is what your sketch.js file should look like.</p>
+                  <section>
+                    <div class='CodeBox'>
+                      <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+// Example Comment
+function setup() {
+  createCanvas(500,500);
+}
+
+function draw() {
+  background(151);
+}                   </pre>
+                    </div>
+                  </section>
+                  <p>
+                    <codeG>Remenber:</codeG> A comment is any text after '//' Comments are for humans! I suggest you include comments in your code to make it easier to read; however, if you choose not to include them your code will still work just
+                    fine.
+                  </p>
+                </section>
+
+                <section>
+                  <a id="addingshapes"><h2>Adding Shapes</h2></a>
+                  <p>Lets add a circle to our sketch.</p>
+                  <p>Using the <code>ellipse()</code> function we can draw a circle. The ellipse function needs four peices of infromation: <code> x, y, width, and height</code>. To draw a circle we need to make width and height the same.</p>
+                  <p>
+                    <codeB>Function call: <a href="https://p5js.org/reference/#/p5/ellipse"><u>ellipse</u>(x, y, width, height)</a></codeB>
+                  </p>
+                  <section>
+                    <div class='CodeBox'>
+                      <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+function draw() {
+  background(151);
+  // ellipse(x, y, width, height)
+  ellipse(100,100,20,20);
+}                   </pre>
+                    </div>
+                  </section>
+                  <div id="q1">
+                    <p>
+                      <codeB class="question" id="1">What if we wanted an oval?</codeB>
+                      <span class="answer">Try changing the width and height values. e.g <code>ellipse(100,100,20,40)</code></span>
+                    </p>
+                  </div>
+                </section>
+
+                <section>
+                  <a id="addingcolor"><h2>Adding color</h2></a>
+                  <p>Lets add some color to our sketch.</p>
+                  <p>Using the <code>fill()</code> function we can give our circle some color. The fill function need three peices of infromation: red value, green value, and blue value. The range of these values is from 0 to 255. </p>
+                  <p>
+                    <codeB>Function call: <a href="https://p5js.org/reference/#/p5/fill"><u>fill</u>(r,g,b)</a></codeB>
+                  </p>
+
+                  <div id="q3">
+                    <p>
+                      <codeG class="question" id="3">Examples:</codeG>
+                      <span class="answer">(You do not need to add this to your code)</span>
+                    </p>
+                  </div>
+                  <section class="noselect">
+                    <div class='CodeBox'>
+                      <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+fill(255, 0, 0);       // All red
+fill(0, 255, 0);       // All green
+fill(0, 0, 255);       // All blue
+fill(255, 255, 255);   // All white
+fill(57, 213, 230);    // Use any number between 0 and 255 </pre>
+                    </div>
+                  </section>
+                  <div id="q2">
+                    <p>
+                      <codeB class="question" id="2">What color would <strong>fill(0, 0, 0)</strong> make?</codeB>
+                      <span class="answer">Black! <code>fill(255, 255, 255)</code> is white and <code>fill(0, 0, 0)</code> is black.</span>
+                    </p>
+                  </div>
+                  <p>When we add <code>fill()</code> to our program we want to call it <strong>before</strong> we draw our shape. Think of it like picking up a pencil before drawing.</p>
+                  <section>
+                    <div class='CodeBox'>
+                      <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+function draw() {
+  background(151);
+  fill(100,255,100); // Pick up pencil BEFORE we draw!
+  ellipse(100,100,20,20);
+}                   </pre>
+                    </div>
+                  </section>
+                </section>
+
+                <section>
+                  <a id="addingvariables"><h2>Adding Variables</h2></a>
+                  <p>We will need to make variables to hold the circle's x and y location.</p>
+                  <p>We can add a variables to our program by using the <code>var</code> keyword followed by a name.</p>
+                  <p>We can assign values to those variables using the assignment operator: <code>=</code> </p>
+                  <div id="q4">
+                    <p>
+                      <codeG class="question" id="4">Examples:</codeG>
+                      <span class="answer">(You do not need to add this to your code)</span>
+                    </p>
+                  </div>
+                  <section class="noselect">
+                    <div class='CodeBox'>
+                      <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+var red = 255;
+var width = 200.00;
+var age = 7;
+var name = "Mikian"; </pre>
+                    </div>
+                  </section>
+                  <p id="addingvariables2">
+                    Lets make a variable for the circle's x and y posistion.
+                    Then we can replace the "hard coded" values in the <code>ellipse()</code> function with our new variables.
+                  </p>
+                  <section class="">
+                    <div class='CodeBox'>
+                      <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+var x = 100; // Create a var named X and set it to 100
+var y = 100; // Create a var named Y and set it to 100
+
+function setup() {
+  createCanvas(500,500);
+}
+
+function draw() {
+  background(151);
+  fill(100,255,100);
+  ellipse(x,y,20,20); // Replace the old values.
+}                   </pre>
+                    </div>
+                  </section>
+                </section>
+
+                <section>
+                  <a  id="followingthemouse"><h2>Following the mouse!</h2></a>
+                  <p>Lets make the circle follow your mouse.</p>
+                  <p>To do this we will use the p5.js built in variables called <code>mouseX</code> and <code>mouseY</code>.</p>
+                  <p>We will update the circle's x and y each frame by putting the assignment in the <code>draw()</code> function.</p>
+                  <section>
+                    <div class='CodeBox'>
+                      <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+var x = 100;
+var y = 100;
+
+function setup() {
+  createCanvas(500,500);
+}
+
+function draw() {
+  background(151);
+  fill(100,255,100);
+  x = mouseX; // Assign x to the mouse's x
+  y = mouseY; // Assign y to the mouse's y
+  ellipse(x,y,20,20);
+}                   </pre>
+                    </div>
+                  </section>
+                </section>
+
+                <section>
+                  <a class="class-page-link button" href="https://github.com/mm909/Teaching/tree/master/projects/introp5/project1/code" rel="noreferrer noopener">GitHub: Final Code</a>
+                  <a id="finishup"><h2>Finish Up</h2></a>
+                  <p>We are done! Congrats on finishing your first p5 project.</p>
+                  <p> Today we learned:
+                    <ol>
+                      <li>What p5 is.</li>
+                      <li>How to make a p5 sketch from scratch.</li>
+                      <li>How to draw shapes to the screen.</li>
+                      <li>How to use color in out sketches.</li>
+                      <li>How to create and use variables.</li>
+                      <li>How to use the mouse as input in our program.</li>
+                    </ol>
+                  </p>
+                  <p>Completing this project is worth <codeG> 500 points.</codeG> You can complete the challenges for up to <codeB> 1000 bonus points.</codeB>
+                  </p>
+                </section>
+
+                <section>
+                  <a id="challenge"><h2><codeR> Challenges </codeR></h2></a>
+                  <p>Challenges are desgined to be hard! Don't worry if you cannot get it right away. Look at the hints if you get stuck or raise your hand and we can work on it together.</p>
+                  <p>
+                    <codeR> Challenge 1: Change the circle to a rectangle - 200 points</codeR>
+                  </p>
+                  <p>Change the shape that is following the mouse. We want to draw a rectangle instead of a circle. To do that you will have to find the function that draws a rectangle from the <a href="https://p5js.org/reference/#group-Shape"><u> p5.js reference page.</u></a></p>
+                  <div id="q5">
+                    <p>
+                      <codeG class="question" id="5">Hint:</codeG>
+                      <span class="answer">Look in the "Shape" section under the "2D Primitives" column.</span>
+                    </p>
+                  </div>
+                  <p>
+                    <codeR> Challenge 2: Use variables for the colors - 300 points</codeR>
+                  </p>
+                  <p>Eventually we will change the color of our shapes while the program is running. To do this we need to use variables to store the R, G, and B values.</p>
+                  <p>This one is tricky. You should break it up into two steps. </p>
+                  <p>1. Create and name the variables like we did <a href="#addingvariables"><u>here.</u></a></p>
+                  <p>2. Replace the old values with the new variables like we did <a href="#addingvariables2"><u>here.</u></a></p>
+                  <div id="q6">
+                    <p>
+                      <codeG class="question" id="6">Hint:</codeG>
+                      <span class="answer">Replace the three numbers in the <code>fill()</code> with your new red, green, and blue variables. </span>
+                    </p>
+                  </div>
+                  <p>
+                    <codeR> Challenge 3: Make the colors change using the mouse - 500 points</codeR>
+                  </p>
+                  <p>We want to create an even more interactive sketch and change the color as we move the mouse.</p>
+                  <p>To do that we will have to use the <code>mouseX</code> and <code>mouseY</code> variables again.</p>
+                  <div id="q7">
+                    <p>
+                      <codeG class="question" id="7">Hint:</codeG>
+                      <span class="answer">We updated the circle's location by assigning mouseX to x: <code>x = mouseX.</code> Following that formula, assign mouseX or mouseY to the R, G, or B variables. <codeR>Make sure to do it in the draw function!</codeR> </span>
+                    </p>
+                  </div>
+                  <div id="challengeContainer" style="height:100px;width:auto;"></div>
+                </section>
+            </article>
+          </div>
+          <!-- <div class="docs-prevnext"><a class="docs-prev button" href="#">← Lorem</a><a class="docs-next button" href="#">Ipsum →</a></div> -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="nav-footer" id="footer">
+      <section class="sitemap">
+        <!-- <a href="https://facebook.github.io/react-native/" class="nav-home"><img src="./Learn the Basics · React Native_files/header_logo.png" alt="React Native" width="66" height="58"></a> -->
+        <div>
+          <h5><a href="#">Lorem</a></h5>
+          <a href="#">Lorem</a>
+        </div>
+        <div>
+          <h5><a href="#">Lorem</a></h5>
+          <a href="#">Lorem</a>
+        </div>
+        <div>
+          <h5><a href="#">Lorem</a></h5>
+          <a href="#">Lorem</a>
+        </div>
+        <!-- <section class="copyright">Copyright © 2018 Facebook Inc.</section> -->
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>WD1</title>
+  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="../../css/prettyPrint.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script type="text/javascript" src="../../js/prettyPrint.js"></script>
+  <script type="text/javascript" src="../../js/scrolling.js"></script>
+  <script type="text/javascript" src="../../js/progressbar.js"></script>
+  <script type="text/javascript" src="../../js/toc.js"></script>
+  <script type="text/javascript" src="../../js/question.js"></script>
+  <script type="text/javascript" src="../../js/smoothscroll.js"></script>
+  <style media="screen">
+    .docsNavContainer {
+      height: calc(75vh) !important;
+    }
+  </style>
+
+</head>
+
+<body class="sideNavVisible">
+  <div class="fixedHeaderContainer">
+    <div class="headerWrapper wrapper">
+      <header>
+        <div class="navigationWrapper navigationSlider">
+          <nav class="slidingNav">
+            <ul class="nav-site nav-site-internal">
+              <li class="">.</li>
+              <li class=""><a href="../../index.html" target="_self">Home</a></li>
+              <!-- <li class="navSearchWrapper reactNavSearchWrapper"><span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="text" id="search_input_react" placeholder="Search" title="Search" class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-labelledby="search_input_react" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 300; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="aa-dataset-1"></div></span></span></li> -->
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <div class="navPusher">
+    <div class="docMainWrapper wrapper">
+      <div class="container docsNavContainer" id="docsNav">
+        <nav class="toc">
+          <div class="toggleNav">
+            <section class="navWrapper wrapper">
+              <div class="navGroups">
+                <div class="navGroup"><a href="#top"><h3 class="navGroupCategoryTitle">Project 1</h3></a>
+                  <ul id="toc">
+                    <progress id="pb" value="0" max="100"></progress>
+                    <li class="navListItem"><a class="navItem" href="#_HTML"><codeG>&lt;HTML&gt;</codeG> </a></li>
+                    <section id="TOC_HTML">
+                      <li class="navListItem"><a class="navItem" href="#gettingstartedhtml">1. Getting Started</a></li>
+                      <li class="navListItem"><a class="navItem" href="#files">2. Files</a></li>
+                      <li class="navListItem"><a class="navItem" href="#howtoedit">3. How to edit</a></li>
+                      <li class="navListItem"><a class="navItem" href="#helloworld">4. Hello World</a></li>
+                      <li class="navListItem"><a class="navItem" href="#headers">5. Headers <code>&lt;h1&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#paragraphs">6. Paragraphs <code>&lt;p&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#bolditalicunderline">7. <strong>Bold</strong>, <i>Italic</i>, <u>Underline</u> </a></li>
+                      <li class="navListItem"><a class="navItem" href="#lists">8. Lists <code>&lt;ol&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#tables">9. Tables <code>&lt;table&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#images">10. Images <code>&lt;image&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#links">11. Links <code>&lt;a&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#secondpage">12. Second Page <code>&lt;a&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#button">13. Button <code>&lt;button&gt;</code></a></li>
+                    </section>
+                    <li class="navListItem"><a class="navItem" href="#_CSS"><codeG>&lt;CSS&gt;</codeG> </a></li>
+                    <section id="TOC_CSS">
+                      <li class="navListItem"><a class="navItem" href="#gettingstartedcss">1. Getting Started</a></li>
+                      <li class="navListItem"><a class="navItem" href="#thebasics">2. The basics</a></li>
+                      <li class="navListItem"><a class="navItem" href="#connectingthetwo">3. Connecting the two <code>&lt;link&gt;</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#id">4. Id <code>#</code></a></li>
+                      <li class="navListItem"><a class="navItem" href="#class">5. Class <code>.</code></a></li>
+                    </section>
+                    <li class="navListItem"><a class="navItem" href="#_NAVBAR"><codeG>Navbar</codeG> </a></li>
+                    <section id=TOC_NAVBAR>
+                      <li class="navListItem"><a class="navItem" href="#navhtml">1. &lt;HTML&gt;</a></li>
+                      <li class="navListItem"><a class="navItem" href="#navcss">2. &lt;CSS&gt;</a></li>
+                    </section>
+                    <li class="navListItem"><a class="navItem" href="#requirements"><codeB>Requirements</codeB> </a></li>
+                    <li class="navListItem"><a class="navItem" href="#challenges"><codeR>Challenges</codeR> </a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container mainContainer" id="top">
+        <div class="wrapper">
+          <div class="post">
+            <header class="postHeader"><a class="edit-page-link button" href="https://www.GitHub.com/mm909" rel="noreferrer noopener">GitHub</a><h1  class="postHeaderTitle">Web Development 1</h1>
+            </header>
+            <article id="mainContent">
+              <p>
+                Welcome to your first web development project! In this project we will go through many aspects
+                of basic web development and how they work together to make a complete and pretty looking
+                website with many interactable features.
+              </p>
+
+              <section id="section_HTML">
+                <a id="_HTML"><h2><codeG>HTML</codeG></h2></a>
+                <a id="gettingstartedhtml"><h2>Getting Started</h2></a>
+                <p>
+                  You may have done some HTML and CSS in CodeCombat, but this is to show you what it looks
+                  like when it’s not in a game.
+                </p>
+                <p>The first important thing to keep in mind, is that you have to have a project folder for your site</p>
+
+                <div class="paraSection">
+                  <div class="para">
+                    <div class="fl">
+                      <p>Find where you would like to place your project folder.</p>
+                      <p>Right Click to open the context menu -> Hover over “New” -> Press on “Folder”.</p>
+                    </div>
+                    <div class="fr">
+                      <div class="tutImageContainer">
+                        <img class="tutImage" src="examples/images/newfolder.png" alt=""></img>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="para">
+                    <div class="fl">
+                      <p>Rename the folder to “firstwebsite”</p>
+                      <p>This will be where you place all of your files for your website.</p>
+                    </div>
+                    <div class="fr">
+                      <div class="tutImageContainer">
+                        <img class="tutImage" src="examples/images/firstwebsite.png" alt=""></img>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a id="files"><h2>Files</h2></a>
+                <p>In any coding project, there is always that starting point where your project will go to first to run
+                  code. In websites, that’s called “index”. The index file is the first page that should open if
+                  someone were to go to your site</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="howtoedit"><h2>How to edit</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="helloworld"><h2>Hello World</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="headers"><h2>Headers <code>&lt;h1&gt;</code></h2></a>
+
+                <div class='CodeBoxL'>
+                  <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+jQuery(document).ready(function() {
+  // BUILD: TOC Table //
+  for (var i = 0; i < $("#mainContent").find("section").length; i++) {
+    TOC_names.push('_' + $("#mainContent").find("section")[i].id.split("_")[1])
+  }
+  // BUILD: TOC Break Table //
+  TOC_break = [];
+  for (var i = 0; i < TOC_names.length; i++) {
+    TOC_break.push(document.getElementById(TOC_names[i]).getBoundingClientRect().y);
+  }
+});
+                   </pre>
+                </div>
+
+                <div class='CodeBoxL'>
+                  <pre class="prettyprint linenums lang-js CodeBoxBuffer">
+&lt;div class="para"&gt;
+  &lt;div class="fl"&gt;
+    &lt;p> Rename the folder to “firstwebsite”&lt;/p&gt;
+    &lt;p> This will be where you place all of your files for your website.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="fr"&gt;
+    &lt;div class="tutImageContainer"&gt;
+      &lt;img class="tutImage" src="examples/images/firstwebsite.png" alt=""&gt;&lt;/img&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                   </pre>
+                </div>
+
+                <a id="paragraphs"><h2>Paragraphs <code>&lt;p&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="bolditalicunderline"><h2><strong>Bold</strong>, <i>Italic</i>, <u>Underline</u></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="lists"><h2>Lists <code>&lt;ol&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="tables"><h2>Tables <code>&lt;table&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="images"><h2>Images <code>&lt;image&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="links"><h2>Links <code>&lt;a&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="secondpage"><h2>Second Page <code>&lt;a&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <a id="button"><h2>Button <code>&lt;button&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+
+              <section id="section_CSS">
+                <a id="_CSS"><h2><codeG>CSS</codeG></h2></a>
+                <a id="gettingstartedcss"><h2>Getting Started</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a id="thebasics"><h2>The Basics</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a id="connectingthetwo"><h2>Connecting the two <code>&lt;link&gt;</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a id="id"><h2>Id <code>#</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a id="class"><h2>Class <code>.</code></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+
+              <section id="section_NAVBAR">
+                <a id="_NAVBAR"><h2><codeG>Navbar</codeG></h2></a>
+                <a id="navhtml"><h2>&lt;HTML&gt;</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a id="navcss"><h2>&lt;CSS&gt;</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a id="requirements"><h2><codeB>Requirements</codeB></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a id="challenges"><h2><codeR>Challenges</codeR></h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+
+            </article>
+          </div>
+          <!-- <div class="docs-prevnext"><a class="docs-prev button" href="#">← Lorem</a><a class="docs-next button" href="#">Ipsum →</a></div> -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="nav-footer" id="footer">
+      <section class="sitemap">
+        <!-- <a href="https://facebook.github.io/react-native/" class="nav-home"><img src="./Learn the Basics · React Native_files/header_logo.png" alt="React Native" width="66" height="58"></a> -->
+        <div>
+          <h5><a href="#">Lorem</a></h5>
+          <a href="#">Lorem</a>
+        </div>
+        <div>
+          <h5><a href="#">Lorem</a></h5>
+          <a href="#">Lorem</a>
+        </div>
+        <div>
+          <h5><a href="#">Lorem</a></h5>
+          <a href="#">Lorem</a>
+        </div>
+        <!-- <section class="copyright">Copyright © 2018 Facebook Inc.</section> -->
+    </footer>
+  </div>
+</body>
+
+</html>
