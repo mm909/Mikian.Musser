@@ -65,7 +65,8 @@ li.L9 {
   /* punctuation */
 
   .pun {
-    color: #e6e9ed;
+    /* color: #e6e9ed; */
+    color: #f2f25c;
   }
 
   /* lisp open bracket */

@@ -24,10 +24,6 @@ function updateTOC() {
     }
   }
 
-  console.log(currScroll <= (startScroll + TOC_break[0] - 1));
-  console.log(currScroll);
-  console.log(TOC_break[0]);
-  console.log((startScroll + TOC_break[0] - 1));
   if (currScroll <= (startScroll + TOC_break[0] - 1)) {
     document.getElementById('TOC' + TOC_names[0]).style.display = "inline";
   }

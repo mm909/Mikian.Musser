@@ -4,6 +4,15 @@
 <head>
   <title>Teaching</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/prettyPrint.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+  <script type= "text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script type= "text/javascript" src= "js/scrolling.js"></script>
+  <script type= "text/javascript" src= "js/prettyPrint.js"></script>
+  <script type= "text/javascript" src= "js/progressbar.js"></script>
+  <script type= "text/javascript" src= "js/smoothscroll.js"></script>
+  <script type= "text/javascript" src= "js/question.js"></script>
 </head>
 
 <body class="sideNavVisible">
@@ -42,6 +51,7 @@
               <div class="navGroups">
                 <div class="navGroup"><h3 class="navGroupCategoryTitle">Intro p5</h3>
                   <ul>
+                    <progress id="pb" value="0" max="100"></progress>
                     <li class="navListItem"><a class="navItem" href="#">1. What is p5?</a></li>
                     <li class="navListItem"><a class="navItem" href="#">2. Needed files</a></li>
                     <li class="navListItem"><a class="navItem" href="#">3. Library functions</a></li>
@@ -50,6 +60,7 @@
                     <li class="navListItem"><a class="navItem" href="#">6. Colors</a></li>
                     <li class="navListItem"><a class="navItem" href="#">7. Variables</a></li>
                     <li class="navListItem"><a class="navItem" href="projects/introp5/project1/index.html"><textG>Project 1</textG></a></li>
+
                   </ul>
                 </div>
               </div>
@@ -65,9 +76,7 @@
             <article>
               <div>
 
-                <p>
-                  The following lessons were developed by <a href="http://MikianMusser.com"><strong>Mikian Musser</strong> </a> for use at <a href="https://mycodecentral.com/"><code>Code Central.</code></a>
-                </p>
+
 
                 <!-- <a class="class-page-link button" href="https://www.GitHub.com/mm909" rel="noreferrer noopener">GitHub</a> -->
                 <a href="introp5.html"><h2>What is p5?</h2></a>
@@ -103,6 +112,9 @@
 
     <footer class="nav-footer" id="footer">
       <section class="sitemap">
+        <p>
+          <a href="http://MikianMusser.com"><strong>Mikian Musser</strong> </a> for use at <a href="https://mycodecentral.com/"><code>Code Central.</code></a>
+        </p>
         <!-- <a href="https://facebook.github.io/react-native/" class="nav-home"><img src="./Learn the Basics · React Native_files/header_logo.png" alt="React Native" width="66" height="58"></a> -->
         <div>
           <h5><a href="#">Lorem</a></h5>

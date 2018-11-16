@@ -11,17 +11,20 @@ jQuery(document).ready(function() {
         location.hostname == this.hostname
       ) {
         // Figure out element to scroll to
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        // Does a scroll target exist?
-        if (target.length) {
-          // Only prevent default if animation is actually gonna happen
-          event.preventDefault();
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000, function() {
-            // Callback after animation
-          });
+        // console.log(this.hash[1]);
+        if (this.hash[1] != '-') {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              // Callback after animation
+            });
+          }
         }
       }
     });
