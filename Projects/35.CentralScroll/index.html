@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script language="javascript" type="text/javascript" src="js/text.js"></script>
+  <script language="javascript" type="text/javascript" src="js/scroll.js"></script>
+  <script language="javascript" type="text/javascript" src="js/prettyprint.js"></script>
+  <script language="javascript" type="text/javascript" src="js/defaultCode.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/prettyprint.css">
+</head>
+
+<body>
+  <div class="startScreen">
+    <h1 class="title"><span style="color:#f2f25c">{<span style="color:#4fc1e9">Central Scroll</span>}</span> </h1>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Custom Code -></span>
+      </div>
+      <textarea id="codeInput" class="form-control" placeholder="Custom code here - (optional)"></textarea>
+    </div>
+    <div class="input-group buttonGroup">
+
+      <button type="button" onclick="clearText()" class="btn btn-danger">Clear</button>
+      <button type="button" onclick="resetText()" class="btn btn-success">Default</button>
+
+      <div class="btn-group">
+        <button id="langButton" type="button" class="noMargin btn btn-info">JS</button>
+        <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" onclick="setTextType('JS')" href="#">JS</a>
+          <a class="dropdown-item" onclick="setTextType('HTML')" href="#">HTML</a>
+          <a class="dropdown-item" onclick="setTextType('CSS')" href="#">CSS</a>
+        </div>
+      </div>
+
+      <div class="btn-group">
+        <button id="speedButton" type="button" class="noMargin btn btn-warning">Medium</button>
+        <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" onclick="setTextSpeed('Very Slow')" href="#">Very Slow</a>
+          <a class="dropdown-item" onclick="setTextSpeed('Slow')" href="#">Slow</a>
+          <a class="dropdown-item" onclick="setTextSpeed('Medium')" href="#">Medium</a>
+          <a class="dropdown-item" onclick="setTextSpeed('Fast')" href="#">Fast</a>
+          <a class="dropdown-item" onclick="setTextSpeed('Very Fast')" href="#">Very Fast</a>
+        </div>
+      </div>
+
+      <button type="button" onclick="goText()" class=" btn btn-primary float-right">Go!</button>
+
+    </div>
+  </div>
+  <div class="wrapper">
+    <pre id="codeScroll" class="prettyprint linenums CodeBoxBuffer"></pre>
+  </div>
+</body>
+
+</html>

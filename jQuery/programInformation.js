@@ -1,7 +1,7 @@
 var tags = [
+  'New',
   'Featured'
 ]
-// 'Beautiful',
 // 'Trees',
 // 'Vectors'
 
@@ -442,6 +442,17 @@ var programs = [{
     imgpath: 'Projects/34.ParticalExample/image.PNG',
     filepath: 'Projects/34.ParticalExample/index.html',
     downloadLink: 'ParticalExample.zip',
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+  },
+  {
+    number: 35,
+    keyWords: ['new', 'featured'],
+    title: '{Central Scroll}',
+    imgpath: 'Projects/35.CentralScroll/image.PNG',
+    filepath: 'Projects/35.CentralScroll/index.html',
+    downloadLink: '#',
     visible: true,
     titleText: "#e5e5e5",
     SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"

@@ -1,0 +1,72 @@
+.buttonGroup {
+  margin-top: 10px;
+  display: table;
+}
+
+.buttonGroup button {
+  margin-right: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 100px;
+}
+
+.wrapper {
+  width: 100%;
+  background: #2f3640;
+  display: none;
+}
+
+body {
+  background: #2f3640;
+  margin: 0px;
+}
+
+pre {
+  margin: 0px;
+}
+
+ol {
+  padding-left: 60px;
+}
+
+.noMargin {
+  margin: 0px !important;
+}
+
+.startScreen {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.fl {
+  width: 40%;
+  float: left;
+}
+
+.fr {
+  width: 40%;
+  float: right;
+}
+
+#codeInput {
+  height: 250px;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
