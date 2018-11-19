@@ -80,3 +80,11 @@ html {
   background: #2f3640;
   margin-top: 25px;
 }
+
+.btn-warning {
+  background-color: #fed03d;
+}
+
+.btn-info {
+  background-color: #4fc1e9;
+}

@@ -44,7 +44,13 @@ function clearText() {
 }
 
 function resetText() {
-  $("#codeInput").val(defaultCodeJS);
+  if (textType == "JS") {
+    $("#codeInput").val(defaultCodeJS);
+  } else if (textType == "HTML") {
+    $("#codeInput").val(defaultCodeHTML);
+  } else if (textType == "CSS") {
+    $("#codeInput").val(defaultCodeCSS);
+  }
 }
 
 function setPrettyPrintClass() {
