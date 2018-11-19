@@ -31,6 +31,7 @@ function goText() {
   $(".wrapper").css("display", "block");
   $(".startScreen").css("display", "none");
   setPrettyPrintClass();
+  $('.prettyprinted').removeClass('prettyprinted');
   prettyPrint();
 }
 

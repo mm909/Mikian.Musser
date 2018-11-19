@@ -56,6 +56,10 @@ ol {
   height: 250px;
 }
 
+#exampleCodeScroll {
+  max-height: 500px;
+}
+
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -68,5 +72,11 @@ html {
 
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+    background: transparent;
+}
+
+.exampleWrapper {
+  margin: auto;
+  background: #2f3640;
+  margin-top: 25px;
 }
