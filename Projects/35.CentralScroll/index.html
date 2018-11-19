@@ -2,6 +2,9 @@
 <html>
 
 <head>
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -12,6 +15,7 @@
   <script language="javascript" type="text/javascript" src="js/exampleScroll.js"></script>
   <script language="javascript" type="text/javascript" src="js/prettyprint.js"></script>
   <script language="javascript" type="text/javascript" src="js/defaultCode.js"></script>
+  <script language="javascript" type="text/javascript" src="js/file.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/prettyprint.css">
@@ -55,12 +59,15 @@
         </div>
       </div>
 
-      <button type="button" onclick="goText()" class=" btn btn-primary float-right">Go!</button>
-
+      <!-- <button type="button" onclick="goText()" class=" btn btn-primary float-right">Go!</button> -->
+      <label id="input-lable" class="btn btn-light fileInput">
+        <input id="input-file" type="file"/>
+        Upload File
+      </label>
+      <button type="button" onclick="goText()" class=" btn btn-primary ">Go!</button>
     </div>
     <div class="exampleWrapper">
-      <pre id="exampleCodeScroll" class="prettyprint linenums lang-html CodeBoxBuffer">
-      </pre>
+      <pre id="exampleCodeScroll" class="prettyprint linenums lang-html CodeBoxBuffer"></pre>
     </div>
   </div>
   <div class="wrapper">

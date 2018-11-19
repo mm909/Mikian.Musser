@@ -88,3 +88,12 @@ html {
 .btn-info {
   background-color: #4fc1e9;
 }
+
+input[type="file"] {
+    display: none;
+}
+
+.fileInput{
+  margin: 0px;
+  margin-right: 10px;
+}
