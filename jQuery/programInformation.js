@@ -448,7 +448,7 @@ var programs = [{
   },
   {
     number: 35,
-    keyWords: ['new', 'featured'],
+    keyWords: ['new', 'featured', 'code central', 'scroll', 'screen saver'],
     title: '{Central Scroll}',
     imgpath: 'Projects/35.CentralScroll/image.PNG',
     filepath: 'https://mm909.github.io/Central-Scroll/',
@@ -470,7 +470,7 @@ var programs = [{
   },
   {
     number: 37,
-    keyWords: ['new'],
+    keyWords: ['new', 'code central', 'web dev', 'wd'],
     title: 'WD1',
     imgpath: 'Projects/37.WD1/image.PNG',
     filepath: 'https://mm909.github.io/Teaching/CCProjects/WD1',
@@ -481,7 +481,7 @@ var programs = [{
   },
   {
     number: 38,
-    keyWords: ['new'],
+    keyWords: ['new', 'code central', 'web dev', 'wd'],
     title: 'WD2',
     imgpath: 'Projects/38.WD2/image.PNG',
     filepath: 'https://mm909.github.io/Teaching/CCProjects/WD2',
@@ -492,7 +492,7 @@ var programs = [{
   },
   {
     number: 39,
-    keyWords: ['new'],
+    keyWords: ['new', 'code central', 'web dev', 'wd'],
     title: 'WD3',
     imgpath: 'Projects/39.WD3/image.PNG',
     filepath: 'https://mm909.github.io/Teaching/CCProjects/WD3',
