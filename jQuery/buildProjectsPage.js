@@ -6,7 +6,16 @@ $(document).ready(function() {
     $(".PROJECTS-Container").append($temp);
     $temp = $("<div class='galleryTitleText'><h1 style='color:" + programs[i].titleText + "'>" + programs[i].title + "</h1></div>")
     $("#cell" + i).append($temp);
-    $temp = $("<div class='button_cont gobtn' align='center'><a class='example_a' href='../" + programs[i].filepath + "' rel='nofollow noopener'>Open Project</a></div>")
+    console.log(programs[i].filepath[0]);
+    if(programs[i].filepath[0] != 'h'){
+
+      $temp = $("<div class='button_cont gobtn' align='center'><a class='example_a' href='../" + programs[i].filepath + "' rel='nofollow noopener'>Open Project</a></div>")
+    }
+    else {
+      $temp = $("<div class='button_cont gobtn' align='center'><a class='example_a' href='" + programs[i].filepath + "' rel='nofollow noopener'>Open Project</a></div>")
+
+    }
+
     $("#cell" + i).append($temp);
     $temp = $("<img class='' src='../" + programs[i].imgpath + "' alt=''>")
     $("#cell" + i).append($temp);
@@ -18,7 +27,15 @@ $(document).ready(function() {
       $(".PROJECTS-Container").append($temp);
       $temp = $("<div class='galleryTitleText'><h1 style='color:" + programs[i].titleText + "'>" + programs[i].title + "</h1></div>")
       $("#cell" + i).append($temp);
-      $temp = $("<div class='button_cont gobtn' align='center'><a class='example_a' href='../" + programs[i].filepath + "' rel='nofollow noopener'>Open Project</a></div>")
+      console.log(programs[i].filepath[0]);
+      if(programs[i].filepath[0] != 'h'){
+
+        $temp = $("<div class='button_cont gobtn' align='center'><a class='example_a' href='../" + programs[i].filepath + "' rel='nofollow noopener'>Open Project</a></div>")
+      }
+      else {
+        $temp = $("<div class='button_cont gobtn' align='center'><a class='example_a' href='" + programs[i].filepath + "' rel='nofollow noopener'>Open Project</a></div>")
+
+      }
       $("#cell" + i).append($temp);
       $temp = $("<img class='' src='../" + programs[i].imgpath + "' alt=''>")
       $("#cell" + i).append($temp);
