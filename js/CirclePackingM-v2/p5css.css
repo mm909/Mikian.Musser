@@ -2,12 +2,9 @@ body {
   background-color: #EFEFEF;
 }
 
-.genFR {
-  float: right;
-}
-
-.genFL {
-  float: left;
+.wrapper {
+  margin-top: 10px;
+  text-align: center;
 }
 
 .genGitButton {
@@ -29,39 +26,23 @@ body {
   color: #CAEBF2
 }
 
-.GenCanvasAndAnimation {
-  width: 90%;
-  margin: auto;
+.navbar {
+  background-color: transparent !important;
+  z-index: 1;
 }
 
-.GenButtonRow {
-  width: 90%;
-  margin: auto;
-  margin-top: 10px;
-  text-align: center;
+.navbar-brand {
+  color: #FF3B3F !important;
 }
 
+.navGitButton {
+  position: fixed;
+  right: 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* eof */
+.title {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  text-align: center !important;
+}
