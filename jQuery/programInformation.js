@@ -451,7 +451,7 @@ var programs = [{
     keyWords: ['new', 'featured'],
     title: '{Central Scroll}',
     imgpath: 'Projects/35.CentralScroll/image.PNG',
-    filepath: 'Projects/35.CentralScroll/index.html',
+    filepath: 'https://mm909.github.io/Central-Scroll/',
     downloadLink: '#',
     visible: true,
     titleText: "#e5e5e5",
