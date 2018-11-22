@@ -14,7 +14,7 @@ $(document).ready(function() {
     $temp = $("<div class='gallery js-flickity' id='c-" + tags[i] + "-flickity'>")
     $("#CarouselContainer").append($temp);
 
-    for (j = 0; j < programs.length; j++) {
+    for (j = programs.length-1; j >=0 ; j--) {
       var include = false;
       for (var k = 0; k < programs[j].keyWords.length; k++) {
         if (programs[j].keyWords[k].includes(tags[i].toLowerCase())) {

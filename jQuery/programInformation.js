@@ -456,5 +456,49 @@ var programs = [{
     visible: true,
     titleText: "#e5e5e5",
     SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+  },
+  {
+    number: 36,
+    keyWords: ['new', 'featured'],
+    title: 'Flappy Bird NNV',
+    imgpath: 'Projects/36.FlappyBirdNNV/image.PNG',
+    filepath: 'https://mm909.github.io/Flappy-Bird-NNV/',
+    downloadLink: '#',
+    visible: true,
+    titleText: "#e5e5e5",
+    SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+  },
+  {
+    number: 37,
+    keyWords: ['new'],
+    title: 'WD1',
+    imgpath: 'Projects/37.WD1/image.PNG',
+    filepath: 'https://mm909.github.io/Teaching/CCProjects/WD1',
+    downloadLink: '#',
+    visible: true,
+    titleText: "#2f3640",
+    SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+  },
+  {
+    number: 38,
+    keyWords: ['new'],
+    title: 'WD2',
+    imgpath: 'Projects/38.WD2/image.PNG',
+    filepath: 'https://mm909.github.io/Teaching/CCProjects/WD2',
+    downloadLink: '#',
+    visible: true,
+    titleText: "#2f3640",
+    SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
+  },
+  {
+    number: 39,
+    keyWords: ['new'],
+    title: 'WD3',
+    imgpath: 'Projects/39.WD3/image.PNG',
+    filepath: 'https://mm909.github.io/Teaching/CCProjects/WD3',
+    downloadLink: '#',
+    visible: true,
+    titleText: "#2f3640",
+    SpotlightText: "Simple partical system all flowing to the center. Inspired by Daniel Shiffman\'s coding challenge - <a href='https://www.youtube.com/watch?v=UcdigVaIYAk'> Coding Challenge #78: Simple Particle System </a><br> <a href=ParticalExample.zip> Download </a> the code.<br> Find me on <a href=https://github.com/mm909/Mikian-Musser-Interview/tree/master/Projects> GitHub </a>"
   }
 ]
