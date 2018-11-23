@@ -26,17 +26,25 @@ var finished = false;
 var firstTime = true;
 var swapChance = 100;
 
+var hireMe = false;
+
 // Load the image of an M into the program
 function preload(){
-    M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
+    // M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
 }
 
 function setup() {
   var canvas = createCanvas(windowWidth,windowHeight);
   canvas.parent("canvasContainer")
-  buildValidArray();
+  // buildValidArray();
+  validArray = storedValidArray;
+  for (var i = 0; i < circleList.length; i++) {
+    let temp = new Circle();
+    temp.target = createVector(circleList[i].x,circleList[i].y)
+    temp.updateColor();
+    circles.push(temp)
+  }
   colorMode(RGB)
-
   background(239,239,239)
   colorMode(HSB);
 
@@ -45,16 +53,15 @@ function setup() {
 function draw() {
   // Draw the background
     colorMode(RGB)
-
     background(239,239,239,80)
     colorMode(HSB);
-
-  addCircles();
+    // addCircles();
   // swapC();
   // For each circle update, grow, and show.
   for (var i = 0; i < circles.length; i++) {
     circles[i].update();
     circles[i].grow();
+    circles[i].updateColor();
     circles[i].show();
   }
 }
@@ -85,6 +92,7 @@ function addCircles() {
   }
 }
 
+let validCount = 0;
 function  buildValidArray(){
   // Load pixels and itterate through them
   M.loadPixels();
@@ -101,7 +109,51 @@ function  buildValidArray(){
       var tempX = temp % M.width;
       var tempY = floor(temp / M.height);
       var p = createVector(tempX, tempY);
-      validArray.push(p);
+      if(validCount % 64 == 0){
+        validArray.push(p);
+      }
+      validCount++;
     }
   }
+}
+
+function roughDistance(x0,y0,x1,y1){
+  let dx = abs(x1 - x0)
+  let dy = abs(y1 - y0)
+  let dist = 0.5 * (dx + dy + max(dx, dy))
+  return dist;
+}
+
+function tempPoint() {
+  this.x = 0;
+  this.y = 0;
+}
+
+let strValidArray = [];
+function prepValidArray(){
+  for (var i = 0; i < validArray.length; i++) {
+    let tp = new tempPoint();
+      tp.x = validArray[i].x,
+      tp.y = validArray[i].y
+      strValidArray.push(tp);
+  }
+  console.log(strValidArray);
+}
+
+let strCircleArray = [];
+function prepCircleArray(){
+  for (var i = 0; i < circles.length; i++) {
+    let tp = new tempPoint();
+      tp.x = circles[i].target.x,
+      tp.y = circles[i].target.y
+      strCircleArray.push(tp);
+  }
+  console.log(strCircleArray);
+  JSON.stringify(strCircleArray)
+}
+
+function hire() {
+  console.log("Do a thing!");
+  hireMe = true;
+  
 }

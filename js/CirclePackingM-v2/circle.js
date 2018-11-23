@@ -1,3 +1,4 @@
+
 // This is a circle object
 // It takes an x and a y for its location
 function Circle(x, y) {
@@ -45,22 +46,52 @@ function Circle(x, y) {
   // This function will update the color of the circle
   this.updateColor = function() {
     var center = createVector(250, 250);
-    var d = dist(center.x, center.y, this.pos.x, this.pos.y);
+    // var d = dist(center.x, center.y, this.pos.x, this.pos.y);
+    var d = roughDistance(center.x, center.y, this.pos.x, this.pos.y);
     var c = map(d, 0, windowWidth, 0, 300);
     this.color = color(c, 255, 255);
   }
 
   // updates color, vel, pos, acc, and calls the arrive function.
   this.update = function() {
-    this.updateColor();
     this.vel.add(this.acc);
     this.pos.add(this.vel);
     this.acc.mult(0);
-    this.arrive(this.target);
-    var d = dist(this.pos.x, this.pos.y, mouseX, mouseY)
-    var mouseV = createVector(mouseX, mouseY);
-    if (d < this.fleeRange) {
-      this.applyForce(this.run(mouseV));
+
+    if(hireMe){
+      let middle = createVector(250,250);
+      this.applyForce(this.run(middle))
+      this.maxSpeed = 1;
+
+      this.maxForce = .25;
+
+      fill(0)
+      textSize(25)
+      text("702-540-4190",225,260)
+      text("Bobar312@gmail.com",180,285)
+      // let one = createVector(125,125)
+      // let two = createVector(125,375)
+      // let three = createVector(375,375)
+      // let four = createVector(375,125)
+      // var d = roughDistance(this.pos.x, this.pos.y, one.x, one.y)
+      // if(d < this.fleeRange)
+      // this.applyForce(this.run(one))
+      // var d = roughDistance(this.pos.x, this.pos.y, two.x, two.y)
+      // if(d < this.fleeRange)
+      // this.applyForce(this.run(two))
+      // var d = roughDistance(this.pos.x, this.pos.y, three.x, three.y)
+      // if(d < this.fleeRange)
+      // this.applyForce(this.run(three))
+      // var d = roughDistance(this.pos.x, this.pos.y, four.x, four.y)
+      // if(d < this.fleeRange)
+      // this.applyForce(this.run(four))
+    } else {
+      this.arrive(this.target);
+      var d = roughDistance(this.pos.x, this.pos.y, mouseX, mouseY)
+      var mouseV = createVector(mouseX, mouseY);
+      if (d < this.fleeRange) {
+        this.applyForce(this.run(mouseV));
+      }
     }
   }
 
@@ -107,7 +138,6 @@ function Circle(x, y) {
     colorMode(HSB);
     noStroke();
     fill(this.color);
-
     ellipse(this.pos.x + this.offsetForWebsiteX, this.pos.y +this.offsetForWebsiteY, this.r * 2, this.r * 2);
   }
 
@@ -138,7 +168,7 @@ function Circle(x, y) {
       // Check circle at i
       // Get the distance between 'this' and circle c
       var c = circles[i];
-      var d = dist(this.target.x, this.target.y, c.target.x, c.target.y)
+      var d = roughDistance(this.target.x, this.target.y, c.target.x, c.target.y)
       // IF D > 1 // NOTE: 'this' is in the circle array so it will
       // check itself so the distance from itself to itself will be 0
       // thus will stop growing
@@ -163,12 +193,14 @@ function addCircle() {
   // Check if there is a circle in that spot
   for (var i = 0; i < circles.length; i++) {
     var c = circles[i];
-    var d = dist(x,y,c.target.x,c.target.y)
+    var d = roughDistance(x,y,c.target.x,c.target.y)
     // Stop after one conflict
     if(d - c.buffer < c.r) { valid = false; break;}
   }
+  let temp = new Circle(x,y)
+  temp.updateColor();
   // If valid push a new circle to the array
-  if(valid){circles.push(new Circle(x,y))}
+  if(valid){circles.push(temp)}
   return valid;
 }
 
