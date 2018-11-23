@@ -24,8 +24,8 @@ function Circle(x, y) {
   // MaxSpeed is how long a vector can possibly be (Top left to bottom right)
   // How much do we slow down
   // this.maxSpeed = sqrt(width * width + width * width);
-  this.maxSpeed = 5;
-  this.maxForce = 0.3;
+  this.maxSpeed = 10;
+  this.maxForce = 1;
   this.fleeRange = 125;
   this.fleeSpeed = 7;
 

@@ -68,21 +68,70 @@ body {
 }
 
 .gen-btn-projects {
-  color: #FAF05F;
+  color: #545454;
+
+  /* background-color: #FAF05F !important; */
+
+  /* color: #FAF05F; */
 }
 
 .gen-btn-projects:hover {
-  color: #545454;
-  background-color: #FAF05F;
+  color: #FAF05F;
+
+  background-color: #545454  !important;
+
+  /* color: #545454;
+  background-color: #FAF05F; */
+
+}
+
+.genProjectItem {
+  display: inline;
+}
+
+.genProjectItem p {
+  margin-bottom: 7px;
+}
+
+.genProjectItemCheckMark {
+  width: 25px;
+  height: 25px;
+}
+
+.genBlueHighlight {
+  background-color: rgba(194,235,239,0.76);
+}
+
+.genOrangeHighlight {
+  background-color: rgba(255,197,58,0.76);
+}
+
+.genRedHighlight {
+  background-color: rgba(255,59,63,0.60);
+}
+
+.genYellowHighlight {
+  background-color: rgba(250,240,95,0.76);
+}
+
+.genAddTextPadding {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 
+.genPicturePlaceHolder {
+  text-align: center;
+}
 
-
-
-
-
-
+.genPicture {
+  margin: auto;
+  width: 264px;
+  height: 400px;
+  background-color: #aaaaaa;
+}
 
 
 
