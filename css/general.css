@@ -41,7 +41,20 @@ body {
   text-align: center;
 }
 
+.gen-btn-hire {
+  color: #fff;
+  background-color: #FF3B3F;
+}
 
+.gen-btn-iam {
+  color: #fff;
+  background-color: #FFC53A;
+}
+
+.gen-btn-projects {
+  color: #fff;
+  background-color: #FAF05F;
+}
 
 
 
