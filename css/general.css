@@ -34,6 +34,13 @@ body {
   margin: auto;
 }
 
+.GenButtonRow button {
+  border: 1px solid #A9A9A9;
+  border-radius: 3px;
+  transition: background .3s, color .3s;
+  background-color: transparent;
+}
+
 .GenButtonRow {
   width: 90%;
   margin: auto;
@@ -42,20 +49,32 @@ body {
 }
 
 .gen-btn-hire {
-  color: #fff;
+  color: #FF3B3F;
+}
+
+
+.gen-btn-hire:hover {
+  color: #545454;
   background-color: #FF3B3F;
 }
 
 .gen-btn-iam {
-  color: #fff;
+  color: #FFC53A;
+}
+
+.gen-btn-iam:hover {
+  color: #545454;
   background-color: #FFC53A;
 }
 
 .gen-btn-projects {
-  color: #fff;
-  background-color: #FAF05F;
+  color: #FAF05F;
 }
 
+.gen-btn-projects:hover {
+  color: #545454;
+  background-color: #FAF05F;
+}
 
 
 

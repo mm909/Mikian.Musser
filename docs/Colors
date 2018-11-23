@@ -1,8 +1,18 @@
 http://www.departika.com/
 
+// Blue
 #CAEBF2
-#A9A9A9
-#FF3B3F
-#EFEFEF
 
-Text: #545454
+// Red
+#FF3B3F
+
+// Orange
+#FFC53A
+
+// Yellow
+#FAF05F
+
+// Shades of gray
+#EFEFEF
+#A9A9A9
+#545454
