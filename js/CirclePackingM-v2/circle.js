@@ -72,6 +72,11 @@ function Circle(x, y) {
       if (d < this.fleeRange) {
         this.applyForce(this.run(mouseV));
       }
+      // var d = roughDistance(this.pos.x, this.pos.y, width - (width * 0.1), 0)
+      // var mouseV = createVector(width, 0);
+      // if (d < this.fleeRange) {
+      //   this.applyForce(this.run(mouseV));
+      // }
     }
   }
 

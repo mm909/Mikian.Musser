@@ -11,6 +11,11 @@ a:hover{
   color: inherit;
 }
 
+.card {
+  text-align: center;
+  background-color: rgba(255,255,255,.75);
+}
+
 .genFR {
   float: right;
 }
@@ -78,6 +83,8 @@ a:hover{
 }
 
 .gen-btn-hire {
+  width: 50%;
+  margin:auto;
   color: #FF3B3F;
 }
 
@@ -88,6 +95,9 @@ a:hover{
 }
 
 .gen-btn-iam {
+  width: 50%;
+  margin:auto;
+
   color: #FFC53A;
 }
 
@@ -97,6 +107,9 @@ a:hover{
 }
 
 .gen-btn-projects {
+  width: 50%;
+  margin:auto;
+
   color: #545454;
 
   /* background-color: #FAF05F !important; */

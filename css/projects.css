@@ -5,7 +5,6 @@
 }
 
 .row div {
-  padding-bottom: 15px;
 }
 
 .card-title {
@@ -26,9 +25,15 @@
   margin: 0px;
 }
 
+.card-body {
+  min-height: 335px;
+}
+
 .card-buttons {
   padding: 0px !important;
   margin: 0px;
+  position: relative;
+  bottom: 0px;
 }
 
 .card-footer {
@@ -38,7 +43,7 @@
 .card {
   padding: 0px !important;
   text-align: center;
-  background-color: rgba(255,255,255,.95);
+  background-color: rgba(255,255,255,.95) !important;
 }
 
 .proejctBtn {
