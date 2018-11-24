@@ -35,8 +35,8 @@ let projects = [{
     title: "Circle Packing M v2",
     text: "Circle Packing M v2 was built off of <a href='#'><u>Circle Packing M v1</u></a> for usage in this website. Version two is highly optimized: cutting down on storage used and calculations each frame.",
     live: "genLiveButton",
-    liveLink: "https://mm909.github.io/Teaching/CCProjects/WD3/index.html",
-    githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD3"
+    liveLink: "https://mm909.github.io/CirclePackingM-v2/",
+    githubLink: "https://github.com/mm909/CirclePackingM-v2"
   },
   {
     title: "Flappy Bird NNV",
