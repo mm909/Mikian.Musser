@@ -57,3 +57,7 @@
   width:60%;
   margin:auto;
 }
+
+.notLive {
+text-decoration: line-through !important;
+}
