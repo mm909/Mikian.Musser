@@ -1,0 +1,63 @@
+.projectWrapper {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+}
+
+.row div {
+  padding-bottom: 15px;
+}
+
+.card-title {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.card-text {
+  padding: 0px !important;
+  margin: 0px;
+  height: 150px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.card-text p {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.card-buttons {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.card-footer {
+  background-color: inherit;
+}
+
+.card {
+  padding: 0px !important;
+  text-align: center;
+  background-color: rgba(255,255,255,.95);
+}
+
+.proejctBtn {
+  margin-bottom: 5px;
+  width: 49%;
+}
+
+.projectSearchBar {
+  width: 100%;
+  display: inline-block;
+  margin:auto;
+  margin-bottom: 15px;
+}
+
+.searchBarContainer {
+  width:60%;
+  margin:auto;
+}
+
+.notLive {
+text-decoration: line-through !important;
+}

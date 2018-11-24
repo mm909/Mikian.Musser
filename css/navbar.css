@@ -1,0 +1,12 @@
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  color: #FF3B3F !important;
+}
+
+.navGitButton {
+  position: fixed;
+  right: 16px;
+}

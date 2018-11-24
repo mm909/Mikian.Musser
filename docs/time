@@ -1,0 +1,41 @@
+
+// Start  - 11/22/2018 1:18pm
+  // 1:43pm: Basic navbar finished
+  // 1:43pm: Starting making new M (circle packing)
+  // 2:38pm: Finished making new M and first version of project pages
+  // 2:38pm: Starting to add the M to the webpage
+  // 4:43pm: Finished adding place holders and basic color scheme
+  // See commit: https://github.com/mm909/Mikian.Musser/commit/05ffc43eac0a9650ac88bf3c6d19424600411ea7
+// Finish - 11/22/2018 4:43pm
+
+// Start - 11/23/2018 1:04am
+  // 1:04am: Working on making circles go faster and filling in some text
+  // 1:55am: Made circles faster, Added highlighting, replaced some filler text
+  // 1:55am: Working on adding in other side of main content
+  // 3:08am: Finished adding typing sim to page using typed.js
+  // 3:08am: Working on styling
+  // 4:20am: Finished home page v1
+  // See commit: https://github.com/mm909/Mikian.Musser/commit/b4825c71ada476699da8f9d5d0f047e414fa7551
+// Finish - 11/23/2018 4:20am
+
+// Start - 11/24/2018 10:57am
+  // 10:57am: Working on optimizing the circles
+  // 11:58am: Made MAJOR optimization improvements to the circles
+  // 11:58am: Working on 'Hire Me' button effect
+  // 12:23pm: Added temp hire me effect. Still want to change but it is good enough to move on
+  // See commit: https://github.com/mm909/Mikian.Musser/commit/9140ad4f5581acb9a392540988eb9c6518b78a00
+// Finish - 11/24/2018 12:33pm
+
+// Start - 11/24/2018 6:21pm
+  // 6:21pm: Tweaking the "Hire me" button animation
+  // 7:25pm: Finished with the new "Hire me" button animation
+  // 7:25pm: Working on outlining the project page
+  // 8:38pm: Finished creating project page v1 I did it with boot strap cards
+  // 8:38pm: Going to start creating the look I want to the cards -> Then make the search feature.
+  // 9:14pm: Finished with look and card structure. Going to start adding projects from github (no search feature yet)
+  // 10:48pm: Finished adding most of the live repos on github
+  // See commit: https://github.com/mm909/Mikian.Musser/commit/00fa9ef19d0cfcbacdecccacc13bdbf70376f236
+// Finish - 11/24/2018 10:48pm
+
+// Start - 11/24/2018 11:47pm
+  // 11:47pm: starting on conversion of old p5 projects. Starting with the FBNNV
