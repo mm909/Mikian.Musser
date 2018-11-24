@@ -121,6 +121,7 @@ function Circle(x, y) {
     ellipse(this.pos.x + this.offsetForWebsiteX, this.pos.y + this.offsetForWebsiteY, this.r * 2, this.r * 2);
   }
 
+  this.firstTime = true;
   // This.grow will inc this.r by this.growRate if the circle is still growing
   this.grow = function() {
     if (!this.bounds()) {
@@ -130,6 +131,11 @@ function Circle(x, y) {
     if (this.growing && this.r < MAXSIZE) {
       // this.r = this.r + this.growRate
       this.r += this.growRate;
+    }
+
+    let temp = random(1)
+    if (temp < .001 && projectPage) {
+      this.target = createVector(random(width), random(height));
     }
   }
 

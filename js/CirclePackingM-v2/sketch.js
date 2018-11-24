@@ -10,7 +10,7 @@ if (debug) {
 // CIRCLESEACHFRAME => The numbers of circles that are spawned each frame
 // ATTEMPTS => The nuber of tries to spawn a circle each frame.
 // MAX => Max number of circles possible
-var MAXSIZE = 50;
+var MAXSIZE = 20;
 var CIRCLESEACHFRAME = 10;
 var ATTEMPTS = CIRCLESEACHFRAME * 10;
 var MAX = 1000;
