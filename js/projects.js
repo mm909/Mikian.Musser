@@ -79,5 +79,12 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/CirclePackingM-v1/",
     githubLink: "https://github.com/mm909/CirclePackingM-v1"
+  },
+  {
+    title: "A* Maze",
+    text: "A maze is generated using a general maze generation algorithm then it is solved using the A* path finding algorithm.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/AStarMaze/",
+    githubLink: "https://github.com/mm909/AStarMaze"
   }
 ]
