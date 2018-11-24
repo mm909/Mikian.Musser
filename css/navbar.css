@@ -1,10 +1,11 @@
 .navbar {
   background-color: transparent !important;
+  position: fixed;
+  top: 0px;
 }
 
 .navbar-brand {
   color: #FF3B3F !important;
-
 }
 
 .navGitButton {

@@ -158,6 +158,9 @@ function prepCircleArray() {
   JSON.stringify(strCircleArray)
 }
 
-function hire() {
+let swap = false;
+
+function hire(t) {
   hireMe = true;
+  swap = t;
 }

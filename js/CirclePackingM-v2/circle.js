@@ -65,6 +65,16 @@ function Circle(x, y) {
         circles[i].target = createVector(random(width), random(height))
       }
       hireMe = false;
+    } else if (swap) {
+      for (var i = 0; i < circles.length; i++) {
+        circles[i].target = createVector(random(width), random(height / 2, height))
+      }
+      swap = false;
+      setInterval(function() {
+        for (var i = 0; i < circles.length; i++) {
+          circles[i].target = createVector(random(width), random(height / 2, height))
+        }
+      }, 2000);
     } else {
       this.arrive(this.target);
       var d = roughDistance(this.pos.x, this.pos.y, mouseX, mouseY)

@@ -66,6 +66,8 @@
 }
 
 .searchBarContainer {
+  padding-top: 75px;
+
   width:60%;
   margin:auto;
 }
