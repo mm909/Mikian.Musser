@@ -35,6 +35,9 @@ jQuery(document).ready(function() {
   });
   document.querySelector('.start').addEventListener('click', function() {
     type.start();
+    if (!firstType) {
+      type.typeSpeed = 0;
+    }
     firstType = false;
   });
 });
