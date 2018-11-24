@@ -7,15 +7,17 @@ function search() {
   filterValue = input.value.toLowerCase();
   for (var i = 0; i < projects.length; i++) {
     var hide = true;
+    let key = projects[i].text.toLowerCase()
+    if (key.includes(filterValue)) {
+      hide = false;
+    }
+    key = projects[i].title.toLowerCase()
+    if (key.includes(filterValue)) {
+      hide = false;
+    }
     for (var j = 0; j < projects[i].keyWords.length; j++) {
-      let key = projects[i].keyWords[j].toLowerCase();
+      key = projects[i].keyWords[j].toLowerCase();
       if (key.includes(filterValue)) {
-        hide = false;
-      }
-      if (projects[i].text.includes(filterValue)) {
-        hide = false;
-      }
-      if (projects[i].title.includes(filterValue)) {
         hide = false;
       }
     }
