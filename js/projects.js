@@ -72,5 +72,12 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/text-to-html/",
     githubLink: "https://github.com/mm909/text-to-html"
+  },
+  {
+    title: "Circle Packing M v1",
+    text: "Original circle packing program - Created with p5.js. This program uses a picture of an M to get valid places for circles to grow. Circles are colored randomly and move with a some simple physics.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/CirclePackingM-v1/",
+    githubLink: "https://github.com/mm909/CirclePackingM-v1"
   }
 ]
