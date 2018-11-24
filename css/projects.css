@@ -43,7 +43,14 @@
 .card {
   padding: 0px !important;
   text-align: center;
-  background-color: rgba(255,255,255,.95) !important;
+  background-color: rgba(255,255,255,.85) !important;
+  transition: background .3s, box-shadow .3s
+
+}
+
+.card:hover {
+  background-color: rgba(250,250,250,1) !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.25)!important;
 }
 
 .proejctBtn {

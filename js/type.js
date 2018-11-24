@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
       // ' <span class="genAddTextPadding genBlueHighlight typeBoxName">Who I am?<span>', // 1
       ' <span class="genAddTextPadding genBlueHighlight typeBoxName">I am ...!</span>', // 1
       ' <span class="genAddTextPadding genRedHighlight typeBoxName">I am a Leader.</span>', // 3
-      ' <span class="genAddTextPadding genRedHighlight typeBoxName">I am a Programmer.</span>', // 3
+      // ' <span class="genAddTextPadding genRedHighlight typeBoxName">I am a Programmer.</span>', // 3
       // ' <span class="genAddTextPadding genOrangeHighlight typeBoxName">I am a Volunteer.</span>', // 3
       ' <span class="genAddTextPadding genOrangeHighlight typeBoxName">I am a Mentor.</span>', // 3
       ' <span class="genAddTextPadding genYellowHighlight typeBoxName">I am Mikian Musser.</span>',
@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
       $(".typed-cursor").hide();
     },
     onStringTyped: function(pos, self) {
-      if (pos == 4 && firstType) {
+      if (pos == 3 && firstType) {
         $(".typed-cursor").hide();
         self.stop();
         firstType = false;
