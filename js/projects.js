@@ -98,5 +98,14 @@ let projects = [{
     liveLink: "https://mm909.github.io/AStarMaze/",
     githubLink: "https://github.com/mm909/AStarMaze",
     keyWords: []
+  },
+  {
+    title: "Smart Rockets",
+    text: "Using a genetic algorithm, smart rockets evolve to hit a target. This is a great example of how to model DNA as a set of instructions (vectors).",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/Smart-Rockets/",
+    githubLink: "https://github.com/mm909/Smart-Rockets",
+    keyWords: []
   }
+
 ]
