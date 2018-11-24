@@ -1,4 +1,6 @@
-
+if (debug) {
+  console.log("CirclePackingM-v2/circle.js");
+}
 // This is a circle object
 // It takes an x and a y for its location
 function Circle(x, y) {
@@ -58,33 +60,11 @@ function Circle(x, y) {
     this.pos.add(this.vel);
     this.acc.mult(0);
 
-    if(hireMe){
-      let middle = createVector(250,250);
-      this.applyForce(this.run(middle))
-      this.maxSpeed = 1;
-
-      this.maxForce = .25;
-
-      fill(0)
-      textSize(25)
-      text("702-540-4190",225,260)
-      text("Bobar312@gmail.com",180,285)
-      // let one = createVector(125,125)
-      // let two = createVector(125,375)
-      // let three = createVector(375,375)
-      // let four = createVector(375,125)
-      // var d = roughDistance(this.pos.x, this.pos.y, one.x, one.y)
-      // if(d < this.fleeRange)
-      // this.applyForce(this.run(one))
-      // var d = roughDistance(this.pos.x, this.pos.y, two.x, two.y)
-      // if(d < this.fleeRange)
-      // this.applyForce(this.run(two))
-      // var d = roughDistance(this.pos.x, this.pos.y, three.x, three.y)
-      // if(d < this.fleeRange)
-      // this.applyForce(this.run(three))
-      // var d = roughDistance(this.pos.x, this.pos.y, four.x, four.y)
-      // if(d < this.fleeRange)
-      // this.applyForce(this.run(four))
+    if (hireMe) {
+      for (var i = 0; i < circles.length; i++) {
+        circles[i].target = createVector(random(width), random(height))
+      }
+      hireMe = false;
     } else {
       this.arrive(this.target);
       var d = roughDistance(this.pos.x, this.pos.y, mouseX, mouseY)
@@ -138,7 +118,7 @@ function Circle(x, y) {
     colorMode(HSB);
     noStroke();
     fill(this.color);
-    ellipse(this.pos.x + this.offsetForWebsiteX, this.pos.y +this.offsetForWebsiteY, this.r * 2, this.r * 2);
+    ellipse(this.pos.x + this.offsetForWebsiteX, this.pos.y + this.offsetForWebsiteY, this.r * 2, this.r * 2);
   }
 
   // This.grow will inc this.r by this.growRate if the circle is still growing
@@ -193,14 +173,19 @@ function addCircle() {
   // Check if there is a circle in that spot
   for (var i = 0; i < circles.length; i++) {
     var c = circles[i];
-    var d = roughDistance(x,y,c.target.x,c.target.y)
+    var d = roughDistance(x, y, c.target.x, c.target.y)
     // Stop after one conflict
-    if(d - c.buffer < c.r) { valid = false; break;}
+    if (d - c.buffer < c.r) {
+      valid = false;
+      break;
+    }
   }
-  let temp = new Circle(x,y)
+  let temp = new Circle(x, y)
   temp.updateColor();
   // If valid push a new circle to the array
-  if(valid){circles.push(temp)}
+  if (valid) {
+    circles.push(temp)
+  }
   return valid;
 }
 
@@ -210,7 +195,7 @@ function swapC() {
   var tempB = circles[floor(random(circles.length))];
   // If they are the same size +- some difference
   // Swap target locations
-  if(abs(tempA.r - tempB.r) <= 2){
+  if (abs(tempA.r - tempB.r) <= 2) {
     var tempC = tempA.target;
     tempA.target = tempB.target;
     tempB.target = tempC;

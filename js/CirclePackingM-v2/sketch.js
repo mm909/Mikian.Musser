@@ -1,7 +1,10 @@
+if (debug) {
+  console.log("CirclePackingM-v2/sketch.js");
+}
+
 // Mikian Musser
 // https://www.youtube.com/watch?v=QHEQuoIKgNE
 // https://p5js.org/reference/
-console.log("/CirclePackingM-v2/sketch.js");
 
 // MAXSIZE => The max radius of a circle
 // CIRCLESEACHFRAME => The numbers of circles that are spawned each frame
@@ -29,33 +32,33 @@ var swapChance = 100;
 var hireMe = false;
 
 // Load the image of an M into the program
-function preload(){
-    // M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
+function preload() {
+  // M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
 }
 
 function setup() {
-  var canvas = createCanvas(windowWidth,windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("canvasContainer")
   // buildValidArray();
   validArray = storedValidArray;
   for (var i = 0; i < circleList.length; i++) {
     let temp = new Circle();
-    temp.target = createVector(circleList[i].x,circleList[i].y)
+    temp.target = createVector(circleList[i].x, circleList[i].y)
     temp.updateColor();
     circles.push(temp)
   }
   colorMode(RGB)
-  background(239,239,239)
+  background(239, 239, 239)
   colorMode(HSB);
 
 }
 
 function draw() {
   // Draw the background
-    colorMode(RGB)
-    background(239,239,239,80)
-    colorMode(HSB);
-    // addCircles();
+  colorMode(RGB)
+  background(239, 239, 239, 80)
+  colorMode(HSB);
+  // addCircles();
   // swapC();
   // For each circle update, grow, and show.
   for (var i = 0; i < circles.length; i++) {
@@ -93,23 +96,24 @@ function addCircles() {
 }
 
 let validCount = 0;
-function  buildValidArray(){
+
+function buildValidArray() {
   // Load pixels and itterate through them
   M.loadPixels();
-  for (var i = 0; i < M.pixels.length; i+=4) {
+  for (var i = 0; i < M.pixels.length; i += 4) {
     var sum = 0;
-    sum += M.pixels[i+0];
-    sum += M.pixels[i+1];
-    sum += M.pixels[i+2];
+    sum += M.pixels[i + 0];
+    sum += M.pixels[i + 1];
+    sum += M.pixels[i + 2];
     sum /= 3;
     // ^ Get the pixel's brightness
     // If over a threashold => Add it to the array
-    if(sum < 150){
-      var temp = floor((i/4));
+    if (sum < 150) {
+      var temp = floor((i / 4));
       var tempX = temp % M.width;
       var tempY = floor(temp / M.height);
       var p = createVector(tempX, tempY);
-      if(validCount % 64 == 0){
+      if (validCount % 64 == 0) {
         validArray.push(p);
       }
       validCount++;
@@ -117,7 +121,7 @@ function  buildValidArray(){
   }
 }
 
-function roughDistance(x0,y0,x1,y1){
+function roughDistance(x0, y0, x1, y1) {
   let dx = abs(x1 - x0)
   let dy = abs(y1 - y0)
   let dist = 0.5 * (dx + dy + max(dx, dy))
@@ -130,30 +134,28 @@ function tempPoint() {
 }
 
 let strValidArray = [];
-function prepValidArray(){
+
+function prepValidArray() {
   for (var i = 0; i < validArray.length; i++) {
     let tp = new tempPoint();
-      tp.x = validArray[i].x,
+    tp.x = validArray[i].x,
       tp.y = validArray[i].y
-      strValidArray.push(tp);
+    strValidArray.push(tp);
   }
-  console.log(strValidArray);
 }
 
 let strCircleArray = [];
-function prepCircleArray(){
+
+function prepCircleArray() {
   for (var i = 0; i < circles.length; i++) {
     let tp = new tempPoint();
-      tp.x = circles[i].target.x,
+    tp.x = circles[i].target.x,
       tp.y = circles[i].target.y
-      strCircleArray.push(tp);
+    strCircleArray.push(tp);
   }
-  console.log(strCircleArray);
   JSON.stringify(strCircleArray)
 }
 
 function hire() {
-  console.log("Do a thing!");
   hireMe = true;
-  
 }
