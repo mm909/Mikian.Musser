@@ -21,6 +21,11 @@
   overflow: hidden;
 }
 
+.card-text p {
+  padding: 0px !important;
+  margin: 0px;
+}
+
 .card-buttons {
   padding: 0px !important;
   margin: 0px;
