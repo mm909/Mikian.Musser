@@ -2,7 +2,7 @@ if (debug) {
   console.log("CirclePackingM-v2/sketch.js");
 }
 
-let swapRate = 0.003
+let swapRate = 0.005
 
 // Mikian Musser
 // https://www.youtube.com/watch?v=QHEQuoIKgNE
