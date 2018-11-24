@@ -4,7 +4,7 @@ if (debug) {
 
 jQuery(document).ready(function() {
   for (var i = 0; i < projects.length; i++) {
-    let projectCard = `<div class='col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12'>
+    let projectCard = `<div id='cardWrapper` + i + `' class='col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12'>
       <div class='card'>
         <div class='card-body'>
           <div class='card-title'>

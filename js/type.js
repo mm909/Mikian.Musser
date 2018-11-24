@@ -35,5 +35,6 @@ jQuery(document).ready(function() {
   });
   document.querySelector('.start').addEventListener('click', function() {
     type.start();
+    firstType = false;
   });
 });
