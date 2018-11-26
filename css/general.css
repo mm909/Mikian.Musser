@@ -206,12 +206,31 @@ a:hover{
 }
 
 .iamContainer {
-  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
+.iamRow {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+}
 
+.iamCell{
+  width: 100%;
+  height: 100%;
+}
 
+.iamCard {
+  margin: auto;
+  width: 80%;
+}
 
+#iamRow {
+  height:750px;
+}
 
 
 

@@ -2,7 +2,7 @@ if (debug) {
   console.log("CirclePackingM-v2/sketch.js");
 }
 
-let swapRate = 0.005
+let swapRate = 0.01
 
 // Mikian Musser
 // https://www.youtube.com/watch?v=QHEQuoIKgNE
@@ -159,8 +159,42 @@ function prepCircleArray() {
 }
 
 let swap = false;
+let swapping = false;
+let swapingCirclesInt = null;
 
-function hire(t) {
+function hire(t, h) {
   hireMe = true;
+
+  if (!h) {
+    clearInterval(swapingCirclesInt)
+    $("#iamRow")[0].innerHTML = iamold;
+    $(".typeAnimationWrapper")[0].innerHTML = "<div class='typeAnimationWrapper align-middle'><span id='type2' class='align-middle' style='height:68px'></span></div>"
+    var type2 = new Typed('#type2', {
+      strings: [
+        // ' <span class="genAddTextPadding genBlueHighlight typeBoxName">Who I am?<span>', // 1
+        // ' <span class="genAddTextPadding genBlueHighlight typeBoxName">I am ...!</span>', // 1
+        // ' <span class="genAddTextPadding genRedHighlight typeBoxName">I am a Leader.</span>', // 3
+        // ' <span class="genAddTextPadding genRedHighlight typeBoxName">I am a Programmer.</span>', // 3
+        // ' <span class="genAddTextPadding genOrangeHighlight typeBoxName">I am a Volunteer.</span>', // 3
+        // ' <span class="genAddTextPadding genOrangeHighlight typeBoxName">I am a Mentor.</span>', // 3
+        // ' <span class="genAddTextPadding genYellowHighlight typeBoxName">I am Mikian Musser.</span>',
+        ' <div class="genAddTextPadding genDarkYellowHighlight typeBoxName"><h1>Mikian Musser</h1><p>(702)540-4190</p><p>Bobar312@gmail.com</p></div>'
+      ],
+      typeSpeed: 0,
+      backSpeed: 0,
+      backDelay: 10,
+      startDelay: 0,
+      showCursor: false,
+      onComplete: function(self) {},
+      onStringTyped: function(pos, self) {
+
+      },
+      onStart: function(pos, self) {
+        self.start();
+      }
+    });
+  }
+
   swap = t;
+  swapping = t;
 }

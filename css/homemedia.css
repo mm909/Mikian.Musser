@@ -1,0 +1,148 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1920 1000 */
+@media only screen and (max-device-width : 2000px) {
+  #iamRow {
+    height:590px;
+  }
+}
+
+@media only screen and (max-device-width : 1200px) {
+  #iamRow {
+    height:500px;
+  }
+  .typeAnimationWrapper p {
+    font-size: 36px;
+  }
+}
+
+
+
+@media only screen and (max-device-width : 600px) {
+  .GenButtonRow {
+    font-size: 36px;
+  }
+  .card button {
+    font-size: 36px;
+  }
+  .navbar a {
+    font-size: 36px !important;
+  }
+  .row div {
+    margin-bottom: 10px;
+  }
+  #iamRow {
+    height:450px;
+  }
+  #type {
+    font-size: 60px !important;
+  }
+  .genYellowHighlight {
+    background-color: rgba(250,240,95,0.90);
+  }
+  .card {
+    background-color: rgba(250,250,250,1) !important;
+  }
+  .row div {
+    margin-bottom: 25px;
+  }
+  .typeAnimationWrapper {
+      top: 20%;
+  }
+}
+
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+      #iamRow {
+        height:450px;
+      }
+      #type {
+        font-size: 76px !important;
+      }
+      .genYellowHighlight {
+        background-color: rgba(250,240,95,0.90);
+      }
+      .card {
+        background-color: rgba(250,250,250,1) !important;
+      }
+      .row div {
+        margin-bottom: 25px;
+      }
+      .typeAnimationWrapper {
+          top: 20%;
+      }
+    }
+
+    @media only screen
+        and (device-width : 414px)
+        and (device-height : 736px)
+        and (-webkit-device-pixel-ratio : 3) {
+          #iamRow {
+            height:450px;
+          }
+          #type {
+            font-size: 60px !important;
+          }
+          .genYellowHighlight {
+            background-color: rgba(250,240,95,0.90);
+          }
+          .card {
+            background-color: rgba(250,250,250,1) !important;
+          }
+          .row div {
+            margin-bottom: 25px;
+          }
+          .typeAnimationWrapper {
+              top: 20%;
+          }
+          .GenButtonRow {
+            font-size: 32px;
+          }
+          .card button {
+            font-size: 32px;
+          }
+          .row div {
+            margin-bottom: 10px;
+          }
+
+        }
+
+        @media only screen
+    and (device-width : 375px)
+    and (device-height : 667px)
+    and (-webkit-device-pixel-ratio : 2) {
+      #iamRow {
+        height:450px;
+      }
+      #type {
+        font-size: 60px !important;
+      }
+      .genYellowHighlight {
+        background-color: rgba(250,240,95,0.90);
+      }
+      .card {
+        background-color: rgba(250,250,250,1) !important;
+      }
+      .row div {
+        margin-bottom: 25px;
+      }
+      .typeAnimationWrapper {
+          top: 20%;
+      }
+    }

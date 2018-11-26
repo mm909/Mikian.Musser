@@ -33,6 +33,7 @@ jQuery(document).ready(function() {
       self.start();
     }
   });
+
   document.querySelector('.start').addEventListener('click', function() {
     type.start();
     if (!firstType) {
@@ -40,4 +41,5 @@ jQuery(document).ready(function() {
     }
     firstType = false;
   });
+
 });

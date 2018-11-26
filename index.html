@@ -22,16 +22,10 @@
   <link rel="stylesheet" href="css/p5css.css">
   <link rel="stylesheet" href="css/type.css">
   <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/homemedia.css">
 </head>
 
 <body>
-  <!-- <div class="genHireInfo">
-    <div class="genHireText">
-      <h1>Mikian Musser</h1>
-      <p>(702)540-4190</p>
-      <p>Bobar312@gmail.com</p>
-    </div>
-  </div> -->
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#">Mikian Musser</a>
     <a class="genGitButton navGitButton" href="https://github.com/mm909/" rel="noreferrer noopener">GitHub</a>
@@ -41,28 +35,19 @@
       <div id="canvasContainer">
       </div>
     </div>
-    <div id="iamRow" style="height:450px" class=" row">
-      <div class="col-sm">
-        <!-- <div class="genHireMeText">
-            <h4>Call or Email</h4>
-            <p>702-540-4190 <br> Bobar312@gmail.com </p>
-          </div> -->
+    <div id="iamRow" class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
       </div>
-      <div class="col-sm">
+      <div class="col-lg-6 col-md-12 col-sm-12">
         <div class="typeAnimationWrapper align-middle">
           <span id="type" class="align-middle" style="height:68px"></span>
         </div>
-        <!-- <div class="genPicturePlaceHolder">
-            <div class="genPicture">
-
-            </div>
-          </div> -->
       </div>
     </div>
   </div>
   <div class="GenButtonRow">
     <div class="row">
-      <div class="col-md-4 col-sm-12">
+      <div class="col-lg-4 col-md-12 col-sm-12">
         <div class='homePageCard card shadow p-3 rounded'>
           <h1><span class="genAddTextPadding genYellowHighlight">{Projects}</span></h1>
           <div class="genProjectItem">
@@ -88,19 +73,19 @@
           <a href="pages/projects.html"> <button id="hire" type="button" class="noMargin btn btn-lg gen-btn-projects">{Projects}</button></a>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col-lg-4 col-md-12 col-sm-12">
         <div class='homePageCard card shadow p-3 rounded'>
           <h1>Who am I?</h1>
           <p>I am Mikian Musser. <br> <span class="genAddTextPadding genOrangeHighlight ">I am so much more than a resume.</span> <br> I am a leader, a mentor, and a role model. <br> Learn about me as a person, not a sheet of paper, below.</p>
             <button id="hire" type="button" onclick="iam()" class="noMargin btn btn-lg gen-btn-iam">I am...</button>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col-lg-4 col-md-12 col-sm-12">
         <div class='homePageCard card shadow p-3 rounded'>
           <h1>Hire Me</h1>
           <p>I am always learning and love to be apart of supportive programming environments. <br> I would love to be apart of your team and help build each other up. <br> <span class="genAddTextPadding genRedHighlight"> I am currently looking for a summer internship! </span>
           </p>
-          <button onclick="hire()" id="hire" type="button" class="start noMargin btn btn-lg gen-btn-hire">Hire</button>
+          <button onclick="hire(false, false, true)" id="hire" type="button" class="start noMargin btn btn-lg gen-btn-hire">Hire</button>
         </div>
       </div>
     </div>

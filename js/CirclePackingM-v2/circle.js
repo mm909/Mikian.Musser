@@ -54,6 +54,7 @@ function Circle(x, y) {
     this.color = color(c, 255, 255);
   }
 
+
   // updates color, vel, pos, acc, and calls the arrive function.
   this.update = function() {
     this.vel.add(this.acc);
@@ -64,17 +65,14 @@ function Circle(x, y) {
       for (var i = 0; i < circles.length; i++) {
         circles[i].target = createVector(random(width), random(height))
       }
+      swapingCirclesInt = setInterval(swapCirclesAround, 200);
       hireMe = false;
     } else if (swap) {
       for (var i = 0; i < circles.length; i++) {
         circles[i].target = createVector(random(width), random(height / 2, height))
       }
       swap = false;
-      setInterval(function() {
-        for (var i = 0; i < circles.length; i++) {
-          circles[i].target = createVector(random(width), random(height / 2, height))
-        }
-      }, 2000);
+      swapingCirclesInt = setInterval(swapBottomHalf, 750);
     } else {
       this.arrive(this.target);
       var d = roughDistance(this.pos.x, this.pos.y, mouseX, mouseY)
@@ -181,6 +179,20 @@ function Circle(x, y) {
       }
     }
     return true;
+  }
+}
+
+function swapCirclesAround() {
+  let one = circles[floor(random(circles.length))];
+  let two = circles[floor(random(circles.length))];
+  let temp = one.target;
+  one.target = two.target
+  two.target = temp
+}
+
+function swapBottomHalf() {
+  for (var i = 0; i < circles.length; i++) {
+    circles[i].target = createVector(random(width), random(height / 2, height))
   }
 }
 
