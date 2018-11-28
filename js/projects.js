@@ -106,6 +106,13 @@ let projects = [{
     liveLink: "https://mm909.github.io/Smart-Rockets/",
     githubLink: "https://github.com/mm909/Smart-Rockets",
     keyWords: []
+  },
+  {
+    title: "SpeedCode: HTML Calc",
+    text: "Super simple HTML calculator designed to be a coding challenge for students at Code Central. The code is under 100 lines with js and css included. It is a really good applicaion of JS and CSS for those looking for a project!",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/SpeedCodeHTMLCalc/",
+    githubLink: "https://github.com/mm909/SpeedCodeHTMLCalc",
+    keyWords: ["calculator"]
   }
-
 ]
