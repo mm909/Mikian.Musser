@@ -28,8 +28,8 @@ function Circle(x, y) {
   // How much do we slow down
   // this.maxSpeed = sqrt(width * width + width * width);
   this.maxSpeed = 10;
-  this.maxForce = 1;
-  this.fleeRange = 125;
+  this.maxForce = .25;
+  this.fleeRange = 150;
   this.fleeSpeed = 7;
 
   // var middle = createVector(width/2,height/2);
@@ -80,6 +80,13 @@ function Circle(x, y) {
       if (d < this.fleeRange) {
         this.applyForce(this.run(mouseV));
       }
+      // for (var i = 0; i < rs.length; i++) {
+      //   var d = roughDistance(this.pos.x, this.pos.y, rs[i].x, rs[i].y)
+      //   var mouseV = createVector(rs[i].x, rs[i].y);
+      //   if (d < 40) {
+      //     this.applyForce(this.run(mouseV));
+      //   }
+      // }
       // var d = roughDistance(this.pos.x, this.pos.y, width - (width * 0.1), 0)
       // var mouseV = createVector(width, 0);
       // if (d < this.fleeRange) {

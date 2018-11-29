@@ -109,10 +109,18 @@ let projects = [{
   },
   {
     title: "SpeedCode: HTML Calc",
-    text: "Super simple HTML calculator designed to be a coding challenge for students at Code Central. The code is under 100 lines with js and css included. It is a really good applicaion of JS and CSS for those looking for a project!",
+    text: "Super simple HTML calculator designed to be a coding challenge for students at Code Central. The code is under 100 lines with JS and CSS included. It is a really good application of JS and CSS for those looking for a project!",
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/SpeedCodeHTMLCalc/",
     githubLink: "https://github.com/mm909/SpeedCodeHTMLCalc",
     keyWords: ["calculator"]
+  },
+  {
+    title: "Connect.js",
+    text: "Just for fun p5.js sketch adapted from <a href='https://github.com/Abhi10699'><u>Abhi Patel</u></a> I highly suggest you download the code and play around with it your self:)",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/Connect/",
+    githubLink: "https://github.com/mm909/Connect",
+    keyWords: []
   }
 ]

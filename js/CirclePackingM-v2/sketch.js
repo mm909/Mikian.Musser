@@ -33,6 +33,7 @@ var swapChance = 100;
 
 var hireMe = false;
 
+
 // Load the image of an M into the program
 function preload() {
   // M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
@@ -63,6 +64,7 @@ function draw() {
   // addCircles();
   // swapC();
   // For each circle update, grow, and show.
+
   for (var i = 0; i < circles.length; i++) {
     circles[i].update();
     circles[i].grow();
