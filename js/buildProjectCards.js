@@ -3,7 +3,9 @@ if (debug) {
 }
 
 jQuery(document).ready(function() {
-  for (var i = 0; i < projects.length; i++) {
+  while (projects.length > 0) {
+    let i = floor(random(projects.length));
+    console.log(i);
     let projectCard = `<div id='cardWrapper` + i + `' class='col-xl-3 col-lg-4 col-md-12 col-sm-12 col-xs-12 projectCard'>
       <div class='card shadow p-3 mb-5 rounded'>
         <div class='card-body'>
@@ -22,5 +24,6 @@ jQuery(document).ready(function() {
     </div>`
     $tempProjectCard = $(projectCard)
     $(".row").append($tempProjectCard);
+    projects.splice(i, 1);
   }
 });
