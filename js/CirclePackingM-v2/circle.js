@@ -154,7 +154,7 @@ function Circle(x, y) {
     }
 
     let temp = random(1)
-    if (temp < swapRate && projectPage) {
+    if ( temp < swapRate && projectPage) {
       this.target = createVector(random(width), random(height));
     }
   }
