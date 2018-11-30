@@ -36,6 +36,22 @@ let projects = [{
     keyWords: []
   },
   {
+    title: "Web Development 4",
+    text: "Web Development 4 was developed as a curriculum tool for <a href='https://mycodecentral.com/'><u>Code Central.</u></a> Information was converted from a PDF and displayed using a much more interactive and updatable medium.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/Teaching/CCProjects/WD4/index.html",
+    githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD4",
+    keyWords: []
+  },
+  {
+    title: "HTML Calc Lesson",
+    text: "HTML Calc Lesson lesson was developed as a curriculum tool for <a href='https://mycodecentral.com/'><u>Code Central.</u></a> This was based off of <a href='https://mm909.github.io/SpeedCodeHTMLCalc/'><u>SpeedCode: HTML Calc</u></a> ",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/Teaching/CCProjects/HTMLCalc/index.html",
+    githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/HTMLCalc",
+    keyWords: []
+  },
+  {
     title: "Circle Packing M v2",
     text: "Circle Packing M v2 was built off of <a href='#'><u>Circle Packing M v1</u></a> for usage in this website. Version two is highly optimized: cutting down on storage used and calculations each frame.",
     live: "genLiveButton",
