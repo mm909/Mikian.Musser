@@ -4,13 +4,14 @@
   margin: auto;
 }
 
-.row div {
-}
+.row div {}
 
 .card-title {
   padding: 0px !important;
   margin: 0px;
 }
+
+.projectCard {}
 
 .card-text {
   padding: 0px !important;
@@ -43,14 +44,13 @@
 .card {
   padding: 0px !important;
   text-align: center;
-  background-color: rgba(255,255,255,.85) !important;
+  background-color: rgba(255, 255, 255, .85) !important;
   transition: background .3s, box-shadow .3s
-
 }
 
 .card:hover {
-  background-color: rgba(250,250,250,1) !important;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.25)!important;
+  background-color: rgba(250, 250, 250, 1) !important;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .25) !important;
 }
 
 .proejctBtn {
@@ -61,17 +61,16 @@
 .projectSearchBar {
   width: 100%;
   display: inline-block;
-  margin:auto;
+  margin: auto;
   margin-bottom: 15px;
 }
 
 .searchBarContainer {
   padding-top: 75px;
-
-  width:60%;
-  margin:auto;
+  width: 60%;
+  margin: auto;
 }
 
 .notLive {
-text-decoration: line-through !important;
+  text-decoration: line-through !important;
 }

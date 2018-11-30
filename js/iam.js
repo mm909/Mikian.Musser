@@ -11,7 +11,7 @@ function iam() {
   <div class="iamContainer">
     <div class="iamRow row">
       <div class="col-md-6 col-sm-12">
-        <div class='homePageCard iamCard card shadow p-3 rounded'>
+        <div class='homePageCard iamCard card shadow p-3 rounded iamText'>
           <div class="">
             <h3> Coding is my <i>passion</i> </h3>
             <p> I love being able to create anything I want. I wanted to make a website, so I did. I wanted to make an application to help my peers so I did!</p>
@@ -21,7 +21,7 @@ function iam() {
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="iamCellRight">
-        <div class='homePageCard iamCard card shadow p-3 rounded'>
+        <div class='homePageCard iamCard card shadow p-3 rounded iamText'>
           <div class="">
             <h3> Teaching is my <strong>purpose</strong> </h3>
             <p> I am so glad that I get to share what I do. I love writing code and enjoy working with kids. <br> Teaching is the perfect intersection. </p>

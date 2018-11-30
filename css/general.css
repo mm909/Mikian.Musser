@@ -6,20 +6,25 @@ a {
   text-decoration: none;
   color: inherit;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
   color: inherit;
 }
 
 .card {
   text-align: center;
-  background-color: rgba(255,255,255,.75);
+  background-color: rgba(255, 255, 255, .75);
   transition: background .3s, box-shadow .3s;
 }
 
+.iamText {
+  font-size: 24px;
+}
+
 .card:hover {
-  background-color: rgba(250,250,250,1) !important;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.35)!important;
+  background-color: rgba(250, 250, 250, 1) !important;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .35) !important;
 }
 
 .homePageCard {
@@ -36,10 +41,10 @@ a:hover{
 
 .genGitButton {
   /* background-color: transparent; */
-  background-color: rgba(255, 59, 64,.25);
+  background-color: rgba(255, 59, 64, .25);
   border: 1px solid #A9A9A9;
   border-radius: 3px;
-  color:#000;
+  color: #000;
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
@@ -55,10 +60,10 @@ a:hover{
 }
 
 .genLiveButton {
-  background-color: rgba(69,255,59,.25);
+  background-color: rgba(69, 255, 59, .25);
   border: 1px solid #A9A9A9;
   border-radius: 3px;
-  color:#000000;
+  color: #000000;
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
@@ -83,6 +88,7 @@ a:hover{
   border-radius: 3px;
   transition: background .3s, color .3s;
   background-color: transparent;
+  font-size: 24px;
 }
 
 .GenButtonRow {
@@ -90,14 +96,14 @@ a:hover{
   margin: auto;
   margin-top: 10px;
   text-align: center;
+  font-size: 19px;
 }
 
 .gen-btn-hire {
   width: 50%;
-  margin:auto;
+  margin: auto;
   color: #FF3B3F;
 }
-
 
 .gen-btn-hire:hover {
   color: #545454;
@@ -106,8 +112,7 @@ a:hover{
 
 .gen-btn-iam {
   width: 50%;
-  margin:auto;
-
+  margin: auto;
   color: #FFC53A;
 }
 
@@ -118,23 +123,17 @@ a:hover{
 
 .gen-btn-projects {
   width: 50%;
-  margin:auto;
-
+  margin: auto;
   color: #545454;
-
   /* background-color: #FAF05F !important; */
-
   /* color: #FAF05F; */
 }
 
 .gen-btn-projects:hover {
   color: #000;
-
-  background-color: rgba(250,240,95,0.90)  !important;
-
+  background-color: rgba(250, 240, 95, 0.90) !important;
   /* color: #545454;
   background-color: #FAF05F; */
-
 }
 
 .genProjectItem {
@@ -151,24 +150,23 @@ a:hover{
 }
 
 .genBlueHighlight {
-  background-color: rgba(194,235,239,0.76);
+  background-color: rgba(194, 235, 239, 0.76);
 }
 
 .genOrangeHighlight {
-  background-color: rgba(255,197,58,0.76);
+  background-color: rgba(255, 197, 58, 0.76);
 }
 
 .genRedHighlight {
-  background-color: rgba(255,59,63,0.60);
+  background-color: rgba(255, 59, 63, 0.60);
 }
 
 .genYellowHighlight {
-  background-color: rgba(250,240,95,0.76);
+  background-color: rgba(250, 240, 95, 0.76);
 }
 
-.genDarkYellowHighlight{
-  background-color: rgba(250,240,95,0.90);
-
+.genDarkYellowHighlight {
+  background-color: rgba(250, 240, 95, 0.90);
 }
 
 .genAddTextPadding {
@@ -177,7 +175,6 @@ a:hover{
   padding-top: 2px;
   padding-bottom: 2px;
 }
-
 
 .genPicturePlaceHolder {
   text-align: center;
@@ -200,7 +197,7 @@ a:hover{
 .genHireText {
   border-radius: 20px;
   width: 25%;
-  margin:auto;
+  margin: auto;
   padding: 5px;
   background-color: #cccccc;
 }
@@ -218,7 +215,7 @@ a:hover{
   height: 100%;
 }
 
-.iamCell{
+.iamCell {
   width: 100%;
   height: 100%;
 }
@@ -229,11 +226,7 @@ a:hover{
 }
 
 #iamRow {
-  height:750px;
+  height: 750px;
 }
-
-
-
-
 
 /* eof */
