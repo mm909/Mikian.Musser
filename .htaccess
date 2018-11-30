@@ -11,4 +11,9 @@
         RewriteCond %{REQUEST_FILENAME} !-f
         RewriteCond %{REQUEST_FILENAME} !-d
         RewriteRule ^(.*)$ /index.html/$1 [L]
+
+
+        RewriteCond %{QUERY_STRING} "fbclid=" [NC]
+        RewriteRule (.*) /$1? [R=301,L]
+
 </IfModule>
