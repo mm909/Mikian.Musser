@@ -1,4 +1,4 @@
-let debug = false;
+let debug = true;
 if (debug) {
   console.log("main.js");
 }
