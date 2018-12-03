@@ -10,7 +10,6 @@ let projects = [{
     liveLink: "https://mm909.github.io/Central-Scroll/",
     githubLink: "https://github.com/mm909/Central-Scroll",
     keyWords: ['Google Prettify', 'Paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'file upload', 'user input', 'in use', 'deployed', 'prettyprint'],
-    version: '12.2.2018.1.20'
   },
   {
     title: "Web Development 1",
@@ -18,7 +17,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD1/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD1",
-    keyWords: []
+    keyWords: ['Google Prettify', 'free', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching']
   },
   {
     title: "Web Development 2",
@@ -26,7 +25,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD2/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD2",
-    keyWords: []
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts']
   },
   {
     title: "Web Development 3",
@@ -34,7 +33,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD3/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD3",
-    keyWords: []
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts', 'php', 'sql']
   },
   {
     title: "Web Development 4",
@@ -42,7 +41,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD4/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD4",
-    keyWords: []
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts', 'php', 'sql']
   },
   {
     title: "HTML Calc Lesson",
@@ -50,7 +49,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/HTMLCalc/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/HTMLCalc",
-    keyWords: []
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching']
   },
   {
     title: "Circle Packing M v2",
@@ -58,7 +57,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/CirclePackingM-v2/",
     githubLink: "https://github.com/mm909/CirclePackingM-v2",
-    keyWords: []
+    keyWords: ['fun', 'in use', 'version 2', 'p5.js', 'optimized', 'colorful', 'beautiful', 'interactive']
   },
   {
     title: "Flappy Bird NNV",
