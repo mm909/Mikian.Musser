@@ -74,3 +74,23 @@
 .notLive {
   text-decoration: line-through !important;
 }
+
+.projectGitButton {
+  /* background-color: transparent; */
+  border: 1px solid #A9A9A9;
+  border-radius: 3px;
+  background-color: rgba(255, 59, 64, .25);
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding: 10px;
+  text-decoration: none !important;
+  transition: background .3s, color .3s
+}
+
+.projectGitButton:hover {
+  color: #000000;
+  background-color: rgba(255, 59, 64, .75);
+}

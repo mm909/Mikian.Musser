@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
           </div>
           <div class='card-buttons'>
             <a class='proejctBtn btn ` + projects[i].live + `' href='` + projects[i].liveLink + `' rel='noreferrer noopener'>Live</a>
-            <a class='proejctBtn btn genGitButton' href='` + projects[i].githubLink + `' rel='noreferrer noopener'>GitHub</a>
+            <a class='proejctBtn btn projectGitButton' href='` + projects[i].githubLink + `' rel='noreferrer noopener'>GitHub</a>
           </div>
         </div>
       </div>
