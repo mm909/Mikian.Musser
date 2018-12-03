@@ -9,7 +9,8 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Central-Scroll/",
     githubLink: "https://github.com/mm909/Central-Scroll",
-    keyWords: ['Google Prettify', 'Paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'file upload', 'user input', 'in use', 'deployed', 'prettyprint']
+    keyWords: ['Google Prettify', 'Paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'file upload', 'user input', 'in use', 'deployed', 'prettyprint'],
+    version: '12.2.2018.1.20'
   },
   {
     title: "Web Development 1",
