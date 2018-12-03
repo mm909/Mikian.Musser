@@ -7,6 +7,7 @@ jQuery(document).ready(function() {
       'Code Central',
       'Web Dev',
       'Algorithms',
+      'Google Prettify',
       'Awesome!',
     ],
     typeSpeed: 0,

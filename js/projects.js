@@ -57,7 +57,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/CirclePackingM-v2/",
     githubLink: "https://github.com/mm909/CirclePackingM-v2",
-    keyWords: ['fun', 'in use', 'version 2', 'p5.js', 'optimized', 'colorful', 'beautiful', 'interactive']
+    keyWords: ['fun', 'in use', 'version 2', 'p5.js', 'optimized', 'colorful', 'beautiful', 'interactive', 'distance']
   },
   {
     title: "Flappy Bird NNV",
