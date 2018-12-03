@@ -124,6 +124,7 @@ a:hover {
 .gen-btn-projects {
   width: 40%;
   margin: auto;
+  margin-top: 10px;
   color: #545454;
   display: inline-block;
   /* background-color: #FAF05F !important; */
