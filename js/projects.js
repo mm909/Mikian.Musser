@@ -9,7 +9,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Central-Scroll/",
     githubLink: "https://github.com/mm909/Central-Scroll",
-    keyWords: []
+    keyWords: ['Google Prettify', 'Paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'file upload', 'user input', 'in use', 'deployed', 'prettyprint']
   },
   {
     title: "Web Development 1",
@@ -61,7 +61,7 @@ let projects = [{
   },
   {
     title: "Flappy Bird NNV",
-    text: "A great example of a nerual network and genetic algrithum working together. While birds learn how to play flappy bird you can watch their brain evolve and play the level. <b> Check it out! </b>",
+    text: "A great example of a neural network and genetic algorithm working together. While birds learn how to play flappy bird you can watch their brain evolve and play the level. <b> Check it out! </b>",
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Flappy-Bird-NNV/",
     githubLink: "https://github.com/mm909/Flappy-Bird-NNV",
