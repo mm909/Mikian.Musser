@@ -170,6 +170,13 @@ let projects = [{
     liveLink: "https://mm909.github.io/FractalTrees/",
     githubLink: "https://github.com/mm909/FractalTrees",
     keyWords: []
+  },
+  {
+    title: "Wiki Bacon",
+    text: "Basic web scraping using the Wiki API. The application will take in a key word, find a wiki page associated with that key word then find the most used word on that page and repeat the process.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/Wiki-Bacon/",
+    githubLink: "https://github.com/mm909/Wiki-Bacon",
+    keyWords: []
   }
-
 ]
