@@ -138,5 +138,29 @@ let projects = [{
     liveLink: "https://mm909.github.io/Connect/",
     githubLink: "https://github.com/mm909/Connect",
     keyWords: []
+  },
+  {
+    title: "Library Examples",
+    text: "Simple background to show students what typed.js, countup.js, and particles.js and do.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/lib-examples/",
+    githubLink: "https://github.com/mm909/lib-examples",
+    keyWords: []
+  },
+  {
+    title: "Snow Library Examples",
+    text: "Simple December themed background to show students what typed.js, countup.js, and particles.js and do.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/snow/",
+    githubLink: "https://github.com/mm909/snow",
+    keyWords: []
+  },
+  {
+    title: "Typed.js Examples",
+    text: "Simple background to show students what typed.js and do.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/typed.js/",
+    githubLink: "https://github.com/mm909/typed.js",
+    keyWords: []
   }
 ]
