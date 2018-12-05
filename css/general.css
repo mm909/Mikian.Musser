@@ -100,9 +100,13 @@ a:hover {
 }
 
 .gen-btn-hire {
-  width: 50%;
-  margin: auto;
   color: #FF3B3F;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+  display: inline-block;
+  /* background-color: #FAF05F !important; */
+  /* color: #FAF05F; */
 }
 
 .gen-btn-hire:hover {

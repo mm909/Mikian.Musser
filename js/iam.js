@@ -14,7 +14,7 @@ function iam() {
         <div class='homePageCard iamCard card shadow p-3 rounded iamText'>
           <div class="">
             <h3> Coding is my <i>passion</i> </h3>
-            <p> I love being able to create anything I want. I wanted to make a website, so I did. I wanted to make an application to help my peers so I did!</p>
+            <p> I love being able to create. I wanted to make a website, so I did. I wanted to make an application to help my peers so I did!</p>
             <p> I love working with neural networks and genetic algrithums. Right now I am learning react native for app development.</p>
           </div>
         </div>
