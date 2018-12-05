@@ -162,5 +162,14 @@ let projects = [{
     liveLink: "https://mm909.github.io/typed.js/",
     githubLink: "https://github.com/mm909/typed.js",
     keyWords: []
+  },
+  {
+    title: "Fractal Trees",
+    text: "A fun project using some recursion and just a little bit of math.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/FractalTrees/",
+    githubLink: "https://github.com/mm909/FractalTrees",
+    keyWords: []
   }
+
 ]
