@@ -43,7 +43,7 @@ function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("canvasContainer")
   // buildValidArray();
-  validArray = storedValidArray;
+  // validArray = storedValidArray;
   for (var i = 0; i < circleList.length; i++) {
     let temp = new Circle();
     temp.target = createVector(circleList[i].x, circleList[i].y)
@@ -135,6 +135,7 @@ function roughDistance(x0, y0, x1, y1) {
 function tempPoint() {
   this.x = 0;
   this.y = 0;
+  this.r = 0;
 }
 
 let strValidArray = [];
@@ -154,7 +155,8 @@ function prepCircleArray() {
   for (var i = 0; i < circles.length; i++) {
     let tp = new tempPoint();
     tp.x = circles[i].target.x,
-      tp.y = circles[i].target.y
+      tp.y = circles[i].target.y,
+      tp.r = circles[i].r
     strCircleArray.push(tp);
   }
   JSON.stringify(strCircleArray)
