@@ -57,7 +57,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/CirclePackingM-v2/",
     githubLink: "https://github.com/mm909/CirclePackingM-v2",
-    keyWords: ['fun', 'in use', 'version 2', 'p5.js', 'optimized', 'colorful', 'beautiful', 'interactive', 'distance']
+    keyWords: ['fun', 'in use', 'version 2', 'p5.js', 'optimized', 'colorful', 'beautiful', 'interactive', 'distance', 'awesome']
   },
   {
     title: "Flappy Bird NNV",
@@ -65,6 +65,14 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Flappy-Bird-NNV/",
     githubLink: "https://github.com/mm909/Flappy-Bird-NNV",
+    keyWords: ['awesome']
+  },
+  {
+    title: "OS Project 4",
+    text: "Project 4 is a standard exmample of reading in a large file into main memeory and searching it for a string.",
+    live: "notLive",
+    liveLink: "#",
+    githubLink: "https://github.com/mm909/CS370-Project4",
     keyWords: []
   },
   {
@@ -105,7 +113,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/CirclePackingM-v1/",
     githubLink: "https://github.com/mm909/CirclePackingM-v1",
-    keyWords: []
+    keyWords: ['awesome']
   },
   {
     title: "A* Maze",
@@ -121,7 +129,7 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Smart-Rockets/",
     githubLink: "https://github.com/mm909/Smart-Rockets",
-    keyWords: []
+    keyWords: ['awesome']
   },
   {
     title: "SpeedCode: HTML Calc",
@@ -177,6 +185,22 @@ let projects = [{
     live: "genLiveButton",
     liveLink: "https://mm909.github.io/Wiki-Bacon/",
     githubLink: "https://github.com/mm909/Wiki-Bacon",
+    keyWords: []
+  },
+  {
+    title: "Count Atoms - (LISP)",
+    text: "This function written in lisp will count the number of atoms in any list, in lisp. Complete with error checking and support lists with more than one level this funciton can count all the atoms you want.",
+    live: "notLive",
+    liveLink: "#",
+    githubLink: "https://github.com/mm909/Count-Atoms-LISP",
+    keyWords: []
+  },
+  {
+    title: "Example Function - (LISP)",
+    text: "Several different function writen in lisp to practice Cambridge polish and the lisp syntax.",
+    live: "notLive",
+    liveLink: "#",
+    githubLink: "https://github.com/mm909/ExampleCode-LISP",
     keyWords: []
   }
 ]

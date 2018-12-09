@@ -47,83 +47,78 @@ function setup() {
   for (var i = 0; i < circleList.length; i++) {
     let temp = new Circle();
     temp.target = createVector(circleList[i].x, circleList[i].y)
+    temp.r = circleList[i].r;
     temp.updateColor();
     circles.push(temp)
   }
   colorMode(RGB)
   background(239, 239, 239)
   colorMode(HSB);
-
 }
 
 function draw() {
-  // Draw the background
   colorMode(RGB)
   background(239, 239, 239, 80)
   colorMode(HSB);
-  // addCircles();
-  // swapC();
-  // For each circle update, grow, and show.
 
   for (var i = 0; i < circles.length; i++) {
     circles[i].update();
-    circles[i].grow();
     circles[i].updateColor();
     circles[i].show();
   }
 }
 
-function addCircles() {
-  // circlesThisFrame keeps track of how many circles have sucessfully been spwaned this frame.
-  // attemptsToAddCircle keepts track of how many attempts to add a circle have been made.
-  var circlesThisFrame = 0;
-  var attemptsToAddCircle = 0;
-  // If the number of cirlcs is less than the max and we are not finished then ->
-  if (circles.length < MAX && !finished) {
-    // While the # of circles this frame < CIRCLESEACHFRAME
-    while (circlesThisFrame < CIRCLESEACHFRAME) {
-      // inc attempts
-      attemptsToAddCircle++;
-      // If we sucessfully add a circle then inc circlesThisFrame
-      if (addCircle()) {
-        circlesThisFrame++;
-      }
-      // If we try too many times (attemptsToAddCircle > ATTEMPTS)
-      // Then we are done trying to pack circles
-      if (attemptsToAddCircle > ATTEMPTS) {
-        finished = true;
-        // Break from while loop
-        break;
-      }
-    }
-  }
-}
-
-let validCount = 0;
-
-function buildValidArray() {
-  // Load pixels and itterate through them
-  M.loadPixels();
-  for (var i = 0; i < M.pixels.length; i += 4) {
-    var sum = 0;
-    sum += M.pixels[i + 0];
-    sum += M.pixels[i + 1];
-    sum += M.pixels[i + 2];
-    sum /= 3;
-    // ^ Get the pixel's brightness
-    // If over a threashold => Add it to the array
-    if (sum < 150) {
-      var temp = floor((i / 4));
-      var tempX = temp % M.width;
-      var tempY = floor(temp / M.height);
-      var p = createVector(tempX, tempY);
-      if (validCount % 64 == 0) {
-        validArray.push(p);
-      }
-      validCount++;
-    }
-  }
-}
+// function addCircles() {
+//   // circlesThisFrame keeps track of how many circles have sucessfully been spwaned this frame.
+//   // attemptsToAddCircle keepts track of how many attempts to add a circle have been made.
+//   var circlesThisFrame = 0;
+//   var attemptsToAddCircle = 0;
+//   // If the number of cirlcs is less than the max and we are not finished then ->
+//   if (circles.length < MAX && !finished) {
+//     // While the # of circles this frame < CIRCLESEACHFRAME
+//     while (circlesThisFrame < CIRCLESEACHFRAME) {
+//       // inc attempts
+//       attemptsToAddCircle++;
+//       // If we sucessfully add a circle then inc circlesThisFrame
+//       if (addCircle()) {
+//         circlesThisFrame++;
+//       }
+//       // If we try too many times (attemptsToAddCircle > ATTEMPTS)
+//       // Then we are done trying to pack circles
+//       if (attemptsToAddCircle > ATTEMPTS) {
+//         finished = true;
+//         // Break from while loop
+//         break;
+//       }
+//     }
+//   }
+// }
+//
+// let validCount = 0;
+//
+// function buildValidArray() {
+//   // Load pixels and itterate through them
+//   M.loadPixels();
+//   for (var i = 0; i < M.pixels.length; i += 4) {
+//     var sum = 0;
+//     sum += M.pixels[i + 0];
+//     sum += M.pixels[i + 1];
+//     sum += M.pixels[i + 2];
+//     sum /= 3;
+//     // ^ Get the pixel's brightness
+//     // If over a threashold => Add it to the array
+//     if (sum < 150) {
+//       var temp = floor((i / 4));
+//       var tempX = temp % M.width;
+//       var tempY = floor(temp / M.height);
+//       var p = createVector(tempX, tempY);
+//       if (validCount % 64 == 0) {
+//         validArray.push(p);
+//       }
+//       validCount++;
+//     }
+//   }
+// }
 
 function roughDistance(x0, y0, x1, y1) {
   let dx = abs(x1 - x0)
@@ -159,7 +154,7 @@ function prepCircleArray() {
       tp.r = circles[i].r
     strCircleArray.push(tp);
   }
-  JSON.stringify(strCircleArray)
+  // JSON.stringify(strCircleArray)
 }
 
 let swap = false;
@@ -168,7 +163,10 @@ let swapingCirclesInt = null;
 
 function hire(t, h) {
   hireMe = true;
+  for (var i = 0; i < circles.length; i++) {
+    circles[i].r += 1;
 
+  }
   if (!h) {
     clearInterval(swapingCirclesInt)
     $("#iamRow")[0].innerHTML = iamold;
