@@ -15,10 +15,9 @@ jQuery(document).ready(function() {
       ' <span class="genAddTextPadding genYellowHighlight typeBoxName">I am Mikian Musser.</span>',
       ' <div class="genAddTextPadding genDarkYellowHighlight typeBoxName"><h1>Mikian Musser</h1><p>(702)540-4190</p><p>Bobar312@gmail.com</p></div>'
     ],
-    typeSpeed: 0,
-    backSpeed: 0,
-    backDelay: 10,
-    startDelay: 0,
+    typeSpeed: 40,
+    backSpeed: 30,
+    backDelay: 30,
     onComplete: function(self) {
       $(".typed-cursor").hide();
     },

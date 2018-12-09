@@ -5,18 +5,24 @@ if (debug) {
 function search() {
   input = document.getElementById("searchBox");
   filterValue = input.value.toLowerCase();
+  filterValue = filterValue.replace(/\s+/g, '')
+  console.log(filterValue);
   for (var i = 0; i < projects.length; i++) {
     var hide = true;
     let key = projects[i].text.toLowerCase()
+    key = key.replace(/\s+/g, '')
     if (key.includes(filterValue)) {
       hide = false;
     }
     key = projects[i].title.toLowerCase()
+    key = key.replace(/\s+/g, '')
     if (key.includes(filterValue)) {
       hide = false;
     }
     for (var j = 0; j < projects[i].keyWords.length; j++) {
       key = projects[i].keyWords[j].toLowerCase();
+      key = key.replace(/\s+/g, '')
+
       if (key.includes(filterValue)) {
         hide = false;
       }

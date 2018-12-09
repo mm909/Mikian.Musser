@@ -202,5 +202,13 @@ let projects = [{
     liveLink: "#",
     githubLink: "https://github.com/mm909/ExampleCode-LISP",
     keyWords: []
+  },
+  {
+    title: "Text Steering Behaviors",
+    text: "Example usage of the p5.js function textToPoints()",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/textSteeringBehaviors/",
+    githubLink: "https://github.com/mm909/textSteeringBehaviors",
+    keyWords: []
   }
 ]

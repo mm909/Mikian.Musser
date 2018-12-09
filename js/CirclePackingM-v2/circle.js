@@ -30,7 +30,7 @@ function Circle(x, y) {
   this.maxSpeed = 10;
   this.maxForce = .25;
   this.fleeRange = 150;
-  this.fleeSpeed = 7;
+  this.fleeSpeed = 8;
 
   // var middle = createVector(width/2,height/2);
   // var d = dist(middle.x, middle.y, this.target.x, this.target.y)
@@ -151,7 +151,7 @@ function Circle(x, y) {
     }
 
     let temp = random(1)
-    if ( temp < swapRate && projectPage) {
+    if (temp < swapRate && projectPage) {
       this.target = createVector(random(width), random(height));
     }
 

@@ -182,9 +182,9 @@ function hire(t, h) {
         // ' <span class="genAddTextPadding genYellowHighlight typeBoxName">I am Mikian Musser.</span>',
         ' <div class="genAddTextPadding genDarkYellowHighlight typeBoxName"><h1>Mikian Musser</h1><p>(702)540-4190</p><p>Bobar312@gmail.com</p></div>'
       ],
-      typeSpeed: 0,
-      backSpeed: 0,
-      backDelay: 10,
+      typeSpeed: 50,
+      backSpeed: 30,
+      backDelay: 30,
       startDelay: 0,
       showCursor: false,
       onComplete: function(self) {},
