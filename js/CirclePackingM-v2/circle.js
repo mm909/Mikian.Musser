@@ -144,9 +144,6 @@ function Circle(x, y) {
   this.firstTime = true;
   // This.grow will inc this.r by this.growRate if the circle is still growing
   this.grow = function() {
-    if (!this.bounds()) {
-      this.growing = false;
-    }
     // If the circle is still growing and this.r < the MAXSIZE ->
     if (this.growing && this.r < MAXSIZE) {
       // this.r = this.r + this.growRate
@@ -157,17 +154,16 @@ function Circle(x, y) {
     if ( temp < swapRate && projectPage) {
       this.target = createVector(random(width), random(height));
     }
+
+    if (this.growing && !this.bounds()) {
+      this.growing = false;
+      return;
+    }
   }
 
   // this function will return false if the circle is touching another circle or a wall
   this.bounds = function() {
     // Check to see if the circle is touching a wall
-    var tempX = this.target.x + this.r + this.buffer;
-    var tempY = this.target.y + this.r + this.buffer;
-    if (tempX > width || tempY > height) return false;
-    var tempX = this.target.x - this.r - this.buffer;
-    var tempY = this.target.y - this.r - this.buffer;
-    if (tempX < 0 || tempY < 0) return false;
 
     // Check to see if 'this' is touching any other circle
     for (var i = 0; i < circles.length; i++) {
@@ -190,8 +186,8 @@ function Circle(x, y) {
 }
 
 function swapCirclesAround() {
-  let one = circles[floor(random(circles.length))];
-  let two = circles[floor(random(circles.length))];
+  let one = random(circles);
+  let two = random(circles);
   let temp = one.target;
   one.target = two.target
   two.target = temp
@@ -231,8 +227,8 @@ function addCircle() {
 
 function swapC() {
   // Pick two cirlcles
-  var tempA = circles[floor(random(circles.length))];
-  var tempB = circles[floor(random(circles.length))];
+  var tempA = random(circles)
+  var tempB = random(circles)
   // If they are the same size +- some difference
   // Swap target locations
   if (abs(tempA.r - tempB.r) <= 2) {
