@@ -93,6 +93,11 @@ function Circle(x, y) {
       //   this.applyForce(this.run(mouseV));
       // }
     }
+    let temp = random(1)
+    if (temp < swapRate && projectPage) {
+      this.target = createVector(random(width), random(height));
+    }
+
   }
 
   this.run = function(target) {
@@ -150,10 +155,6 @@ function Circle(x, y) {
       this.r += this.growRate;
     }
 
-    let temp = random(1)
-    if (temp < swapRate && projectPage) {
-      this.target = createVector(random(width), random(height));
-    }
 
     if (this.growing && !this.bounds()) {
       this.growing = false;
