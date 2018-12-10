@@ -210,5 +210,13 @@ let projects = [{
     liveLink: "https://mm909.github.io/textSteeringBehaviors/",
     githubLink: "https://github.com/mm909/textSteeringBehaviors",
     keyWords: []
+  },
+  {
+    title: "Text Steering Behaviors v2",
+    text: "Added several features to this example usage of the p5.js function textToPoints() that will make is usable for production.",
+    live: "genLiveButton",
+    liveLink: "https://mm909.github.io/textSteeringBehaviors2/",
+    githubLink: "https://github.com/mm909/textSteeringBehaviors2",
+    keyWords: []
   }
 ]
