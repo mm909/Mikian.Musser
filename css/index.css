@@ -111,15 +111,19 @@ a:hover { text-decoration: none; color: inherit; }
 /* line 19, ../sass/components/iam.sass */
 #iamRow { height: 750px; }
 
-@media only screen and (max-device-width: 1400px) { /* line 2, ../sass/components/media1400.sass */
+@media only screen and (max-device-width: 2000px) { /* line 2, ../sass/components/media/media2000.sass */
+  #iamRow { height: 590px; } }
+@media only screen and (max-device-width: 1400px) { /* line 2, ../sass/components/media/media1400.sass */
   #iamRow { max-height: 450px; }
-  /* line 5, ../sass/components/media1400.sass */
+  /* line 5, ../sass/components/media/media1400.sass */
   .typeAnimationWrapper p { font-size: 36px; }
-  /* line 9, ../sass/components/media1400.sass */
+  /* line 9, ../sass/components/media/media1400.sass */
   .homePageCard h1 { font-size: 28px; }
-  /* line 11, ../sass/components/media1400.sass */
+  /* line 11, ../sass/components/media/media1400.sass */
   .homePageCard p { font-size: 16px; }
-  /* line 13, ../sass/components/media1400.sass */
+  /* line 13, ../sass/components/media/media1400.sass */
   .homePageCard button { font-size: 22px; } }
+/* iphone X */
+/* iphone 6+, 6s+, 7+, 8+ */
 
 /*# sourceMappingURL=index.css.map */

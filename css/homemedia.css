@@ -1,9 +1,4 @@
 /* 1920 1000 */
-@media only screen and (max-device-width : 2000px) {
-  #iamRow {
-    height: 590px;
-  }
-}
 
 @media only screen and (max-device-width : 600px) {
   .GenButtonRow {
@@ -46,6 +41,8 @@
     top: 20%;
   }
 }
+
+
 
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
   #iamRow {
