@@ -1,0 +1,71 @@
+.homePageCard, .iamCard { text-align: center; background-color: rgba(255, 255, 255, 0.75); transition: background 0.3s, box-shadow 0.3s; }
+.homePageCard:hover, .iamCard:hover { background-color: #fafafa !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; }
+
+body { background-color: #EFEFEF; }
+
+a { text-decoration: none; color: inherit; }
+a:hover { text-decoration: none; color: inherit; }
+
+.canvasAndAnimation { width: 90%; margin: auto; }
+
+.navbar { background-color: transparent; position: fixed; top: 0px; }
+
+.navbar-brand { color: #FF3B3F; font-size: 32px; }
+
+.navGitButton { font-size: 16px; position: fixed; right: 16px; }
+
+.card { text-align: center; background-color: rgba(255, 255, 255, 0.75); transition: background 0.3s, box-shadow 0.3s; }
+.card:hover { background-color: #fafafa !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; }
+
+.buttonRow { width: 90%; margin: auto; margin-top: 10px; text-align: center; font-size: 19px; }
+
+.homePageCard { min-height: 272px; }
+.homePageCard button { border: 1px solid #A9A9A9; border-radius: 3px; transition: background 0.3s, color 0.3s; background-color: transparent; font-size: 24px; }
+
+.iamCard { margin: auto; width: 80%; }
+
+.projectItem p { margin-bottom: 7px; }
+
+.projectItemCheckMark { width: 25px; height: 25px; }
+
+.gitButton { border: 1px solid #A9A9A9; border-radius: 3px; color: #545454; display: inline-block; font-size: 14px; font-weight: 400; line-height: 1.2em; padding: 10px; text-decoration: none !important; transition: background 0.3s, color 0.3s; }
+.gitButton:hover { color: #000; background-color: rgba(250, 240, 95, 0.9) !important; }
+
+.liveButton { background-color: rgba(69, 255, 59, 0.25); border: 1px solid #A9A9A9; border-radius: 3px; color: #000000; display: inline-block; font-size: 14px; font-weight: 400; line-height: 1.2em; padding: 10px; text-decoration: none !important; transition: background 0.3s, color 0.3s; }
+.liveButton:hover { background-color: rgba(69, 255, 59, 0.75); color: #000000; }
+
+.hireButton { color: #FF3B3F; width: 40%; margin: auto; margin-top: 10px; display: inline-block; }
+.hireButton:hover { color: #545454; background-color: #FF3B3F; }
+
+.iamButton { width: 50%; margin: auto; color: #FFC53A; }
+.iamButton:hover { color: #545454; background-color: #FFC53A; }
+
+.projectsButton { width: 40%; margin: auto; margin-top: 10px; color: #545454; display: inline-block; }
+.projectsButton:hover { color: #000; background-color: rgba(250, 240, 95, 0.9) !important; }
+
+.typeAnimationWrapper { position: relative; top: 40%; text-align: center; font-size: 48px; }
+.typeAnimationWrapper span, .typeAnimationWrapper div { border-radius: 20px; }
+
+.blueHighlight { background-color: rgba(194, 235, 239, 0.76); }
+
+.orangeHighlight { background-color: rgba(255, 197, 58, 0.76); }
+
+.redHighlight { background-color: rgba(255, 59, 63, 0.6); }
+
+.yellowHighlight { background-color: rgba(250, 240, 95, 0.76); }
+
+.darkYellowHighlight { background-color: rgba(250, 240, 95, 0.9); }
+
+.addTextPadding { padding-left: 5px; padding-right: 5px; padding-top: 2px; padding-bottom: 2px; }
+
+.p5CanvasWrapper { z-index: -1; position: fixed; top: 0px; left: 0px; }
+
+.iamText { font-size: 24px; }
+
+.iamContainer { text-align: center; width: 100%; height: 100%; }
+
+.iamRow { position: relative; top: 20%; width: 100%; height: 100%; }
+
+.iamCell { width: 100%; height: 100%; }
+
+#iamRow { height: 750px; }
