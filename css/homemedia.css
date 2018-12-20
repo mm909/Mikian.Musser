@@ -5,26 +5,6 @@
   }
 }
 
-@media only screen and (max-device-width : 1400px) {
-  #iamRow {
-    height: 500px;
-  }
-
-  .typeAnimationWrapper p {
-    font-size: 36px;
-  }
-}
-
-@media only screen and (max-device-width : 1200px) {
-  #iamRow {
-    height: 500px;
-  }
-
-  .typeAnimationWrapper p {
-    font-size: 36px;
-  }
-}
-
 @media only screen and (max-device-width : 600px) {
   .GenButtonRow {
     font-size: 36px;
