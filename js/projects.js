@@ -12,6 +12,14 @@ let projects = [{
     keyWords: ['Google Prettify', 'Paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'file upload', 'user input', 'in use', 'deployed', 'prettyprint'],
   },
   {
+    title: "CCC",
+    text: "Code Central Curriculum (CCC) is a CSS and JS library designed to help instructors at <a href='https://github.com/Code-Central'> @Code-Central </a> create curriculum as fast a possible. <a href='https://github.com/victortaksheyev'> @victortaksheyev </a>",
+    live: "liveButton",
+    liveLink: "https://mm909.github.io/CCC/",
+    githubLink: "https://github.com/mm909/CCC",
+    keyWords: []
+  },
+  {
     title: "Web Development 1",
     text: "Web Development 1 was developed as a curriculum tool for <a href='https://mycodecentral.com/'><u>Code Central.</u></a> Information was converted from a PDF and displayed using a much more interactive and updatable medium.",
     live: "liveButton",
@@ -217,6 +225,14 @@ let projects = [{
     live: "liveButton",
     liveLink: "https://mm909.github.io/textSteeringBehaviors2/",
     githubLink: "https://github.com/mm909/textSteeringBehaviors2",
+    keyWords: []
+  },
+  {
+    title: "Winter Camp Project",
+    text: "Created a simple website that students will replicate during Code-Central's winter camps.",
+    live: "liveButton",
+    liveLink: "https://mm909.github.io/Winter-Camp-Project/",
+    githubLink: "https://github.com/mm909/Winter-Camp-Project",
     keyWords: []
   }
 ]
