@@ -1,0 +1,42 @@
+/* iphone X */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .homePageCard h1 {
+    font-size: 42px; }
+  .homePageCard p {
+    font-size: 28px; }
+  .homePageCard button {
+    font-size: 42px; }
+
+  .navbar {
+    z-index: 0;
+    position: relative; }
+    .navbar a {
+      font-size: 50px !important; }
+    .navbar .navGitButton {
+      position: relative; }
+
+  .row div {
+    margin-bottom: 10px; }
+
+  #iamRow {
+    height: 450px; }
+
+  #type {
+    font-size: 60px !important; }
+
+  .typeAnimationWrapper {
+    top: 20%; }
+
+  .searchBarContainer {
+    padding-top: 10px; }
+
+  .card-title-text {
+    font-size: 50px !important; }
+
+  .card-buttons a {
+    display: block;
+    width: 100%;
+    font-size: 36px; }
+
+  .projectWrapper {
+    z-index: 2; } }
