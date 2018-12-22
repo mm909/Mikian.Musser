@@ -3,15 +3,15 @@ jQuery(document).ready(function() {
   var searchType = new Typed('#searchBox', {
     strings: ['Search for...',
       'Neural network',
-      'Circle packing',
-      'Code Central',
       'Web Dev',
-      'Algorithms',
+      'Code Central',
+      'CSS',
       'Google Prettify',
+      'Bootstrap',
       'Awesome!',
     ],
     typeSpeed: 0,
-    backSpeed: 0,
+    backSpeed: 30,
     bindInputFocusEvents: true,
     loop: true
   });
