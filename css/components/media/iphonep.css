@@ -3,7 +3,7 @@
   .homePageCard h1 {
     font-size: 42px; }
   .homePageCard p {
-    font-size: 28px; }
+    font-size: 32px; }
   .homePageCard button {
     font-size: 42px; }
 
@@ -19,13 +19,13 @@
     margin-bottom: 10px; }
 
   #iamRow {
-    height: 450px; }
+    height: 300px; }
 
   #type {
     font-size: 60px !important; }
 
   .typeAnimationWrapper {
-    top: 20%; }
+    top: 0; }
 
   .searchBarContainer {
     padding-top: 10px; }
@@ -39,4 +39,16 @@
     font-size: 36px; }
 
   .projectWrapper {
-    z-index: 2; } }
+    z-index: 2; }
+
+  .projectCard p {
+    font-size: 32px; }
+  .projectCard h5 {
+    font-size: 34px; }
+
+  .projectSearchBar {
+    font-size: 50px;
+    height: 100px; }
+
+  .projectBtn {
+    font-size: 36px; } }

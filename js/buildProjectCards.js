@@ -14,8 +14,9 @@ jQuery(document).ready(function() {
             <p>` + projects[i].text + `</p>
           </div>
           <div class='card-buttons'>
-            <a class='proejctBtn btn ` + projects[i].live + `' href='` + projects[i].liveLink + `' rel='noreferrer noopener'>Live</a>
-            <a class='proejctBtn btn projectGitButton' href='` + projects[i].githubLink + `' rel='noreferrer noopener'>GitHub</a>
+            <a href='` + projects[i].liveLink + `' rel='noreferrer noopener'> <button type='button' class='btn projectBtn ` + projects[i].live + `'>Demo</button></a>
+            <a href='` + projects[i].githubLink + `' rel='noreferrer noopener'> <button type='button' class='btn projectBtn projectGitButton'>GitHub</button></a>
+
           </div>
         </div>
       </div>
@@ -24,3 +25,6 @@ jQuery(document).ready(function() {
     $(".row").append($tempProjectCard);
   }
 });
+
+// <a class='projectBtn btn ` + projects[i].live + `' href='` + projects[i].liveLink + `' rel='noreferrer noopener'>Live</a>
+// <a class='projectBtn btn projectGitButton' href='` + projects[i].githubLink + `' rel='noreferrer noopener'>GitHub</a>
