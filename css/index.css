@@ -74,14 +74,14 @@ a:hover { text-decoration: none; color: inherit; }
 
 .projectBtn { width: 49%; margin: auto; margin-top: 10px; color: #545454; display: inline-block; }
 
-.content { position: absolute; margin-top: 74px; height: 100%; width: 100%; }
+.content { position: absolute; margin-top: 74px; width: 100%; }
 
-.skill-wrapper { width: 80%; margin: auto; position: relative; column-width: 226px; }
+.skill-wrapper { width: 80%; margin: auto; position: relative; column-width: 226px; justify-content: center; }
 
 .skill-category { vertical-align: top; max-width: 225px; margin-top: 25px; margin-left: 25px; display: inline-block; }
 .skill-category hr { margin: 10px 0px; }
 
-.skill-header { transition: color 0.3s; }
+.skill-header { transition: color 0.3s; text-align: center; }
 .skill-header h3 { font-weight: 100; }
 .skill-header:hover { color: #FF3B3F; }
 .skill-header:hover ~ .skill-breakdowns .dot-text { color: #eF2B2F; }
