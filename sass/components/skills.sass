@@ -1,0 +1,55 @@
+.content
+  position: absolute
+  margin-top: 74px
+  height: 100%
+  width: 100%
+
+.skill-wrapper
+  width: 80%
+  margin: auto
+
+// ---
+
+.skill-category
+  max-width: 202px
+  hr
+    margin: 10px 0px
+
+.skill-header
+  padding-left: 5px
+  &:hover
+    ~.skill-breakdowns
+      .dot-wrapper
+        .dot
+          background-color: rgba(164,164,255,.75)
+        .dot-active
+          background-color: rgba(100,100,255,1)
+
+.skill-breakdowns
+
+.dot-wrapper
+  &:hover
+    .dot
+      background-color: rgba(164,164,255,.75)
+    .dot-active
+      background-color: rgba(100,100,255,1)
+
+.dot-text
+
+.dots
+  div
+    display: inline-block
+
+.dot
+  vertical-align: middle
+  border: none
+  width: 30px
+  height: 14px
+  background-color: rgba(164,164,255,.5)
+  border-radius: 25px
+  transition: background .3s
+
+.dot-active
+  background-color: rgba(100,100,255,.75)
+  width: 30px
+  height: 15px
