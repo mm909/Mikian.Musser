@@ -7,18 +7,29 @@
 .skill-wrapper
   width: 80%
   margin: auto
+  position: relative
+  column-width: 226px
 
 // ---
 
 .skill-category
-  max-width: 202px
+  vertical-align: top
+  max-width: 225px
+  margin-top: 25px
+  margin-left: 25px
+  display: inline-block
   hr
     margin: 10px 0px
 
 .skill-header
-  padding-left: 5px
+  transition: color .3s
+  h3
+    font-weight: 100
   &:hover
+    color:  $red
     ~.skill-breakdowns
+      .dot-text
+        color:  $light-red
       .dot-wrapper
         .dot
           background-color: rgba(164,164,255,.75)
@@ -29,16 +40,25 @@
 
 .dot-wrapper
   &:hover
+    .dot-text
+      color:  $red
     .dot
       background-color: rgba(164,164,255,.75)
     .dot-active
       background-color: rgba(100,100,255,1)
 
 .dot-text
+  transition: color .3s
 
 .dots
   div
     display: inline-block
+    margin: 0px
+    padding: 0px
+
+.js-dots
+  div
+    margin: 2px
 
 .dot
   vertical-align: middle
