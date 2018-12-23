@@ -193,7 +193,7 @@ let projects = [{
     live: "liveButton",
     liveLink: "https://mm909.github.io/Wiki-Bacon/",
     githubLink: "https://github.com/mm909/Wiki-Bacon",
-    keyWords: []
+    keyWords: ['cool', 'html', 'js', 'api']
   },
   {
     title: "Count Atoms - (LISP)",
@@ -201,7 +201,7 @@ let projects = [{
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/Count-Atoms-LISP",
-    keyWords: []
+    keyWords: ['school']
   },
   {
     title: "Example Function - (LISP)",
@@ -209,7 +209,7 @@ let projects = [{
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/ExampleCode-LISP",
-    keyWords: []
+    keyWords: ['school']
   },
   {
     title: "Text Steering Behaviors",
