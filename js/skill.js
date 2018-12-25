@@ -7,6 +7,10 @@
 // </div>
 
 $(document).ready(() => {
+  skillGo();
+})
+
+function skillGo() {
   let hook = $(".skill-wrapper")
   let hookChildren = $(".skill-wrapper").children()
   console.log(hookChildren);
@@ -97,7 +101,7 @@ $(document).ready(() => {
     $(unit).append($unitHTML);
   }
 
-});
+}
 
 function validClassName(x) {
   let classes = x.split(' ')
@@ -109,6 +113,59 @@ function validClassName(x) {
   }
   console.log("Invalid Selectors: " + classes);
   return false;
+}
+
+
+function showSkills(){
+  $("#iamRow").html("")
+  let iam = `
+  <div class="skill-wrapper">
+    <div class="skill-category">
+      Front End
+      <div class="5-6"> HTML </div>
+      <div class="4-6"> JS </div>
+      <div class="4-6"> CSS </div>
+      <div class="3-6"> SASS </div>
+      <div class="4-6"> Bootstrap </div>
+      <div class="4-6"> jQuery </div>
+    </div>
+    <div class="skill-category">
+      Javascript
+      <div class="5-6"> p5.js </div>
+      <div class="5-6"> Typed.js </div>
+      <div class="6-6"> Countup.js </div>
+      <div class="5-6"> particles.js </div>
+    </div>
+    <div class="skill-category">
+      Backend
+      <div class="2-6"> PHP </div>
+      <div class="3-6"> SQL </div>
+    </div>
+    <div class="skill-category">
+      Software
+      <div class="4-6"> Github </div>
+      <div class="5-6 "> Git desktop </div>
+      <div class="3-6"> Koala </div>
+    </div>
+  </div>
+  `
+  // <div class="skill-category">
+  // Fundamentals
+  // <div class="4-6"> C++ </div>
+  // <div class="2-6"> C </div>
+  // <div class="2-6 "> ASM </div>
+  // </div>
+  // <div class="skill-category">
+  // Topics
+  // <div class="2-6"> Neural Networks </div>
+  // <div class="3-6"> Genetic Algorithms </div>
+  // <div class="2-6 "> AI </div>
+  // </div>
+  $tempProjectCard = $(iam)
+  $("#iamRow").append($tempProjectCard);
+  skillGo();
+  hire(true, true);
+  
 }
 
 // eof

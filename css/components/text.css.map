@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,cAAc;EACZ,gBAAgB,EAAE,yBAAyB;;;;AAE7C,gBAAgB;EACd,gBAAgB,EAAE,wBAAwB;;;;AAE5C,aAAa;EACX,gBAAgB,EAAE,sBAAuB;;;;AAE3C,gBAAgB;EACd,gBAAgB,EAAE,wBAAwB;;;;AAE5C,oBAAoB;EAClB,gBAAgB,EAAE,uBAAwB;;;;AAE5C,eAAe;EACb,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG",
+"sources": ["../../sass/components/text.sass"],
+"names": [],
+"file": "text.css"
+}

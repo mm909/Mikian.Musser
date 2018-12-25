@@ -5,7 +5,7 @@ Use "@extend %card !optional" if the extend should be able to fail.
 
 
 Backtrace:
-D:\Mikian.Musser\sass\components\homecard.sass:3
+C:\Users\bobar\Documents\GitHub\Mikian.Musser\sass\components\homecard.sass:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:56:in `block in check_extends_fired!'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `block in each_value'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `each'
@@ -13,9 +13,10 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.r
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:51:in `check_extends_fired!'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:16:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:39:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:20:in `render'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'

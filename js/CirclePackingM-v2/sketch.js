@@ -160,13 +160,15 @@ function prepCircleArray() {
 let swap = false;
 let swapping = false;
 let swapingCirclesInt = null;
+let firstinc = true
 
 function hire(t, h) {
   hireMe = true;
+  if(firstinc)
   for (var i = 0; i < circles.length; i++) {
     circles[i].r += 1;
-
   }
+  firstinc =false;
   if (!h) {
     clearInterval(swapingCirclesInt)
     $("#iamRow")[0].innerHTML = iamold;

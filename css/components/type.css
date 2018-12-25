@@ -1,0 +1,13 @@
+/* line 1, ../../sass/components/type.sass */
+.typeAnimationWrapper {
+  position: relative;
+  top: 40%;
+  text-align: center;
+  font-size: 48px;
+}
+/* line 6, ../../sass/components/type.sass */
+.typeAnimationWrapper span, .typeAnimationWrapper div {
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=type.css.map */

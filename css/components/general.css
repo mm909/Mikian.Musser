@@ -1,0 +1,23 @@
+/* line 1, ../../sass/components/general.sass */
+body {
+  background-color: #EFEFEF;
+}
+
+/* line 4, ../../sass/components/general.sass */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 7, ../../sass/components/general.sass */
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 11, ../../sass/components/general.sass */
+.canvasAndAnimation {
+  width: 90%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=general.css.map */

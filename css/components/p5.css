@@ -1,21 +1,15 @@
 /*
-Error: Undefined variable: "$red".
-        on line 8 of C:\Users\bobar\Documents\GitHub\Mikian.Musser\sass\components\navbar.sass
+Error: Undefined variable: "$p5ZIndex".
+        on line 2 of C:\Users\bobar\Documents\GitHub\Mikian.Musser\sass\components\p5.sass
 
+1: .p5CanvasWrapper
+2:   z-index: $p5ZIndex
 3:   position: fixed
 4:   top: 0px
-5:   z-index: 1
-6: 
-7: .navbar-brand
-8:   color: $red
-9:   font-size: 32px
-10:   font-weight: 100
-11: 
-12: .navGitButton
-13:   font-size: 16px
+5:   left: 0px
 
 Backtrace:
-C:\Users\bobar\Documents\GitHub\Mikian.Musser\sass\components\navbar.sass:8
+C:\Users\bobar\Documents\GitHub\Mikian.Musser\sass\components\p5.sass:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +56,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 8 of C:\Users\bobar\Documents\GitHub\Mikian.Musser\sass\components\navbar.sass\A \A 3:   position: fixed\A 4:   top: 0px\A 5:   z-index: 1\A 6: \A 7: .navbar-brand\A 8:   color: $red\A 9:   font-size: 32px\A 10:   font-weight: 100\A 11: \A 12: .navGitButton\A 13:   font-size: 16px"; }
+  content: "Error: Undefined variable: \"$p5ZIndex\".\A         on line 2 of C:\Users\bobar\Documents\GitHub\Mikian.Musser\sass\components\p5.sass\A \A 1: .p5CanvasWrapper\A 2:   z-index: $p5ZIndex\A 3:   position: fixed\A 4:   top: 0px\A 5:   left: 0px"; }

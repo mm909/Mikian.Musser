@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAYA,WAAW;EACT,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,YAAY",
+"sources": ["../../sass/components/project.sass"],
+"names": [],
+"file": "project.css"
+}
