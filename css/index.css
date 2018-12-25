@@ -1,166 +1,287 @@
-.homePageCard, .iamCard { text-align: center; background-color: rgba(255, 255, 255, 0.75); transition: background 0.3s, box-shadow 0.3s; }
-.homePageCard:hover, .iamCard:hover { background-color: #fafafa !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; }
+/* line 1, ../sass/components/shared.sass */
+.homePageCard, .iamCard { text-align: center; background-color: rgba(255, 255, 255, 0.75); -webkit-transition: background 0.3s, -webkit-box-shadow 0.3s; transition: background 0.3s, -webkit-box-shadow 0.3s; transition: background 0.3s, box-shadow 0.3s; transition: background 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s; }
+/* line 5, ../sass/components/shared.sass */
+.homePageCard:hover, .iamCard:hover { background-color: #fafafa !important; -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; }
 
+/* line 1, ../sass/components/general.sass */
 body { background-color: #EFEFEF; }
 
+/* line 4, ../sass/components/general.sass */
 a { text-decoration: none; color: inherit; }
+/* line 7, ../sass/components/general.sass */
 a:hover { text-decoration: none; color: inherit; }
 
+/* line 11, ../sass/components/general.sass */
 .canvasAndAnimation { width: 90%; margin: auto; }
 
+/* line 1, ../sass/components/navbar.sass */
 .navbar { background-color: transparent; position: fixed; top: 0px; z-index: 1; }
 
+/* line 7, ../sass/components/navbar.sass */
 .navbar-brand { color: #FF3B3F; font-size: 32px; font-weight: 100; }
 
+/* line 12, ../sass/components/navbar.sass */
 .navGitButton { font-size: 16px; position: fixed; right: 16px; color: #000; font-weight: 100 !important; }
 
-.card { text-align: center; background-color: rgba(255, 255, 255, 0.75); transition: background 0.3s, box-shadow 0.3s; }
-.card:hover { background-color: #fafafa !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; }
+/* line 1, ../sass/components/card.sass */
+.card { text-align: center; background-color: rgba(255, 255, 255, 0.75); -webkit-transition: background 0.3s, -webkit-box-shadow 0.3s; transition: background 0.3s, -webkit-box-shadow 0.3s; transition: background 0.3s, box-shadow 0.3s; transition: background 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s; }
+/* line 5, ../sass/components/card.sass */
+.card:hover { background-color: #fafafa !important; -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important; }
 
+/* line 9, ../sass/components/card.sass */
 .buttonRow { width: 90%; margin: auto; margin-top: 10px; text-align: center; font-size: 19px; }
 
+/* line 1, ../sass/components/homecard.sass */
 .homePageCard { min-height: 272px; }
-.homePageCard button { border: 1px solid #A9A9A9; border-radius: 3px; transition: background 0.3s, color 0.3s; background-color: transparent; font-size: 24px; }
+/* line 4, ../sass/components/homecard.sass */
+.homePageCard button { border: 1px solid #A9A9A9; border-radius: 3px; -webkit-transition: background 0.3s, color 0.3s; transition: background 0.3s, color 0.3s; background-color: transparent; font-size: 24px; }
 
+/* line 11, ../sass/components/homecard.sass */
 .iamCard { margin: auto; width: 80%; }
 
+/* line 17, ../sass/components/homecard.sass */
 .projectItem p { margin-bottom: 7px; }
 
+/* line 20, ../sass/components/homecard.sass */
 .projectItemCheckMark { width: 25px; height: 25px; }
 
+/* line 25, ../sass/components/homecard.sass */
 .card-buttons a { display: inline !important; }
 
-.gitButton { border: 1px solid #A9A9A9; border-radius: 3px; color: #545454; display: inline-block; font-size: 14px; font-weight: 400; line-height: 1.2em; padding: 10px; text-decoration: none !important; transition: background 0.3s, color 0.3s; top: 16px; right: 16px; }
+/* line 1, ../sass/components/button.sass */
+.gitButton { border: 1px solid #A9A9A9; border-radius: 3px; color: #545454; display: inline-block; font-size: 14px; font-weight: 400; line-height: 1.2em; padding: 10px; text-decoration: none !important; -webkit-transition: background 0.3s, color 0.3s; transition: background 0.3s, color 0.3s; top: 16px; right: 16px; }
+/* line 14, ../sass/components/button.sass */
 .gitButton:hover { color: #000; background-color: rgba(250, 240, 95, 0.9) !important; }
 
-.liveButton { background-color: rgba(69, 255, 59, 0.25); border: 1px solid #A9A9A9; border-radius: 3px; color: #000000; display: inline-block; font-size: 14px; font-weight: 400; line-height: 1.2em; padding: 10px; text-decoration: none !important; transition: background 0.3s, color 0.3s; }
+/* line 18, ../sass/components/button.sass */
+.liveButton { background-color: rgba(69, 255, 59, 0.25); border: 1px solid #A9A9A9; border-radius: 3px; color: #000000; display: inline-block; font-size: 14px; font-weight: 400; line-height: 1.2em; padding: 10px; text-decoration: none !important; -webkit-transition: background 0.3s, color 0.3s; transition: background 0.3s, color 0.3s; }
+/* line 30, ../sass/components/button.sass */
 .liveButton:hover { background-color: rgba(69, 255, 59, 0.75); color: #000000; }
 
+/* line 34, ../sass/components/button.sass */
 .hireButton { color: #FF3B3F; width: 40%; margin: auto; margin-top: 10px; display: inline-block; }
+/* line 40, ../sass/components/button.sass */
 .hireButton:hover { color: #545454; background-color: #FF3B3F; }
 
+/* line 44, ../sass/components/button.sass */
 .iamButton { width: 50%; margin: auto; color: #FFC53A; }
+/* line 48, ../sass/components/button.sass */
 .iamButton:hover { color: #545454; background-color: #FFC53A; }
 
+/* line 52, ../sass/components/button.sass */
 .projectsButton { width: 40%; margin: auto; margin-top: 10px; color: #545454; display: inline-block; }
+/* line 58, ../sass/components/button.sass */
 .projectsButton:hover { color: #000; background-color: rgba(250, 240, 95, 0.9) !important; }
 
+/* line 1, ../sass/components/type.sass */
 .typeAnimationWrapper { position: relative; top: 40%; text-align: center; font-size: 48px; }
+/* line 6, ../sass/components/type.sass */
 .typeAnimationWrapper span, .typeAnimationWrapper div { border-radius: 20px; }
 
+/* line 1, ../sass/components/text.sass */
 .blueHighlight { background-color: rgba(194, 235, 239, 0.76); }
 
+/* line 4, ../sass/components/text.sass */
 .orangeHighlight { background-color: rgba(255, 197, 58, 0.76); }
 
+/* line 7, ../sass/components/text.sass */
 .redHighlight { background-color: rgba(255, 59, 63, 0.6); }
 
+/* line 10, ../sass/components/text.sass */
 .yellowHighlight { background-color: rgba(250, 240, 95, 0.76); }
 
+/* line 13, ../sass/components/text.sass */
 .darkYellowHighlight { background-color: rgba(250, 240, 95, 0.9); }
 
+/* line 16, ../sass/components/text.sass */
 .addTextPadding { padding-left: 5px; padding-right: 5px; padding-top: 2px; padding-bottom: 2px; }
 
+/* line 1, ../sass/components/p5.sass */
 .p5CanvasWrapper { z-index: -1; position: fixed; top: 0px; left: 0px; }
 
+/* line 1, ../sass/components/iam.sass */
 .iamText { font-size: 24px; }
 
+/* line 4, ../sass/components/iam.sass */
 .iamContainer { text-align: center; width: 100%; height: 100%; }
 
+/* line 9, ../sass/components/iam.sass */
 .iamRow { position: relative; top: 20%; width: 100%; height: 100%; }
 
+/* line 15, ../sass/components/iam.sass */
 .iamCell { width: 100%; height: 100%; }
 
+/* line 19, ../sass/components/iam.sass */
 #iamRow { height: 750px; }
 
+/* line 13, ../sass/components/project.sass */
 .projectBtn { width: 49%; margin: auto; margin-top: 10px; color: #545454; display: inline-block; }
 
+/* line 1, ../sass/components/skills.sass */
 .content { position: absolute; margin-top: 74px; width: 100%; }
 
-.skill-wrapper { width: 80%; margin: auto; position: relative; column-width: 226px; justify-content: center; }
+/* line 6, ../sass/components/skills.sass */
+.skill-wrapper { width: 80%; margin: auto; position: relative; -webkit-column-width: 226px; column-width: 226px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
+/* line 16, ../sass/components/skills.sass */
 .skill-category { vertical-align: top; max-width: 225px; margin-top: 25px; margin-left: 25px; display: inline-block; }
+/* line 22, ../sass/components/skills.sass */
 .skill-category hr { margin: 10px 0px; }
 
-.skill-header { transition: color 0.3s; text-align: center; }
+/* line 25, ../sass/components/skills.sass */
+.skill-header { -webkit-transition: color 0.3s; transition: color 0.3s; text-align: center; }
+/* line 29, ../sass/components/skills.sass */
 .skill-header h3 { font-weight: 100; }
+/* line 31, ../sass/components/skills.sass */
 .skill-header:hover { color: #FF3B3F; }
+/* line 34, ../sass/components/skills.sass */
 .skill-header:hover ~ .skill-breakdowns .dot-text { color: #eF2B2F; }
+/* line 37, ../sass/components/skills.sass */
 .skill-header:hover ~ .skill-breakdowns .dot-wrapper .dot { background-color: rgba(164, 164, 255, 0.75); }
+/* line 39, ../sass/components/skills.sass */
 .skill-header:hover ~ .skill-breakdowns .dot-wrapper .dot-active { background-color: #6464ff; }
 
+/* line 46, ../sass/components/skills.sass */
 .dot-wrapper:hover .dot-text { color: #FF3B3F; }
+/* line 48, ../sass/components/skills.sass */
 .dot-wrapper:hover .dot { background-color: rgba(164, 164, 255, 0.75); }
+/* line 50, ../sass/components/skills.sass */
 .dot-wrapper:hover .dot-active { background-color: #6464ff; }
 
-.dot-text { transition: color 0.3s; }
+/* line 53, ../sass/components/skills.sass */
+.dot-text { -webkit-transition: color 0.3s; transition: color 0.3s; }
 
+/* line 57, ../sass/components/skills.sass */
 .dots div { display: inline-block; margin: 0px; padding: 0px; }
 
+/* line 63, ../sass/components/skills.sass */
 .js-dots div { margin: 2px; }
 
-.dot { vertical-align: middle; border: none; width: 30px; height: 14px; background-color: rgba(164, 164, 255, 0.5); border-radius: 25px; transition: background 0.3s; }
+/* line 66, ../sass/components/skills.sass */
+.dot { vertical-align: middle; border: none; width: 30px; height: 14px; background-color: rgba(164, 164, 255, 0.5); border-radius: 25px; -webkit-transition: background 0.3s; transition: background 0.3s; }
 
+/* line 75, ../sass/components/skills.sass */
 .dot-active { background-color: rgba(100, 100, 255, 0.75); width: 30px; height: 15px; }
 
-@media only screen and (max-device-width: 2000px) { #iamRow { height: 590px; } }
-@media only screen and (max-device-width: 1400px) { #iamRow { max-height: 450px; }
+@media only screen and (max-device-width: 2000px) { /* line 2, ../sass/components/media/media2000.sass */
+  #iamRow { height: 590px; } }
+@media only screen and (max-device-width: 1400px) { /* line 2, ../sass/components/media/media1400.sass */
+  #iamRow { max-height: 450px; }
+  /* line 5, ../sass/components/media/media1400.sass */
   .typeAnimationWrapper p { font-size: 36px; }
+  /* line 9, ../sass/components/media/media1400.sass */
   .homePageCard h1 { font-size: 28px; }
+  /* line 11, ../sass/components/media/media1400.sass */
   .homePageCard p { font-size: 16px; }
+  /* line 13, ../sass/components/media/media1400.sass */
   .homePageCard button { font-size: 22px; } }
 /* iphone X */
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { .homePageCard h1 { font-size: 60px; }
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { /* line 4, ../sass/components/media/iphonex.sass */
+  .homePageCard h1 { font-size: 60px; }
+  /* line 6, ../sass/components/media/iphonex.sass */
   .homePageCard p { font-size: 37px; }
+  /* line 8, ../sass/components/media/iphonex.sass */
   .homePageCard button { font-size: 42px; font-weight: 500; }
+  /* line 12, ../sass/components/media/iphonex.sass */
   .navbar { z-index: 0; position: relative; }
+  /* line 13, ../sass/components/media/iphonex.sass */
   .navbar a { font-size: 60px !important; }
+  /* line 18, ../sass/components/media/iphonex.sass */
   .navbar .navGitButton { position: relative; }
+  /* line 22, ../sass/components/media/iphonex.sass */
   .row div { margin-bottom: 10px; }
+  /* line 25, ../sass/components/media/iphonex.sass */
   #iamRow { height: 500px; }
+  /* line 28, ../sass/components/media/iphonex.sass */
   #type { font-size: 60px !important; }
+  /* line 31, ../sass/components/media/iphonex.sass */
   .typeAnimationWrapper { top: 20%; }
+  /* line 36, ../sass/components/media/iphonex.sass */
   .searchBarContainer { padding-top: 10px; }
+  /* line 39, ../sass/components/media/iphonex.sass */
   .card-title-text { font-size: 50px !important; }
+  /* line 43, ../sass/components/media/iphonex.sass */
   .card-buttons a { display: block; width: 100%; font-size: 36px; }
+  /* line 48, ../sass/components/media/iphonex.sass */
   .projectWrapper { z-index: 2; }
+  /* line 52, ../sass/components/media/iphonex.sass */
   .projectCard p { font-size: 32px; }
+  /* line 54, ../sass/components/media/iphonex.sass */
   .projectCard h5 { font-size: 34px; }
+  /* line 57, ../sass/components/media/iphonex.sass */
   .projectSearchBar { font-size: 50px; height: 100px; }
+  /* line 61, ../sass/components/media/iphonex.sass */
   .projectBtn { font-size: 36px; } }
 /* iphone 6+, 6s+, 7+, 8+ */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { .homePageCard h1 { font-size: 42px; }
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) { /* line 4, ../sass/components/media/iphonep.sass */
+  .homePageCard h1 { font-size: 42px; }
+  /* line 6, ../sass/components/media/iphonep.sass */
   .homePageCard p { font-size: 32px; }
+  /* line 8, ../sass/components/media/iphonep.sass */
   .homePageCard button { font-size: 42px; }
+  /* line 11, ../sass/components/media/iphonep.sass */
   .navbar { z-index: 0; position: relative; }
+  /* line 12, ../sass/components/media/iphonep.sass */
   .navbar a { font-size: 50px !important; }
+  /* line 17, ../sass/components/media/iphonep.sass */
   .navbar .navGitButton { position: relative; }
+  /* line 21, ../sass/components/media/iphonep.sass */
   .row div { margin-bottom: 10px; }
+  /* line 24, ../sass/components/media/iphonep.sass */
   #iamRow { height: 300px; }
+  /* line 27, ../sass/components/media/iphonep.sass */
   #type { font-size: 60px !important; }
+  /* line 30, ../sass/components/media/iphonep.sass */
   .typeAnimationWrapper { top: 0; }
+  /* line 35, ../sass/components/media/iphonep.sass */
   .searchBarContainer { padding-top: 10px; }
+  /* line 38, ../sass/components/media/iphonep.sass */
   .card-title-text { font-size: 50px !important; }
+  /* line 42, ../sass/components/media/iphonep.sass */
   .card-buttons a { display: block; width: 100%; font-size: 36px; }
+  /* line 47, ../sass/components/media/iphonep.sass */
   .projectWrapper { z-index: 2; }
+  /* line 51, ../sass/components/media/iphonep.sass */
   .projectCard p { font-size: 32px; }
+  /* line 53, ../sass/components/media/iphonep.sass */
   .projectCard h5 { font-size: 34px; }
+  /* line 56, ../sass/components/media/iphonep.sass */
   .projectSearchBar { font-size: 50px; height: 100px; }
+  /* line 60, ../sass/components/media/iphonep.sass */
   .projectBtn { font-size: 36px; } }
 /* iphone 6, 6s, 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { .homePageCard h1 { font-size: 50px; }
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { /* line 4, ../sass/components/media/iphone.sass */
+  .homePageCard h1 { font-size: 50px; }
+  /* line 6, ../sass/components/media/iphone.sass */
   .homePageCard p { font-size: 35px; }
+  /* line 8, ../sass/components/media/iphone.sass */
   .homePageCard button { font-size: 35px; }
+  /* line 11, ../sass/components/media/iphone.sass */
   .navbar { z-index: 0; position: relative; }
+  /* line 12, ../sass/components/media/iphone.sass */
   .navbar a { font-size: 50px !important; }
+  /* line 17, ../sass/components/media/iphone.sass */
   .navGitButton { position: relative; }
+  /* line 20, ../sass/components/media/iphone.sass */
   #iamRow { height: 250px; }
+  /* line 23, ../sass/components/media/iphone.sass */
   #type { font-size: 60px !important; }
+  /* line 26, ../sass/components/media/iphone.sass */
   .homePageCard { margin-bottom: 20px; }
+  /* line 30, ../sass/components/media/iphone.sass */
   .searchBarContainer { padding-top: 10px; }
+  /* line 33, ../sass/components/media/iphone.sass */
   .card-title-text { font-size: 50px !important; }
+  /* line 37, ../sass/components/media/iphone.sass */
   .card-buttons a { display: block; width: 100%; font-size: 36px; }
+  /* line 42, ../sass/components/media/iphone.sass */
   .projectWrapper { z-index: 2; }
+  /* line 46, ../sass/components/media/iphone.sass */
   .projectCard p { font-size: 32px; }
+  /* line 48, ../sass/components/media/iphone.sass */
   .projectCard h5 { font-size: 34px; }
+  /* line 51, ../sass/components/media/iphone.sass */
   .projectSearchBar { font-size: 50px; height: 100px; }
+  /* line 55, ../sass/components/media/iphone.sass */
   .projectBtn { font-size: 36px; } }
+/*# sourceMappingURL=index.css.map */
