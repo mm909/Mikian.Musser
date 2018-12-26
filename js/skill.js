@@ -1,9 +1,9 @@
 // Write inside of hook
 // <div class="skill-category">
 //  META-TITLE
-//  <div class="4-5"> SKILL-TITLE1 </div>
-//  <div class="3-5"> SKILL-TITLE2 </div>
-//  <div class="2-5"> SKILL-TITLE3 </div>
+//  <div class="bob 4-5"> SKILL-TITLE1 </div>
+//  <div class="3-5 bob"> SKILL-TITLE2 </div>
+//  <div class="2-5 4number"> SKILL-TITLE3 </div>
 // </div>
 
 $(document).ready(() => {
@@ -13,7 +13,7 @@ $(document).ready(() => {
 function skillGo() {
   let hook = $(".skill-wrapper")
   let hookChildren = $(".skill-wrapper").children()
-  console.log(hookChildren);
+  // console.log(hookChildren);
   // For Dev
   for (var i = 0; i < hookChildren.length; i++) {
     let unit = $(hookChildren[i])
@@ -25,16 +25,16 @@ function skillGo() {
     unitTitle = unitTitle[0].replace(/\s/g, "");
     unitTitle = unitTitle.replace(/&lt;/g, "<");
     unitTitle = unitTitle.replace(/&gt;/g, ">");
-    console.log(unitTitle);
+    // console.log(unitTitle);
 
     // Get children Classes
     let unitChildrenClasses = [];
     for (var j = 0; j < unitChildren.length; j++) {
-      console.log($(unitChildren[j]).attr('class'));
+      // console.log($(unitChildren[j]).attr('class'));
       let className = validClassName($(unitChildren[j]).attr('class'))
       if (className) unitChildrenClasses.push(className);
     }
-    console.log(unitChildrenClasses);
+    // console.log(unitChildrenClasses);
 
     // Get Children Text
     let unitChildrenText = []
@@ -44,7 +44,7 @@ function skillGo() {
       childrenText = childrenText.replace(/&gt;/g, ">");
       unitChildrenText.push(childrenText);
     }
-    console.log(unitChildrenText);
+    // console.log(unitChildrenText);
 
     // Clear to rebuild
     unit.html("")
@@ -122,38 +122,37 @@ function showSkills(){
   <div class="skill-wrapper">
     <div class="skill-category">
       Front End
-      <div class="5-6"> HTML </div>
-      <div class="4-6"> JS </div>
-      <div class="4-6"> CSS </div>
-      <div class="3-6"> SASS </div>
-      <div class="4-6"> Bootstrap </div>
-      <div class="4-6"> jQuery </div>
+      <div class="5-6"> HTML - Proficient</div>
+      <div class="5-6"> JS - Proficient</div>
+      <div class="4-6"> Bootstrap - Comfortable</div>
+      <div class="4-6"> jQuery - Comfortable</div>
+      <div class="3-6"> CSS - Comfortable</div>
+      <div class="3-6"> SASS - Comfortable</div>
     </div>
     <div class="skill-category">
       Javascript
-      <div class="5-6"> p5.js </div>
-      <div class="5-6"> Typed.js </div>
-      <div class="6-6"> Countup.js </div>
-      <div class="5-6"> particles.js </div>
+      <div class="6-6"> Typed.js/Countup.js - Proficient </div>
+      <div class="6-6"> Particles.js - Proficient </div>
+      <div class="5-6"> p5.js - Proficient</div>
     </div>
     <div class="skill-category">
-      Backend
-      <div class="2-6"> PHP </div>
-      <div class="3-6"> SQL </div>
+      Backend/Other
+      <div class="4-6"> C++ - Comfortable</div>
+      <div class="3-6"> SQL - Comfortable </div>
+      <div class="2-6"> PHP - Familiar</div>
+      <div class="2-6"> C - Familiar</div>
+      <div class="2-6 "> ASM - Familiar</div>
     </div>
     <div class="skill-category">
       Software
-      <div class="4-6"> Github </div>
-      <div class="5-6 "> Git desktop </div>
-      <div class="3-6"> Koala </div>
+      <div class="5-6 "> Git desktop - Proficient</div>
+      <div class="4-6"> Github - Comfortable</div>
+      <div class="3-6"> Koala - Comfortable</div>
     </div>
   </div>
   `
   // <div class="skill-category">
   // Fundamentals
-  // <div class="4-6"> C++ </div>
-  // <div class="2-6"> C </div>
-  // <div class="2-6 "> ASM </div>
   // </div>
   // <div class="skill-category">
   // Topics
@@ -165,7 +164,7 @@ function showSkills(){
   $("#iamRow").append($tempProjectCard);
   skillGo();
   hire(true, true);
-  
+
 }
 
 // eof
