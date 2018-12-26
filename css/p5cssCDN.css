@@ -1,13 +1,16 @@
+/* line 1, ../../sass/p5cdn/p5cssCDN.sass */
 body {
   /* background-color: #EFEFEF; */
-  background-color: #FFF7F8 !important
+  background-color: #FFF7F8 !important;
 }
 
+/* line 6, ../../sass/p5cdn/p5cssCDN.sass */
 .wrapper {
   margin-top: 10px;
   text-align: center;
 }
 
+/* line 11, ../../sass/p5cdn/p5cssCDN.sass */
 .genGitButton {
   background-color: transparent;
   border: 1px solid #A9A9A9;
@@ -19,31 +22,39 @@ body {
   line-height: 1.2em;
   padding: 10px;
   text-decoration: none !important;
-  transition: background .3s, color .3s
+  -webkit-transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
 }
 
+/* line 25, ../../sass/p5cdn/p5cssCDN.sass */
 .genGitButton:hover {
   background: #FF3B3F;
-  color: #CAEBF2
+  color: #CAEBF2;
 }
 
+/* line 30, ../../sass/p5cdn/p5cssCDN.sass */
 .navbar {
   background-color: transparent !important;
   z-index: 1;
 }
 
+/* line 35, ../../sass/p5cdn/p5cssCDN.sass */
 .navbar-brand {
   color: #FF3B3F !important;
 }
 
+/* line 39, ../../sass/p5cdn/p5cssCDN.sass */
 .navGitButton {
   position: fixed;
   right: 16px;
 }
 
+/* line 44, ../../sass/p5cdn/p5cssCDN.sass */
 .title {
   position: fixed;
   top: 10px;
   width: 100%;
   text-align: center !important;
 }
+
+/*# sourceMappingURL=p5cssCDN.css.map */
