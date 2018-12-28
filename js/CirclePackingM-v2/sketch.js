@@ -160,20 +160,22 @@ function prepCircleArray() {
 let swap = false;
 let swapping = false;
 let swapingCirclesInt = null;
+let firstinc = true
 
 function hire(t, h) {
   hireMe = true;
+  if(firstinc)
   for (var i = 0; i < circles.length; i++) {
     circles[i].r += 1;
-
   }
+  firstinc =false;
   if (!h) {
     clearInterval(swapingCirclesInt)
     $("#iamRow")[0].innerHTML = iamold;
     $(".typeAnimationWrapper")[0].innerHTML = "<div class='typeAnimationWrapper align-middle'><span id='type2' class='align-middle' style='height:68px'></span></div>"
     var type2 = new Typed('#type2', {
       strings: [
-        ' <div class="addTextPadding darkYellowHighlight typeBoxName"><h1>Mikian Musser</h1><p>(702)540-4190</p><p>Bobar312@gmail.com</p></div>'
+        ' <div class="addTextPadding darkYellowHighlight typeBoxName"><h1>Mikian Musser</h1><p>(702)540-4190</p><p>MikianMusser@gmail.com</p></div>'
       ],
       typeSpeed: 50,
       backSpeed: 30,
