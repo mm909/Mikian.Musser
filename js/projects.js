@@ -18,7 +18,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Central-Scroll/",
     githubLink: "https://github.com/mm909/Central-Scroll",
-    keyWords: ['Google Prettify', 'Paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'file upload', 'user input', 'in use', 'deployed', 'prettyprint'],
+    keyWords: ['Google Prettify', 'Paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'file upload', 'user input', 'in use', 'deployed', 'prettyprint', 'html', 'css', 'js', 'p5.js', 'released', 'school', 'teaching', 'awesome'],
   },
   {
     title: "CCC",
@@ -26,7 +26,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/CCC/",
     githubLink: "https://github.com/mm909/CCC",
-    keyWords: ['sass']
+    keyWords: ['library', 'css', 'js', 'html', 'Code Central', 'team', 'tool', 'development', 'prettify.js', 'jquery', 'bootstrap', 'Google Prettify', 'prettyprint']
   },
   {
     title: "Web Development 1",
@@ -34,7 +34,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD1/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD1",
-    keyWords: ['Google Prettify', 'free', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching']
+    keyWords: ['Google Prettify', 'free', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'html', 'css', 'js']
   },
   {
     title: "Web Development 2",
@@ -42,7 +42,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD2/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD2",
-    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts']
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts', 'html', 'css', 'js']
   },
   {
     title: "Web Development 3",
@@ -50,7 +50,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD3/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD3",
-    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts', 'php', 'sql']
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts', 'php', 'sql', 'html', 'css', 'js']
   },
   {
     title: "Web Development 4",
@@ -58,7 +58,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/WD4/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/WD4",
-    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts', 'php', 'sql']
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'dynamic TOC', 'scripts', 'php', 'sql', 'html', 'css', 'js']
   },
   {
     title: "HTML Calc Lesson",
@@ -66,7 +66,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Teaching/CCProjects/HTMLCalc/index.html",
     githubLink: "https://github.com/mm909/Teaching/tree/master/CCProjects/HTMLCalc",
-    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching']
+    keyWords: ['Google Prettify', 'paid', 'MyCodeCentral', 'jquery', 'bootstrap', 'prettify.js', 'in use', 'deployed', 'prettyprint', 'curriculum', 'teaching', 'html', 'css', 'js', 'speedCode']
   },
   {
     title: "Circle Packing M v2",
@@ -74,7 +74,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/CirclePackingM-v2/",
     githubLink: "https://github.com/mm909/CirclePackingM-v2",
-    keyWords: ['fun', 'in use', 'version 2', 'p5.js', 'optimized', 'colorful', 'beautiful', 'interactive', 'distance', 'awesome']
+    keyWords: ['fun', 'in use', 'version 2', 'p5.js', 'optimized', 'colorful', 'beautiful', 'interactive', 'distance', 'awesome', 'html', 'css', 'js']
   },
   {
     title: "Flappy Bird NNV",
@@ -82,7 +82,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Flappy-Bird-NNV/",
     githubLink: "https://github.com/mm909/Flappy-Bird-NNV",
-    keyWords: ['awesome']
+    keyWords: ['awesome, neural network', 'ga', 'nn', 'game', 'ai', 'p5.js', 'js']
   },
   {
     title: "OS Project 4",
@@ -90,7 +90,7 @@ let projects = [
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/CS370-Project4",
-    keyWords: []
+    keyWords: ['school', 'cs370', 'os', 'threading', 'locks', 'buffering', 'input', 'memeory management']
   },
   {
     title: "OS Project 3",
@@ -98,7 +98,7 @@ let projects = [
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/CS370-Project3",
-    keyWords: []
+    keyWords: ['school', 'cs370', 'os', 'threading', 'locks', 'client', 'server', 'conditional variables', 'memeory management']
   },
   {
     title: "OS Project 2",
@@ -106,7 +106,7 @@ let projects = [
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/CS370-Project2",
-    keyWords: []
+    keyWords: ['school', 'cs370', 'os', 'threading', 'locks', 'background tasks', 'useful', 'conditional variables', 'memeory management']
   },
   {
     title: "OS Project 1",
@@ -114,7 +114,7 @@ let projects = [
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/CS370-Project1",
-    keyWords: []
+    keyWords: ['school', 'cs370', 'os', 'memeory management', 'makefile', 'compression', 'system calls', 'performance measurement']
   },
   {
     title: "Text-To-HTML",
@@ -122,7 +122,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/text-to-html/",
     githubLink: "https://github.com/mm909/text-to-html",
-    keyWords: []
+    keyWords: ['html', 'js', 'jquery', 'css', 'web languages', 'experimental', 'code central application']
   },
   {
     title: "Circle Packing M v1",
@@ -130,7 +130,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/CirclePackingM-v1/",
     githubLink: "https://github.com/mm909/CirclePackingM-v1",
-    keyWords: ['awesome']
+    keyWords: ['awesome', 'p5.js', 'colorful', 'optimize', 'imageprocessing', 'vectors', 'physics', 'flee arrive']
   },
   {
     title: "A* Maze",
@@ -138,7 +138,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/AStarMaze/",
     githubLink: "https://github.com/mm909/AStarMaze",
-    keyWords: []
+    keyWords: ['p5.js', 'useful', 'cool', 'fun', 'animation', 'video games']
   },
   {
     title: "Smart Rockets",
@@ -146,7 +146,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Smart-Rockets/",
     githubLink: "https://github.com/mm909/Smart-Rockets",
-    keyWords: ['awesome']
+    keyWords: ['awesome', 'p5.js', 'ai', 'ga', 'cool', 'educational', 'evolution']
   },
   {
     title: "SpeedCode: HTML Calc",
@@ -154,7 +154,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/SpeedCodeHTMLCalc/",
     githubLink: "https://github.com/mm909/SpeedCodeHTMLCalc",
-    keyWords: ["calculator"]
+    keyWords: ['calculator', 'html', 'js', 'speed code', 'challenge', 'code central', 'easy', 'css', 'first project']
   },
   {
     title: "Connect.js",
@@ -162,7 +162,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Connect/",
     githubLink: "https://github.com/mm909/Connect",
-    keyWords: []
+    keyWords: ['screen saver', 'awesome', 'community', 'p5.js', 'help', 'bug fixed', 'optimized']
   },
   {
     title: "Library Examples",
@@ -170,7 +170,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/lib-examples/",
     githubLink: "https://github.com/mm909/lib-examples",
-    keyWords: []
+    keyWords: ['Code Central', 'typed.js', 'particles.js', 'countup.js', 'html', 'css', 'js']
   },
   {
     title: "Snow Library Examples",
@@ -178,7 +178,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/snow/",
     githubLink: "https://github.com/mm909/snow",
-    keyWords: []
+    keyWords: ['Code Central', 'typed.js', 'particles.js', 'countup.js', 'html', 'css', 'js', 'winter', 'themed']
   },
   {
     title: "Typed.js Examples",
@@ -186,7 +186,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/typed.js/",
     githubLink: "https://github.com/mm909/typed.js",
-    keyWords: []
+    keyWords: ['js', 'html', 'css', 'code central', 'fun']
   },
   {
     title: "Fractal Trees",
@@ -194,7 +194,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/FractalTrees/",
     githubLink: "https://github.com/mm909/FractalTrees",
-    keyWords: []
+    keyWords: ['awesome']
   },
   {
     title: "Wiki Bacon",
@@ -202,7 +202,7 @@ let projects = [
     live: "liveButton",
     liveLink: "https://mm909.github.io/Wiki-Bacon/",
     githubLink: "https://github.com/mm909/Wiki-Bacon",
-    keyWords: []
+    keyWords: ['cool', 'html', 'js', 'api']
   },
   {
     title: "Count Atoms - (LISP)",
@@ -210,7 +210,7 @@ let projects = [
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/Count-Atoms-LISP",
-    keyWords: []
+    keyWords: ['school']
   },
   {
     title: "Example Function - (LISP)",
@@ -218,7 +218,7 @@ let projects = [
     live: "notLive",
     liveLink: "#",
     githubLink: "https://github.com/mm909/ExampleCode-LISP",
-    keyWords: []
+    keyWords: ['school']
   },
   {
     title: "Text Steering Behaviors",
