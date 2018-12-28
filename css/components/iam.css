@@ -1,0 +1,37 @@
+/* line 2, ../../sass/components/iam.sass */
+.iamText p {
+  font-size: 24px !important;
+}
+
+/* line 5, ../../sass/components/iam.sass */
+.iamContainer {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 10, ../../sass/components/iam.sass */
+.iamCard {
+  z-index: 999 !important;
+}
+
+/* line 13, ../../sass/components/iam.sass */
+.iamRow {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 19, ../../sass/components/iam.sass */
+.iamCell {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 23, ../../sass/components/iam.sass */
+#iamRow {
+  height: 750px;
+}
+
+/*# sourceMappingURL=iam.css.map */

@@ -116,7 +116,7 @@ function validClassName(x) {
 }
 
 
-function showSkills(){
+function showSkills() {
   $("#iamRow").html("")
   let iam = `
   <div class="skill-wrapper">
@@ -128,6 +128,7 @@ function showSkills(){
       <div class="4-6"> jQuery - Comfortable</div>
       <div class="3-6"> CSS - Comfortable</div>
       <div class="3-6"> SASS - Comfortable</div>
+      <div class="1-6"> PUG - Familiar</div>
     </div>
     <div class="skill-category">
       Javascript
