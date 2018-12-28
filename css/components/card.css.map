@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";AAAA,KAAK;EACH,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,yBAAwB;EAC1C,UAAU,EAAE,gCAA8B;;;AAC1C,WAAO;EACL,gBAAgB,EAAE,kBAAiC;EACnD,UAAU,EAAE,4CAA0C;;;;AAE1D,UAAU;EACR,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI",
-"sources": ["../../sass/components/card.sass"],
-"names": [],
-"file": "card.css"
-}

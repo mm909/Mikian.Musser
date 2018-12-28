@@ -217,6 +217,10 @@ a:hover { text-decoration: none; color: inherit; }
   .homePageCard p { font-size: 16px; }
   /* line 13, ../sass/components/media/media1400.sass */
   .homePageCard button { font-size: 22px; } }
+@media only screen and (max-device-width: 1200px) { /* line 2, ../sass/components/media/media1200.sass */
+  #skillSum { display: none; }
+  /* line 4, ../sass/components/media/media1200.sass */
+  .skill-wrapper { display: none; } }
 /* iphone X */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { /* line 4, ../sass/components/media/iphonex.sass */
   .homePageCard h1 { font-size: 60px; }

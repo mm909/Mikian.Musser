@@ -3,7 +3,16 @@ if (debug) {
 }
 projectPage = true;
 
-let projects = [{
+let projects = [
+  {
+    title: "MikianMusser.com",
+    text: "I used this project to learn how to use HTML/CSS/JS and to create a portfolio website to display future projects.",
+    live: "liveButton",
+    liveLink: "https://mm909.github.io/Mikian.Musser",
+    githubLink: "https://github.com/mm909/Mikian.Musser",
+    keyWords: ['sass']
+  },
+  {
     title: "{Central Scroll}",
     text: "Central Scroll was developed as a screen saver and timer for <a href='https://mycodecentral.com/'><u>Code Central.</u></a> Central Scroll lets students show off their work to peers by passively scrolling through the code with beautiful syntax highlighting.",
     live: "liveButton",
@@ -17,7 +26,7 @@ let projects = [{
     live: "liveButton",
     liveLink: "https://mm909.github.io/CCC/",
     githubLink: "https://github.com/mm909/CCC",
-    keyWords: []
+    keyWords: ['sass']
   },
   {
     title: "Web Development 1",
