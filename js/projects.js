@@ -3,7 +3,30 @@ if (debug) {
 }
 projectPage = true;
 
-let projects = [
+let projects = [{
+    title: "CS783-ANN-OnlineTraining",
+    text: "Train a neural network to recognize XOR/AND.",
+    live: "",
+    liveLink: "",
+    githubLink: "https://github.com/mm909/CS783-ANN-OnlineTraining",
+    keyWords: ['CS', 'School', 'NN', 'neural networks', 'image processing', 'yfantis', 'graduate', 'unlv']
+  },
+  {
+    title: "CS783-CIFAR-10-PNGs",
+    text: "Read and pase the CIFAR-10 dataset and create/display pngs for them.",
+    live: "",
+    liveLink: "",
+    githubLink: "https://github.com/mm909/CS783-CIFAR-10-PNGs",
+    keyWords: ['CS', 'School', 'NN', 'neural networks', 'image processing', 'yfantis', 'graduate', 'unlv']
+  },
+  {
+    title: "CS783-MNIST-PNGs",
+    text: "Read and pase the MNIST dataset and create/display pngs for them.",
+    live: "",
+    liveLink: "",
+    githubLink: "https://github.com/mm909/CS783-MNIST-PNGs",
+    keyWords: ['CS', 'School', 'NN', 'neural networks', 'image processing', 'yfantis', 'graduate', 'unlv']
+  },
   {
     title: "MikianMusser.com",
     text: "I used this project to learn how to use HTML/CSS/JS and to create a portfolio website to display future projects.",
