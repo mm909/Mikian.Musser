@@ -1,0 +1,14 @@
+/* line 1, ../../../sass/components/chart/chart.sass */
+.chartBox {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+}
+
+/* line 6, ../../../sass/components/chart/chart.sass */
+.cardChart {
+  height: 500px;
+  max-width: 500px;
+}
+
+/*# sourceMappingURL=chart.css.map */

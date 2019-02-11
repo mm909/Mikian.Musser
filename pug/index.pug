@@ -1,0 +1,25 @@
+//- pug index.pug --pretty --watch --out ../
+doctype html
+html(lang='en')
+  head
+    title Mikian Musser
+    link(rel='icon' href='img/icon/m.jpg')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js')
+    script(src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js')
+    //- /* script(src='js/index.js') */
+    link(rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href='css/index.css')
+  body
+    //- .cardChart
+    //-   .card-body
+    //-     .chart
+    .chartBox
+      .card-body
+        .cardParticle#particles-js
+        figure
+          embed(src='https://wakatime.com/share/@bb52dd4b-27ef-4c82-acc5-0bd16d5d7bce/6506adfe-1a9b-494a-a7fd-b4e11142a402.svg')
+  script(src="js/particles/particlesMain.js")

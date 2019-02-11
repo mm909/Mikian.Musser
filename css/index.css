@@ -1,3 +1,11 @@
-.cardParticle { background-color: #fff; position: absolute; z-index: 0; width: 100%; height: 100%; }
+/* line 1, ../sass/components/cards/particle.sass */
+.cardParticle { background-color: #fff; position: absolute; z-index: -1; width: 100%; height: 100%; }
 
+/* line 8, ../sass/components/cards/particle.sass */
 .card-body { z-index: 1; }
+
+/* line 1, ../sass/components/chart/chart.sass */
+.chartBox { width: 500px; height: 500px; position: absolute; }
+
+/* line 6, ../sass/components/chart/chart.sass */
+.cardChart { height: 500px; max-width: 500px; }
