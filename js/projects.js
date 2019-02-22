@@ -4,6 +4,14 @@ if (debug) {
 projectPage = true;
 
 let projects = [{
+    title: "CS783-NeuralNet-Tester",
+    text: "Watch a neural network recognize digets.",
+    live: "hotButton",
+    liveLink: "https://mm909.github.io/NeuralNet-Tester/",
+    githubLink: "https://github.com/mm909/NeuralNet-Tester",
+    keyWords: ['CS', 'School', 'NN', 'neural networks', 'image processing', 'yfantis', 'graduate', 'unlv']
+  },
+  {
     title: "CS783-ANN-OnlineTraining",
     text: "Train a neural network to recognize XOR/AND.",
     live: "",
