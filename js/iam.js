@@ -15,7 +15,7 @@ function iam() {
           <div class="iamText">
             <h3> Coding is my <i>passion</i> </h3>
             <p> I love being able to create. I wanted to make a website, so I did. I wanted to make an application to help my peers so I did!</p>
-            <p> I love working with neural networks and genetic algrithums. I am currently workong on a <a href="https://github.com/mm909/CCC"><u> CSS/JS library</u></a></p>
+            <p> I love working with neural networks and genetic algorithms. I am currently working on the <a href="https://mm909.github.io/NeuralNet-Tester/"><u> MNIST dataset</u></a></p>
           </div>
         </div>
       </div>
