@@ -5,7 +5,7 @@ projectPage = true;
 
 let projects = [{
     title: "CS783-NeuralNet-Tester",
-    text: "Watch a neural network recognize digets.",
+    text: "Watch a neural network recognize digits.",
     live: "hotButton",
     liveLink: "https://mm909.github.io/NeuralNet-Tester/",
     githubLink: "https://github.com/mm909/NeuralNet-Tester",
