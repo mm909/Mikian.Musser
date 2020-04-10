@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mikian Musser</title>
+  <link rel="icon" href="js/CirclePackingM-v2/m.jpg">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/iam.js"></script>
+  <script type="text/javascript" src="js/CirclePackingM-v2/circleList.js"></script>
+  <script type="text/javascript" src="js/CirclePackingM-v2/r.js"></script>
+  <script type="text/javascript" src="js/CirclePackingM-v2/circle.js"></script>
+  <script type="text/javascript" src="js/CirclePackingM-v2/sketch.js"></script>
+  <script type="text/javascript" src="js/type.js"></script>
+  <script type="text/javascript" src="js/skill.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">Mikian Musser</a>
+    <a class="gitButton navGitButton" href="https://github.com/mm909/" rel="noreferrer noopener">GitHub</a>
+    <a class="gitButton" href="https://mm909.github.io/NeuralNet-Tester/" rel="noreferrer noopener"><b>Check out my latest project!</b></a>
+  </nav>
+  <div class="canvasAndAnimation">
+    <div class="p5CanvasWrapper">
+      <div id="canvasContainer"></div>
+    </div>
+    <div id="iamRow" class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="typeAnimationWrapper align-middle">
+          <span id="type" class="align-middle" style="height:68px"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row buttonRow">
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <div class='homePageCard shadow p-3 rounded'>
+        <h1><span class="addTextPadding yellowHighlight">{Projects}</span></h1>
+        <div class="projectItem">
+          <p>Web Development
+            <img class="projectItemCheckMark" src="https://img.icons8.com/ios/50/000000/checked-2.png">
+          </p>
+        </div>
+        <div class="projectItem">
+          <p>Operating Systems
+            <img class="projectItemCheckMark" src="https://img.icons8.com/ios/50/000000/checked-2.png">
+          </p>
+        </div>
+        <div class="projectItem">
+          <p>p5.js and Algorithms
+            <img class="projectItemCheckMark" src="https://img.icons8.com/ios/50/000000/checked-2.png">
+          </p>
+        </div>
+        <div class="projectItem">
+          <p>Neural Nets and GA
+            <img class="projectItemCheckMark" src="https://img.icons8.com/ios/50/000000/checked-2.png">
+          </p>
+        </div>
+        <div class='card-buttons'>
+          <a href="pages/projects.html" rel='noreferrer noopener'> <button type="button" class="noMargin btn btn-lg projectsButton">{Projects}</button></a>
+          <a href="https://www.github.com/mm909" rel='noreferrer noopener'> <button type="button" class="noMargin btn btn-lg projectsButton">GitHub</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <div class='homePageCard shadow p-3 rounded'>
+        <h1>Who am I?</h1>
+        <p>I am Mikian Musser. <br> <span class="addTextPadding orangeHighlight ">I am so much more than a resume.</span> <br> I am a leader, a mentor, and a role model. <br> Learn about me as a person, not a sheet of paper, below.</p>
+        <button id="hire" type="button" onclick="iam()" class="noMargin btn btn-lg iamButton">I am...</button>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <div class='homePageCard shadow p-3 rounded'>
+        <h1>Hire Me</h1>
+        <p>I am always learning and love to be apart of supportive programming environments. <br> I would love to be apart of your team and help build each other up. <br> <span class="addTextPadding redHighlight"> I am currently looking
+            for
+            a summer internship! </span>
+        </p>
+        <div class='card-buttons'>
+          <!-- <a href="pages/skills.html" rel='noreferrer noopener'> <button type="button" id="skillSum" class="noMargin btn btn-lg hireButton">Skill Summary</button></a> -->
+          <!-- <a href="#" rel='noreferrer noopener'> <button type="button" onclick="showSkills()" id="skillSum" class="noMargin btn btn-lg hireButton">Skill Summary</button></a> -->
+          <a href="https://mm909.github.io/Mikian/" rel='noreferrer noopener'> <button type="button" onclick="hire(false, false, true)" id="hire" class="noMargin btn btn-lg hireButton">Hire</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
